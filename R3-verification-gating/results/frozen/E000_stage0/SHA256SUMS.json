@@ -1,0 +1,42 @@
+[
+  {
+    "bytes": 11499,
+    "path": "PREREG.md",
+    "sha256": "329b68dacb84dafaa6178f66a46deaa3d0a43e4021dd2e72144e56726a2f2f7f"
+  },
+  {
+    "bytes": 1718,
+    "path": "E000_verification_gated.json",
+    "sha256": "afe6a0d044fa0865c5ea33492e2b61703f7ef78dc97e22fc3afddde6cbb40009"
+  },
+  {
+    "bytes": 8341,
+    "path": "r3_lib.py",
+    "sha256": "21054a6a808bfd5dd834b3234aa2675dd6cd563db54e83350c99735c0f64be47"
+  },
+  {
+    "bytes": 22071,
+    "path": "r3_e000.py",
+    "sha256": "1def8966efa7bd2e76d1e687b0a9923e97e62a69721f657e20268e6c41e1039c"
+  },
+  {
+    "bytes": 3394,
+    "path": "E000_task_ids.json",
+    "sha256": "09d6743d7ed0e620848a1bc96b3b58c98d8d0465dc4529f8968c953f2a70ab77"
+  },
+  {
+    "bytes": 40395,
+    "path": "E000_generation_order.json",
+    "sha256": "29f4a64d9a9c250ddd717dcc9f18b4b4e12d4585fd9a5542101d6062418a6448"
+  },
+  {
+    "bytes": 968,
+    "path": "E000_warm_residency.json",
+    "sha256": "3dbd878c192aec3fe6b8eac97e7bd1d8b21bb77edd6afdb83f430587e077271f"
+  },
+  {
+    "bytes": 4984,
+    "path": "E000_stage0_manifest.json",
+    "sha256": "2c95bf41215481293cc25b612efeb49171e970870fac45edd955a91a4d457471"
+  }
+]

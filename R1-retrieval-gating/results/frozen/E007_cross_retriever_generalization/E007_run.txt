@@ -1,0 +1,41 @@
+E007 CROSS-RETRIEVER GENERALIZATION
+Protocol freeze: 2026-09-09T20:18+02:00
+Contract: configs/E007_cross_retriever_generalization.json
+Pre-E007 git: d384c94c0048734b10295f768466ab4c8ff19e01
+E006 folds reused: results/raw/E006_fold_assignments.json outer_repo_folds
+Lexical/BM25 not rerun.
+
+RepoMap
+-------
+Official aider-style-repomap, weights 0.65/0.25/0.10, all_files.
+Positive 345 via official eval-repomap per subset.
+Selective 427 via official rank_files_for_sample including no-gold.
+Selective wall 308.28 s, peak RSS 9153269760 bytes, GPU unused.
+Score-shape applicable (final_score numeric geometry).
+Gate: C0=C2=C3=0.5925058548009368; C1 official top-score OOF=0.5035128805620609.
+C3-C0 point 0.0, CI [0,0]. reliable_positive_C3_minus_C0=false.
+
+Qwen embedding
+--------------
+Model: Qwen/Qwen3-Embedding-4B
+Official flags: --device cuda --trust-remote-code, normalize=True, empty prefixes, all_files.
+Hardware deviation: documented batch size 8 CUDA-OOMed; used batch size 1 + PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True.
+Positive 345: official eval-embedding --resume-details on four subsets. Cache results/embeddings/E007_qwen3_embedding_4b/.
+Monolithic eval-selective-embedding on 427 permanently abandoned: unbounded in-process chunk/vector caches, details written only at end, kernel OOM ~29 GB RSS at huggingface/transformers corpus 113/271.
+Recovery: official per-corpus --sample-id-file shards (271 unique repo+base_commit snapshots). Nested ARB not modified.
+Shard ID validation: union=427, duplicates=0, missing=0, extra=0.
+Equivalence smoke gin-gonic/gin@0cbb30aa940a643e31874f8ad8e355219d306756: 2/2 overlapping samples, ranked files and top-20 order matched official positive eval-embedding details. Positive details do not store top_score; numeric equality not forced.
+Shard queue: systemd-run --user e007-qwen-shards, OOMScoreAdjust=0, one corpus at a time, linger=yes.
+Started 2026-09-11T07:42:13+02:00, finished 2026-09-11T08:29:18+02:00.
+271/271 complete, 427/427 samples. Peak RSS ~5866308 kB (~5.59 GiB) per shard process.
+Merged lossless concat in original selective-natural sample order. not_a_monolithic_official_invocation=true.
+Score recovery (official rank_chunks_by_vector_scores, one corpus at a time, gc after each): 206.81 s. Recovered unique-file ranking matched official top_files for all 427.
+Gate C0=0.5667447306791569 C1=0.65807962529274 C2=0.6557377049180327 C3=0.6323185011709602.
+C3-C0 +0.065574 CI [0.025761, 0.105386] excludes 0.
+C3-C1 and C3-C2 negative, CIs exclude 0. Natural-like 395 C3=C0=0.612658. reliable_positive_C3_minus_C0=false.
+Gate unit wall 08:54:57–08:58:46, CPU 23min 53.959s, systemd memory peak 4.2G.
+
+sklearn penalty='l2' FutureWarning same as E006; L2 C=1.0 liblinear kept.
+Decision from frozen interpret(): CONTINUE — LEXICAL-SPECIFIC SIGNAL
+n_non_lexical_reliable=0
+Do not start E008.

@@ -1,0 +1,37 @@
+[
+  {
+    "path": "E000_arms.jsonl",
+    "sha256": "6b880a584442e66c612278b1d5741f59e9c316697fc430e985e2c66ece29f449",
+    "bytes": 1397797
+  },
+  {
+    "path": "E000_detector_thresholds.json",
+    "sha256": "8f7f33ad5bda2aa1a5d43a5d4d0623f8041350386a81aa8210b4716d07b5fb38",
+    "bytes": 267
+  },
+  {
+    "path": "E000_initial.jsonl",
+    "sha256": "8a17ffbd062dca154c66e3625b3649c1f771b2fdd60860b3f8d8e9d489784c23",
+    "bytes": 916614
+  },
+  {
+    "path": "E000_prefixes.jsonl",
+    "sha256": "d63539346cbe5ef5f54e9b77a3852b7cb3329020f3b91ee4f4f7da2ffd1112d4",
+    "bytes": 212736
+  },
+  {
+    "path": "E000_split.json",
+    "sha256": "59375a3e0db4bf6079aec639953cc0647aceb5c566a05ad22e716c0c796cc768",
+    "bytes": 6879
+  },
+  {
+    "path": "E000_verify.jsonl",
+    "sha256": "a6f7a54e86fb67301f98a89521936759047c2622a12b5608ae60705a4b57b927",
+    "bytes": 81268
+  },
+  {
+    "path": "E000_analysis.json",
+    "sha256": "1ffd0c7ae4b95397f75ca452da8877aed659c129324ce9ff72173c6968850727",
+    "bytes": 1931
+  }
+]

@@ -1,0 +1,76 @@
+# Python / tooling
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+*.so
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+hf_token
+.huggingface/
+
+# Model weights and local LLM blobs
+*.gguf
+*.ggml
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.ckpt
+models/
+ollama-blobs/
+
+# Nested Agent Retrieval Bench (own repo, corpora, HF caches, venv)
+**/agent-retrieval-bench/
+
+# Benchmark / dataset caches
+.evalplus_cache/
+.evalplus/
+.cache/
+**/.cache/
+huggingface/
+HF_HOME/
+*.tar.gz
+*.zip
+*.zst
+
+# Embeddings and huge generated dumps
+**/results/embeddings/
+**/results/raw/
+**/results/logs/
+**/*_shards*/
+**/*_arms.jsonl
+**/*_initial.jsonl
+**/*_prefixes.jsonl
+**/*_generations.jsonl
+**/E007_qwen_backend.txt
+
+# Editor / OS / temp
+.DS_Store
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+*.log
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

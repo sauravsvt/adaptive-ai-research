@@ -1,0 +1,2264 @@
+{
+  "Mbpp/100": {
+    "n_words": 877,
+    "task_id": "Mbpp/100",
+    "trajectory_sha256": "5db0ee180d394606c522e41b0242a07572466cef357baaf46cfa6f0e37cd73af",
+    "usable": true
+  },
+  "Mbpp/101": {
+    "n_words": 232,
+    "task_id": "Mbpp/101",
+    "trajectory_sha256": "3f4021969349d0dffd131818bf8e4309b7a37838a31d90b8a03bc8e379722fee",
+    "usable": true
+  },
+  "Mbpp/102": {
+    "n_words": 323,
+    "task_id": "Mbpp/102",
+    "trajectory_sha256": "505e9cd2010a50821154d970fe1c891be56408d060d4233f2a4ad63357b8ed43",
+    "usable": true
+  },
+  "Mbpp/103": {
+    "n_words": 468,
+    "task_id": "Mbpp/103",
+    "trajectory_sha256": "6b811d28e1eb480e4b4e8e64ce754f71f6115b081c69efc58fb98284a527378c",
+    "usable": true
+  },
+  "Mbpp/104": {
+    "n_words": 228,
+    "task_id": "Mbpp/104",
+    "trajectory_sha256": "9a5597e918bb34569be3bb2c9c7f013e77f8d40991f37cb90f5dc18fa1e317b8",
+    "usable": true
+  },
+  "Mbpp/105": {
+    "n_words": 328,
+    "task_id": "Mbpp/105",
+    "trajectory_sha256": "5b6574bc89d4ba52c47f5bf2801c0bcf29e11841090810e9df1052c3d382c858",
+    "usable": true
+  },
+  "Mbpp/106": {
+    "n_words": 248,
+    "task_id": "Mbpp/106",
+    "trajectory_sha256": "427c1a7fc323b898f239c52ad15215af1dcba4f780d7d867cd51ca011519b41f",
+    "usable": true
+  },
+  "Mbpp/108": {
+    "n_words": 231,
+    "task_id": "Mbpp/108",
+    "trajectory_sha256": "04a5e2a9fe3a6d7c53335d06416c3614e05684fbf1c0a3a648fe6576489419c4",
+    "usable": true
+  },
+  "Mbpp/109": {
+    "n_words": 1069,
+    "task_id": "Mbpp/109",
+    "trajectory_sha256": "51885c1ad75278794e0455059db01dfa4fb43e3c47a815c61e0dcc7c2d2ba4da",
+    "usable": true
+  },
+  "Mbpp/11": {
+    "n_words": 519,
+    "task_id": "Mbpp/11",
+    "trajectory_sha256": "0ef01677b3f3db324fd95a836eeafcdd90753502fd937ea2e6bfcb2624dadf15",
+    "usable": true
+  },
+  "Mbpp/111": {
+    "n_words": 239,
+    "task_id": "Mbpp/111",
+    "trajectory_sha256": "326c085016a371e95af0b30773d7172418e9a23be0547d8a11e4b5a49d8a26ba",
+    "usable": true
+  },
+  "Mbpp/113": {
+    "n_words": 297,
+    "task_id": "Mbpp/113",
+    "trajectory_sha256": "cc37c1ac7d9589ab1d43ecdbd5b8942faf3a592c3811fd0f550d194739f2f757",
+    "usable": true
+  },
+  "Mbpp/116": {
+    "n_words": 330,
+    "task_id": "Mbpp/116",
+    "trajectory_sha256": "9e838f790b1cae28770e72720042a941326caaf402c6c7c2e24e34404dfaee2f",
+    "usable": true
+  },
+  "Mbpp/118": {
+    "n_words": 268,
+    "task_id": "Mbpp/118",
+    "trajectory_sha256": "c506cc3a5347403f05e45f088749999ccb315f5652a441aae8c152e22f547013",
+    "usable": true
+  },
+  "Mbpp/119": {
+    "n_words": 523,
+    "task_id": "Mbpp/119",
+    "trajectory_sha256": "9a621263e41ff74fa046a30c1013becabc3e31ab45fbb59733980b83b06cf729",
+    "usable": true
+  },
+  "Mbpp/12": {
+    "n_words": 285,
+    "task_id": "Mbpp/12",
+    "trajectory_sha256": "6577b8d44b7d1e881779c62237cf93162de1458ec5a09503841408aac5a50aac",
+    "usable": true
+  },
+  "Mbpp/120": {
+    "n_words": 439,
+    "task_id": "Mbpp/120",
+    "trajectory_sha256": "b74c0bae924b9936a524752766942b690bc37967bade836e7692a3446dae2e62",
+    "usable": true
+  },
+  "Mbpp/123": {
+    "n_words": 632,
+    "task_id": "Mbpp/123",
+    "trajectory_sha256": "3e04401c4a40124575e306129f1da5c4d260678751cde8aaa98e2fc8fb99a0ea",
+    "usable": true
+  },
+  "Mbpp/124": {
+    "n_words": 1051,
+    "task_id": "Mbpp/124",
+    "trajectory_sha256": "9ee750f7abe6ff34d143ade6aec0d4762ebf76ba24e7096fc256067b4d4edcec",
+    "usable": true
+  },
+  "Mbpp/125": {
+    "n_words": 924,
+    "task_id": "Mbpp/125",
+    "trajectory_sha256": "35d86c2c020ae3c78d6896ae5cd0355e867586b9872de5ece6a5f8386762e0e9",
+    "usable": true
+  },
+  "Mbpp/126": {
+    "n_words": 399,
+    "task_id": "Mbpp/126",
+    "trajectory_sha256": "42c76e2ab71011030e97202b9a80f409bcb5c914efaa39e4cf5e536735d3eeb2",
+    "usable": true
+  },
+  "Mbpp/127": {
+    "n_words": 130,
+    "task_id": "Mbpp/127",
+    "trajectory_sha256": "daeb01c8b18b6b4fc8e5d1733a2cb2c6ea8595262037c97cfd4e183c89887414",
+    "usable": false
+  },
+  "Mbpp/128": {
+    "n_words": 277,
+    "task_id": "Mbpp/128",
+    "trajectory_sha256": "87326923ef06b69bb0c212cd8d7cd2b20d180c432a370e8721ade32d9aaa35f6",
+    "usable": true
+  },
+  "Mbpp/129": {
+    "n_words": 332,
+    "task_id": "Mbpp/129",
+    "trajectory_sha256": "b976722ab73b5d8dbf7ab5ffc1d335d9def37168342a9dfce9c2b83c6b93a7a4",
+    "usable": true
+  },
+  "Mbpp/130": {
+    "n_words": 225,
+    "task_id": "Mbpp/130",
+    "trajectory_sha256": "9ae7ab0a88970ee4334c12aea876a6f0aebea15a457731e38443cf8a4744e37f",
+    "usable": true
+  },
+  "Mbpp/131": {
+    "n_words": 246,
+    "task_id": "Mbpp/131",
+    "trajectory_sha256": "0e5df24449e79f5b919b45a318b2264020aabd230c738db04e619873c0cd708e",
+    "usable": true
+  },
+  "Mbpp/132": {
+    "n_words": 231,
+    "task_id": "Mbpp/132",
+    "trajectory_sha256": "a28601757b3ff71dc74e2cc1b12d8332cb34d0eee1f64fa9f91a2c63dd552121",
+    "usable": true
+  },
+  "Mbpp/133": {
+    "n_words": 145,
+    "task_id": "Mbpp/133",
+    "trajectory_sha256": "a5842605083f3e5e66f0a3272574b67882694288d058265a313bada32da14c5b",
+    "usable": false
+  },
+  "Mbpp/135": {
+    "n_words": 140,
+    "task_id": "Mbpp/135",
+    "trajectory_sha256": "5b8ce28ee80bf55978dd269113614dc2f9a1ebe29250df9e3bc0d64c7a01d764",
+    "usable": false
+  },
+  "Mbpp/137": {
+    "n_words": 349,
+    "task_id": "Mbpp/137",
+    "trajectory_sha256": "40293d9b80b1cdf32222500c04b6b33739efe257d7dd3855ccf39b38b5cf93c5",
+    "usable": true
+  },
+  "Mbpp/138": {
+    "n_words": 946,
+    "task_id": "Mbpp/138",
+    "trajectory_sha256": "f228f3a11a12ebd460a0c9eaf0d2ffe5907c61986ca5a420d4852917616ef8a7",
+    "usable": true
+  },
+  "Mbpp/139": {
+    "n_words": 225,
+    "task_id": "Mbpp/139",
+    "trajectory_sha256": "fb324280e03bb8f2814f23837335b4e2512a8a855c1adfeca10212e16f2948bc",
+    "usable": true
+  },
+  "Mbpp/14": {
+    "n_words": 280,
+    "task_id": "Mbpp/14",
+    "trajectory_sha256": "f69bad22a8b51eb822529d154217375d5c3651d91120ec67a63d6fa4ffb8fbba",
+    "usable": true
+  },
+  "Mbpp/140": {
+    "n_words": 243,
+    "task_id": "Mbpp/140",
+    "trajectory_sha256": "55ef016095a6bbf65fcc95031413f0b9c8b4e89124cdcaa941a1e2dfe55978d6",
+    "usable": true
+  },
+  "Mbpp/141": {
+    "n_words": 561,
+    "task_id": "Mbpp/141",
+    "trajectory_sha256": "5d5eedacf12bda9828ec45c2d02c7f4baaed43b1f880a569522407e99e8e5dbb",
+    "usable": true
+  },
+  "Mbpp/142": {
+    "n_words": 294,
+    "task_id": "Mbpp/142",
+    "trajectory_sha256": "e1416a3560419a6b1aab30e26f81582749d76aa3108eb5388ea0391c59eeb09a",
+    "usable": true
+  },
+  "Mbpp/145": {
+    "n_words": 299,
+    "task_id": "Mbpp/145",
+    "trajectory_sha256": "91dce6afa6972ce978a53da6d56f0b141db42c97a5d12c497809077a63894aaa",
+    "usable": true
+  },
+  "Mbpp/16": {
+    "n_words": 589,
+    "task_id": "Mbpp/16",
+    "trajectory_sha256": "f93079a7db4a22b3f97a1b4e46f19da8bba522416d10174b65cb846497178785",
+    "usable": true
+  },
+  "Mbpp/160": {
+    "n_words": 925,
+    "task_id": "Mbpp/160",
+    "trajectory_sha256": "14a00e1d6201b10440cc8653c724f231d4c14236e224d2b4b72766c00e3b43db",
+    "usable": true
+  },
+  "Mbpp/161": {
+    "n_words": 157,
+    "task_id": "Mbpp/161",
+    "trajectory_sha256": "0927695125e86c5db3e6ea2cd55d235497a3b7508feea564f5839e2b0bc1b0ad",
+    "usable": false
+  },
+  "Mbpp/162": {
+    "n_words": 366,
+    "task_id": "Mbpp/162",
+    "trajectory_sha256": "b24a3ad159f1e25c606d7179f0d5d135778240838aa86f2a20f48bea1b7d93d5",
+    "usable": true
+  },
+  "Mbpp/165": {
+    "n_words": 518,
+    "task_id": "Mbpp/165",
+    "trajectory_sha256": "21c5361bf7086ac81db58f18a1c67436c89dcc36ad450cd12f33eaeb1283520c",
+    "usable": true
+  },
+  "Mbpp/166": {
+    "n_words": 311,
+    "task_id": "Mbpp/166",
+    "trajectory_sha256": "1f951541ca8ad11065db558c9855ebf00c86ee8070a6ba41f408fa4e7b0eea63",
+    "usable": true
+  },
+  "Mbpp/167": {
+    "n_words": 206,
+    "task_id": "Mbpp/167",
+    "trajectory_sha256": "c9b3833d8c4dbf940cad9554228126ccb7bcf305dda20440fbabcba04df72dd4",
+    "usable": true
+  },
+  "Mbpp/168": {
+    "n_words": 170,
+    "task_id": "Mbpp/168",
+    "trajectory_sha256": "040cd2504b093a8a319763c094e1d7a32df7a957f9af30c369c464be8eb1c49c",
+    "usable": true
+  },
+  "Mbpp/17": {
+    "n_words": 120,
+    "task_id": "Mbpp/17",
+    "trajectory_sha256": "5d0f2a69e209a17171957bd738254773e54f2da3a7cc6e9a748cd5c4caa8b995",
+    "usable": false
+  },
+  "Mbpp/170": {
+    "n_words": 229,
+    "task_id": "Mbpp/170",
+    "trajectory_sha256": "ac908528b3dd7e2034dd2a63b16ebd8bbd901505f927d209411791cb4452a744",
+    "usable": true
+  },
+  "Mbpp/171": {
+    "n_words": 159,
+    "task_id": "Mbpp/171",
+    "trajectory_sha256": "08a1bfac332953a7d64d0de3a59c3b0bbb14a6597a007f202e1d98839aeadfed",
+    "usable": false
+  },
+  "Mbpp/172": {
+    "n_words": 283,
+    "task_id": "Mbpp/172",
+    "trajectory_sha256": "0c7ccaaf118de9a375c46b72a752a632a4553bf810cff99793e4fcfd5e104c2f",
+    "usable": true
+  },
+  "Mbpp/18": {
+    "n_words": 282,
+    "task_id": "Mbpp/18",
+    "trajectory_sha256": "5d1ef775503a7cbdfaf8e3ba520f41996791b6c896eeb0712c6bbab435181ed4",
+    "usable": true
+  },
+  "Mbpp/19": {
+    "n_words": 133,
+    "task_id": "Mbpp/19",
+    "trajectory_sha256": "0789355ecdf3819776255bd1b9c0d0091b7c9b0eae7e80db3297267e6c1db5fe",
+    "usable": false
+  },
+  "Mbpp/2": {
+    "n_words": 175,
+    "task_id": "Mbpp/2",
+    "trajectory_sha256": "0716219a0e3806f93b54fd90d2e29ba87941384ea550b8b02a77a8773e0f19d9",
+    "usable": true
+  },
+  "Mbpp/20": {
+    "n_words": 542,
+    "task_id": "Mbpp/20",
+    "trajectory_sha256": "b748b5ed3120c565bcb42525a2c55a88fcbbd18cb204cb3edea0bfe0a668bb85",
+    "usable": true
+  },
+  "Mbpp/222": {
+    "n_words": 229,
+    "task_id": "Mbpp/222",
+    "trajectory_sha256": "2caa1cc50bd804d5ba88e8d3aedb0428b2f9168a4a4a121e961d225fbeef1c36",
+    "usable": true
+  },
+  "Mbpp/223": {
+    "n_words": 270,
+    "task_id": "Mbpp/223",
+    "trajectory_sha256": "af6d1573a235bcc6e8381a81711c7e66c262fa37f24b7ccf26865dc62bc7bb31",
+    "usable": true
+  },
+  "Mbpp/224": {
+    "n_words": 251,
+    "task_id": "Mbpp/224",
+    "trajectory_sha256": "da7ae278ff9366aabefcfc770674263ccbcca35aebd52ad8adde2ec464888524",
+    "usable": true
+  },
+  "Mbpp/226": {
+    "n_words": 204,
+    "task_id": "Mbpp/226",
+    "trajectory_sha256": "a9e6acc023cc41a4de60897496f2d8f54f05b7fccff2da5cc8dfd10a2d2bbdcf",
+    "usable": true
+  },
+  "Mbpp/227": {
+    "n_words": 175,
+    "task_id": "Mbpp/227",
+    "trajectory_sha256": "17cbdf6ca50af6a8ca252acdb4446faaa0232259c810b9bc2cb5606971215a0c",
+    "usable": true
+  },
+  "Mbpp/230": {
+    "n_words": 193,
+    "task_id": "Mbpp/230",
+    "trajectory_sha256": "3b5a070a6bb8ce85a71158a097383a5354d4ebe1b0fb8715e8de5401cf7fc1bc",
+    "usable": true
+  },
+  "Mbpp/232": {
+    "n_words": 321,
+    "task_id": "Mbpp/232",
+    "trajectory_sha256": "20bc8dcfea8289ab7481d8f81d0b569f514cc33591e26607f0d54694baeb8e6c",
+    "usable": true
+  },
+  "Mbpp/233": {
+    "n_words": 149,
+    "task_id": "Mbpp/233",
+    "trajectory_sha256": "bc88d846165f02fd870f98453ae5e6513eb85d752652dd0e91371df7f4831d64",
+    "usable": false
+  },
+  "Mbpp/234": {
+    "n_words": 132,
+    "task_id": "Mbpp/234",
+    "trajectory_sha256": "772db0f51a612c48ed6c7be0f25a2d1d92edeb14024fb292bcacc955d57daf31",
+    "usable": false
+  },
+  "Mbpp/235": {
+    "n_words": 975,
+    "task_id": "Mbpp/235",
+    "trajectory_sha256": "f12f65a9dbd1fbab4474206960006c7bb1cae7409c2be08cb53c17bd3b5c0c99",
+    "usable": true
+  },
+  "Mbpp/237": {
+    "n_words": 399,
+    "task_id": "Mbpp/237",
+    "trajectory_sha256": "d458288442d79aa6cab87d978215977a30cd8ee60ffefcb5561d7187fcd81cf1",
+    "usable": true
+  },
+  "Mbpp/238": {
+    "n_words": 297,
+    "task_id": "Mbpp/238",
+    "trajectory_sha256": "935a39b7d461c6ee74f60d2aed6d11a5f22df3c3fdbd1ec51e80954ab9ee6660",
+    "usable": true
+  },
+  "Mbpp/239": {
+    "n_words": 937,
+    "task_id": "Mbpp/239",
+    "trajectory_sha256": "29171f832184a7a53d56155cab9fa52ef17e783cdc0775198aacaba6457fe18f",
+    "usable": true
+  },
+  "Mbpp/240": {
+    "n_words": 353,
+    "task_id": "Mbpp/240",
+    "trajectory_sha256": "9f25c641b4fa44535a3268a7f58e4427e7a5d53992d8082cf120d699a65a34d6",
+    "usable": true
+  },
+  "Mbpp/242": {
+    "n_words": 131,
+    "task_id": "Mbpp/242",
+    "trajectory_sha256": "bb5e396646875b8326b255c4b22f16e44362a9976845fb09e39cdcb427e3c60f",
+    "usable": false
+  },
+  "Mbpp/244": {
+    "n_words": 883,
+    "task_id": "Mbpp/244",
+    "trajectory_sha256": "4cd49515e29677b990268e58e44b28f859d424879bb563f61fa3446b388465cb",
+    "usable": true
+  },
+  "Mbpp/245": {
+    "n_words": 821,
+    "task_id": "Mbpp/245",
+    "trajectory_sha256": "f4e0527b592e5b06c99f4ea82c3f403682eaa9ce0393da2de1598b0d90baafd6",
+    "usable": true
+  },
+  "Mbpp/247": {
+    "n_words": 1049,
+    "task_id": "Mbpp/247",
+    "trajectory_sha256": "4a4d3ce77a98edebcea4f890c64817acb250e8ab18823c0a915978abde786400",
+    "usable": true
+  },
+  "Mbpp/250": {
+    "n_words": 252,
+    "task_id": "Mbpp/250",
+    "trajectory_sha256": "bfd66351b310bfb3eca5e1500f4bc400d3daacb945eab3684cc6f4046aa49bed",
+    "usable": true
+  },
+  "Mbpp/251": {
+    "n_words": 342,
+    "task_id": "Mbpp/251",
+    "trajectory_sha256": "c1b08781d46b55c01ff67868530ecc802cc6ac05de52f98b53e902e4f554672e",
+    "usable": true
+  },
+  "Mbpp/252": {
+    "n_words": 958,
+    "task_id": "Mbpp/252",
+    "trajectory_sha256": "e12b3c5d15cc804c71d61b8a1c28d376e52a53955198a5a11f19323b0fa74e76",
+    "usable": true
+  },
+  "Mbpp/253": {
+    "n_words": 337,
+    "task_id": "Mbpp/253",
+    "trajectory_sha256": "7c3d487a258e5ed8273dbd4577d914f340a2506fc87f6500b7daf26735824806",
+    "usable": true
+  },
+  "Mbpp/255": {
+    "n_words": 689,
+    "task_id": "Mbpp/255",
+    "trajectory_sha256": "41a3d198be529574f2f391e2bfaf89774b234838844a3401f6b27aac84e05528",
+    "usable": true
+  },
+  "Mbpp/256": {
+    "n_words": 607,
+    "task_id": "Mbpp/256",
+    "trajectory_sha256": "70a9e2a9072b6e1a2452911d7e091facde0c86519681c8f9f0996f46aaf50803",
+    "usable": true
+  },
+  "Mbpp/257": {
+    "n_words": 91,
+    "task_id": "Mbpp/257",
+    "trajectory_sha256": "1bcb807fa9a088317a404dc17e63a4f509174405a0a1d7292d71adfce9ba38be",
+    "usable": false
+  },
+  "Mbpp/259": {
+    "n_words": 614,
+    "task_id": "Mbpp/259",
+    "trajectory_sha256": "0b22058fc4c9354c8caa3fe82565c00572c46aa0caeb09396d6cbe284b9479e8",
+    "usable": true
+  },
+  "Mbpp/260": {
+    "n_words": 610,
+    "task_id": "Mbpp/260",
+    "trajectory_sha256": "2a325bb665d609461e3364c8d42bc3d3636b87d3df07693cfc48e41903f4471a",
+    "usable": true
+  },
+  "Mbpp/261": {
+    "n_words": 391,
+    "task_id": "Mbpp/261",
+    "trajectory_sha256": "0f504d03ad3e1f4fd879a80ae29d3261d543c4ce4022081cb16bb3041f1830c9",
+    "usable": true
+  },
+  "Mbpp/262": {
+    "n_words": 218,
+    "task_id": "Mbpp/262",
+    "trajectory_sha256": "ca1b3e4aae964187d6a7b0438dc10c1e01836c98f2667d052ac8f9c6ec04c99b",
+    "usable": true
+  },
+  "Mbpp/264": {
+    "n_words": 275,
+    "task_id": "Mbpp/264",
+    "trajectory_sha256": "f78fd27917275cc27d5b2fd660bc8f39a93c96af16a0dbdfddc4ab75187dccb5",
+    "usable": true
+  },
+  "Mbpp/265": {
+    "n_words": 344,
+    "task_id": "Mbpp/265",
+    "trajectory_sha256": "67e5f66b52fac227c4eac1a8586b878ab79bb5f676f249b5b7898311862971f1",
+    "usable": true
+  },
+  "Mbpp/266": {
+    "n_words": 191,
+    "task_id": "Mbpp/266",
+    "trajectory_sha256": "2b53abff7f7796667319b144c64a0583c783a381394c5fec34f611335c453e8c",
+    "usable": true
+  },
+  "Mbpp/267": {
+    "n_words": 563,
+    "task_id": "Mbpp/267",
+    "trajectory_sha256": "b8191ab83f921939f9c7d85101a4fae2810c7cd53fa09bfa528c2e6d275bb148",
+    "usable": true
+  },
+  "Mbpp/268": {
+    "n_words": 265,
+    "task_id": "Mbpp/268",
+    "trajectory_sha256": "924b46d1b5c9de9660975d9cae5f7c65ea65027a977515eff13a0bb4b2ee27fc",
+    "usable": true
+  },
+  "Mbpp/269": {
+    "n_words": 209,
+    "task_id": "Mbpp/269",
+    "trajectory_sha256": "04972242074be8424e8821de2bdcdba44f179460fab27c11fd73e594d1576b7b",
+    "usable": true
+  },
+  "Mbpp/270": {
+    "n_words": 275,
+    "task_id": "Mbpp/270",
+    "trajectory_sha256": "af21ec654c92a07f09566673023bbb8458b68ee4f4aaf9588fc154e67d04860c",
+    "usable": true
+  },
+  "Mbpp/271": {
+    "n_words": 492,
+    "task_id": "Mbpp/271",
+    "trajectory_sha256": "32a43d0d8ecd2b3e5a55880e79cbae91183178c985c075d1a3948e56479e2274",
+    "usable": true
+  },
+  "Mbpp/272": {
+    "n_words": 176,
+    "task_id": "Mbpp/272",
+    "trajectory_sha256": "8f67c1d8bc07fe7c7207ae72f84e86ca15ff786cef36d2943ae6d4afa700f9e1",
+    "usable": true
+  },
+  "Mbpp/273": {
+    "n_words": 176,
+    "task_id": "Mbpp/273",
+    "trajectory_sha256": "1f91e18a0113b252e7a3c10a070c91946d76335cd3738355ba51d8e50d89742d",
+    "usable": true
+  },
+  "Mbpp/274": {
+    "n_words": 325,
+    "task_id": "Mbpp/274",
+    "trajectory_sha256": "afbb1d0545eef32876dfbd2eef351a3a664e1853258b8059840b0ce67c8efb95",
+    "usable": true
+  },
+  "Mbpp/276": {
+    "n_words": 179,
+    "task_id": "Mbpp/276",
+    "trajectory_sha256": "eead0ef23bfe0c4f92509b050f1bc8611fc264ba6c1a12203598988597309e89",
+    "usable": true
+  },
+  "Mbpp/277": {
+    "n_words": 200,
+    "task_id": "Mbpp/277",
+    "trajectory_sha256": "59342b19f2896dfd34665a092d3704a0fa0cfd8fba8302eb2e4cbf3ad56f7837",
+    "usable": true
+  },
+  "Mbpp/278": {
+    "n_words": 350,
+    "task_id": "Mbpp/278",
+    "trajectory_sha256": "ec502db692cad363144b71c9541c1ba492e47f926144109f90ccde70591227c6",
+    "usable": true
+  },
+  "Mbpp/279": {
+    "n_words": 325,
+    "task_id": "Mbpp/279",
+    "trajectory_sha256": "d86cf8799b7f2471ea1e3095239987322e946c7751ae081244f0d80cbc990a96",
+    "usable": true
+  },
+  "Mbpp/280": {
+    "n_words": 173,
+    "task_id": "Mbpp/280",
+    "trajectory_sha256": "fdb9cbbde33643300b0af63b8c6f46d734d8c78bcfb69680c0ca103cd6431a00",
+    "usable": true
+  },
+  "Mbpp/281": {
+    "n_words": 248,
+    "task_id": "Mbpp/281",
+    "trajectory_sha256": "d59f165f5be352f101e6b59acefdc5f49b44eab550e5286227275e6c49fff21f",
+    "usable": true
+  },
+  "Mbpp/282": {
+    "n_words": 172,
+    "task_id": "Mbpp/282",
+    "trajectory_sha256": "2f5b7acc26bb186082d3f0dafaa6e0159c59d6ebe5409992f5bfa131362f23f4",
+    "usable": true
+  },
+  "Mbpp/283": {
+    "n_words": 870,
+    "task_id": "Mbpp/283",
+    "trajectory_sha256": "19ac05ac2bad4e2445f9c7f3a7044c40dc9369b3ea3c72bcf29881166d3cffc7",
+    "usable": true
+  },
+  "Mbpp/284": {
+    "n_words": 257,
+    "task_id": "Mbpp/284",
+    "trajectory_sha256": "bf14b4aae2631929293aa500dd8e52f867cb81cddc66ad480b0617176fa20ac8",
+    "usable": true
+  },
+  "Mbpp/285": {
+    "n_words": 536,
+    "task_id": "Mbpp/285",
+    "trajectory_sha256": "3d9559305ac93351931171feed5f2463a9668e9d3e9c20fea80dfde35157e9c1",
+    "usable": true
+  },
+  "Mbpp/286": {
+    "n_words": 989,
+    "task_id": "Mbpp/286",
+    "trajectory_sha256": "6b1714edb9257af92647af52019e72dd6b11c12da8f8ca3bcf195d76c5c223e9",
+    "usable": true
+  },
+  "Mbpp/287": {
+    "n_words": 265,
+    "task_id": "Mbpp/287",
+    "trajectory_sha256": "c4603af41cba1e0efba0a546ea384c1042677939f0227e960fe9fe27f8a2eca4",
+    "usable": true
+  },
+  "Mbpp/290": {
+    "n_words": 183,
+    "task_id": "Mbpp/290",
+    "trajectory_sha256": "2afb7aac31d8af4c627cc85fe2cc44f45e77d26349ccbbb2dc6ef4c6822659b5",
+    "usable": true
+  },
+  "Mbpp/292": {
+    "n_words": 432,
+    "task_id": "Mbpp/292",
+    "trajectory_sha256": "38828fb7b8a676818a5437306b4a80538ba85de42d825cd7200d12a7f34d6aa3",
+    "usable": true
+  },
+  "Mbpp/293": {
+    "n_words": 660,
+    "task_id": "Mbpp/293",
+    "trajectory_sha256": "a672756e564cb8c590d8b96496e47390890d60ee603b7d45ab1370b699a773f0",
+    "usable": true
+  },
+  "Mbpp/294": {
+    "n_words": 262,
+    "task_id": "Mbpp/294",
+    "trajectory_sha256": "633a675f81700204d117ed6625c4f1cf498e8c2700eafa90712d84dc16cb8a28",
+    "usable": true
+  },
+  "Mbpp/296": {
+    "n_words": 327,
+    "task_id": "Mbpp/296",
+    "trajectory_sha256": "a2611aa37c0c4bfa0ec7c759a73d74c1fdfce08f5312823231555de643487abb",
+    "usable": true
+  },
+  "Mbpp/297": {
+    "n_words": 180,
+    "task_id": "Mbpp/297",
+    "trajectory_sha256": "99cc9f11a9cbe46dd55ea3c1ced359918ef9a9afef710b05bd4c6697e84adaf3",
+    "usable": true
+  },
+  "Mbpp/299": {
+    "n_words": 223,
+    "task_id": "Mbpp/299",
+    "trajectory_sha256": "999acfb45dc8135e7dd5e5b041dbf3f25ec83c595fca7ff185f5694075d29d0f",
+    "usable": true
+  },
+  "Mbpp/3": {
+    "n_words": 304,
+    "task_id": "Mbpp/3",
+    "trajectory_sha256": "43faf2392aa9b9afc0b38089cd1ea7781045de040143beaaa744c0007dfd48b2",
+    "usable": true
+  },
+  "Mbpp/300": {
+    "n_words": 345,
+    "task_id": "Mbpp/300",
+    "trajectory_sha256": "39fca026ad046d36225ed6cdcf7553eb53e6075b58407138f85413c342797aae",
+    "usable": true
+  },
+  "Mbpp/301": {
+    "n_words": 428,
+    "task_id": "Mbpp/301",
+    "trajectory_sha256": "b7b29d8d30bda682b42f437151150c5d57ba10bc5f4a7352a5268f21f79bc02a",
+    "usable": true
+  },
+  "Mbpp/305": {
+    "n_words": 337,
+    "task_id": "Mbpp/305",
+    "trajectory_sha256": "e5864fede46b71443a6846ee2446cd047856ea5e410e98abbdf67d5b67e6d59c",
+    "usable": true
+  },
+  "Mbpp/306": {
+    "n_words": 967,
+    "task_id": "Mbpp/306",
+    "trajectory_sha256": "92c746575a4aca476a6c7bc90a1ffd7909f7ad981696b7deb70441bf6ff674fa",
+    "usable": true
+  },
+  "Mbpp/308": {
+    "n_words": 489,
+    "task_id": "Mbpp/308",
+    "trajectory_sha256": "83ff2753fa7f65343a1df69289cb07580e8bdcf0601dc0737616cbcce423ea12",
+    "usable": true
+  },
+  "Mbpp/309": {
+    "n_words": 171,
+    "task_id": "Mbpp/309",
+    "trajectory_sha256": "c9aa99f34c9af3258f0bcd85726d9805a5f646b7704d5886c5b9291e3d9b1d96",
+    "usable": true
+  },
+  "Mbpp/310": {
+    "n_words": 578,
+    "task_id": "Mbpp/310",
+    "trajectory_sha256": "9d1e5b109b8efb2cab2a2d5b7830367ab8035a14fbca7ed80101c8b7b515b52b",
+    "usable": true
+  },
+  "Mbpp/311": {
+    "n_words": 600,
+    "task_id": "Mbpp/311",
+    "trajectory_sha256": "af37e1835b26bb59a96eab3855bc1a24a7a0c00c6fafb45d34af86d85d8f91fc",
+    "usable": true
+  },
+  "Mbpp/312": {
+    "n_words": 164,
+    "task_id": "Mbpp/312",
+    "trajectory_sha256": "e0cacd743c96d155e0d68f6d5da345ce0b4d08e242d5c87cdd3b858808dcf3ee",
+    "usable": true
+  },
+  "Mbpp/388": {
+    "n_words": 311,
+    "task_id": "Mbpp/388",
+    "trajectory_sha256": "4fc4b411bb2a82735e10e4c0f03671f26664c8ea996ba693ebd5246976c9b874",
+    "usable": true
+  },
+  "Mbpp/389": {
+    "n_words": 227,
+    "task_id": "Mbpp/389",
+    "trajectory_sha256": "b327a0ec45bfa60acd23748d6e968025f814f422c293c6fc5255b875a2ebbb1f",
+    "usable": true
+  },
+  "Mbpp/390": {
+    "n_words": 433,
+    "task_id": "Mbpp/390",
+    "trajectory_sha256": "05de0ce06c35ee97ee8e9125a9f9c53b8604bad40d75c98475e9f92ab6a8bdf0",
+    "usable": true
+  },
+  "Mbpp/391": {
+    "n_words": 249,
+    "task_id": "Mbpp/391",
+    "trajectory_sha256": "3928d21fbe0a49b8899a525629c387d147e7aa77e087709f56ec106fd1f528a5",
+    "usable": true
+  },
+  "Mbpp/392": {
+    "n_words": 377,
+    "task_id": "Mbpp/392",
+    "trajectory_sha256": "ad69f528c054c7de6cfa395777688875b4908e4a702946a50de944460efa2fc4",
+    "usable": true
+  },
+  "Mbpp/394": {
+    "n_words": 129,
+    "task_id": "Mbpp/394",
+    "trajectory_sha256": "b145ea93028b96e313a4c0f5c913038ed0ff7f461ef7444d611dd713576e3e68",
+    "usable": false
+  },
+  "Mbpp/395": {
+    "n_words": 195,
+    "task_id": "Mbpp/395",
+    "trajectory_sha256": "dd9fed678a2b1acb9fe515a8b9c1b0580c7055525f1ca9ebcf1d55460fe908e5",
+    "usable": true
+  },
+  "Mbpp/397": {
+    "n_words": 106,
+    "task_id": "Mbpp/397",
+    "trajectory_sha256": "d7f7616956363b83016f621ef0973ebfd2b615eef34cc34d1b149a4e56e53801",
+    "usable": false
+  },
+  "Mbpp/398": {
+    "n_words": 192,
+    "task_id": "Mbpp/398",
+    "trajectory_sha256": "e307f8e5809260bcf0f9225bd46ad4b94155592fabaef6b6a5f1a419bb4e7d50",
+    "usable": true
+  },
+  "Mbpp/4": {
+    "n_words": 222,
+    "task_id": "Mbpp/4",
+    "trajectory_sha256": "c23bd58de34f57eb2b3fc0c3fa82924d2e124cb6b1fb2cb094282466505eb682",
+    "usable": true
+  },
+  "Mbpp/404": {
+    "n_words": 140,
+    "task_id": "Mbpp/404",
+    "trajectory_sha256": "b05b3e80de45d5db74f78d581a9b109bd5f2bd1e8ab2416de238ff49b500cc16",
+    "usable": false
+  },
+  "Mbpp/405": {
+    "n_words": 133,
+    "task_id": "Mbpp/405",
+    "trajectory_sha256": "0ca0c5403961c6bfd54e9446e130c3b44259230b33c117739cf8372b4e1047d9",
+    "usable": false
+  },
+  "Mbpp/406": {
+    "n_words": 266,
+    "task_id": "Mbpp/406",
+    "trajectory_sha256": "e7c94c11c3840381702273d035d31cf56476f2919125f7ba107f488d5bf47954",
+    "usable": true
+  },
+  "Mbpp/409": {
+    "n_words": 276,
+    "task_id": "Mbpp/409",
+    "trajectory_sha256": "fafc22f3616630af856cec3330c0752b0ae3750a27b03455817e752f67a8332d",
+    "usable": true
+  },
+  "Mbpp/410": {
+    "n_words": 249,
+    "task_id": "Mbpp/410",
+    "trajectory_sha256": "a8d9145b8012c48f5d299249289af3b88dc5666950cc0de0b4b4ae98eb9950b7",
+    "usable": true
+  },
+  "Mbpp/412": {
+    "n_words": 183,
+    "task_id": "Mbpp/412",
+    "trajectory_sha256": "73ff2b817debefdcc57f86c959c28c7a3c956de9d7293747ef64fcac778da4cd",
+    "usable": true
+  },
+  "Mbpp/413": {
+    "n_words": 190,
+    "task_id": "Mbpp/413",
+    "trajectory_sha256": "bce98bbff9c4a37688c72339099ed17f12f88a76e7fd09172acc551a880bb5b0",
+    "usable": true
+  },
+  "Mbpp/414": {
+    "n_words": 473,
+    "task_id": "Mbpp/414",
+    "trajectory_sha256": "452647380c53a6cbbc46b083d52a5d84e5f67c29247eacc87cfaf8d504ba21d1",
+    "usable": true
+  },
+  "Mbpp/415": {
+    "n_words": 738,
+    "task_id": "Mbpp/415",
+    "trajectory_sha256": "9caaf08b6ca8ea9c634bdd3dd6a5a46b83a0d101cc04f3fe0ebe62dfda9d2ca5",
+    "usable": true
+  },
+  "Mbpp/418": {
+    "n_words": 230,
+    "task_id": "Mbpp/418",
+    "trajectory_sha256": "b28ff49dde37d758e8fcd265f107c8396fa439fe9b59ac183b23c12b50325ac1",
+    "usable": true
+  },
+  "Mbpp/419": {
+    "n_words": 346,
+    "task_id": "Mbpp/419",
+    "trajectory_sha256": "9f1e45b5b435838690baaf9e32f2fac50ff66886722624c6ddc80127b6b598ae",
+    "usable": true
+  },
+  "Mbpp/420": {
+    "n_words": 391,
+    "task_id": "Mbpp/420",
+    "trajectory_sha256": "2948f5dec82d7b5a547e912c386b4e33f47b49c0ed7a4113c0f477d383926990",
+    "usable": true
+  },
+  "Mbpp/421": {
+    "n_words": 286,
+    "task_id": "Mbpp/421",
+    "trajectory_sha256": "c7d37bde14b47d60221bbf4e50e688f9b2ba9a1d16e50e5539f21bf8fe8b8017",
+    "usable": true
+  },
+  "Mbpp/422": {
+    "n_words": 246,
+    "task_id": "Mbpp/422",
+    "trajectory_sha256": "aea903b308420c7e8e8d1c5b45eb534379bdc825321c71d37e01a3d3aa057b57",
+    "usable": true
+  },
+  "Mbpp/424": {
+    "n_words": 219,
+    "task_id": "Mbpp/424",
+    "trajectory_sha256": "0925c4fc955af9e8c8216efe612ddde11243200743b577cb4cc9b2d9a0644af5",
+    "usable": true
+  },
+  "Mbpp/425": {
+    "n_words": 316,
+    "task_id": "Mbpp/425",
+    "trajectory_sha256": "1ad00839a769fbddac3186e2982dd7b1c1597e396b578a94878d12d4805f9f2f",
+    "usable": true
+  },
+  "Mbpp/426": {
+    "n_words": 182,
+    "task_id": "Mbpp/426",
+    "trajectory_sha256": "4816a1c4d8258805e66cfb3d1f537f478ed2856fedd7002be03673b6c1e243a0",
+    "usable": true
+  },
+  "Mbpp/427": {
+    "n_words": 179,
+    "task_id": "Mbpp/427",
+    "trajectory_sha256": "5dc0264bc23aad4abd8aa7a7eb70f16bab6e4876cdc3ac5da4e786ee3a7baf59",
+    "usable": true
+  },
+  "Mbpp/428": {
+    "n_words": 230,
+    "task_id": "Mbpp/428",
+    "trajectory_sha256": "d85c64475c30a9778e0beff2499975619c9bd282181a3a98e5be88a1047f5be0",
+    "usable": true
+  },
+  "Mbpp/429": {
+    "n_words": 277,
+    "task_id": "Mbpp/429",
+    "trajectory_sha256": "69faa23370f97cbde6638ec14a5b0d2b41a3d5dd2f9822a260f379e48fbf7b8e",
+    "usable": true
+  },
+  "Mbpp/430": {
+    "n_words": 843,
+    "task_id": "Mbpp/430",
+    "trajectory_sha256": "e166ca6dc435be5ed6bee1dea48dc19ed3e53e2d8a547d185e1fb797d11cdc71",
+    "usable": true
+  },
+  "Mbpp/432": {
+    "n_words": 347,
+    "task_id": "Mbpp/432",
+    "trajectory_sha256": "858db805a7cc2e105fb1e335525b865c876292db291c7e374f121625c61b4e9f",
+    "usable": true
+  },
+  "Mbpp/433": {
+    "n_words": 246,
+    "task_id": "Mbpp/433",
+    "trajectory_sha256": "3e45b7712b761ef57435a5805332976fb76d9daa384c601c1e669eb1160f9145",
+    "usable": true
+  },
+  "Mbpp/435": {
+    "n_words": 229,
+    "task_id": "Mbpp/435",
+    "trajectory_sha256": "89cd39fc6ee1099662b9ca2384df79e73ad19031cb5165e35db32763eade84cd",
+    "usable": true
+  },
+  "Mbpp/436": {
+    "n_words": 177,
+    "task_id": "Mbpp/436",
+    "trajectory_sha256": "411e51a8a851346544d67ff1bc1f878ffa8309d1d167a9857cd1b4138c1ee63a",
+    "usable": true
+  },
+  "Mbpp/437": {
+    "n_words": 210,
+    "task_id": "Mbpp/437",
+    "trajectory_sha256": "bea46697b0ecde3f8e81b6bca144723f840c716cf70a4753a904902214054728",
+    "usable": true
+  },
+  "Mbpp/439": {
+    "n_words": 598,
+    "task_id": "Mbpp/439",
+    "trajectory_sha256": "1a823f9b966e32f2c8d0a1116e0c347e2068ccda32fca4bfaa4948ec25b43752",
+    "usable": true
+  },
+  "Mbpp/440": {
+    "n_words": 1067,
+    "task_id": "Mbpp/440",
+    "trajectory_sha256": "0a4a14fe4a04a89ec663c13b3e0a2479aa55bf80fc2734e47a82ff97dd6225b3",
+    "usable": true
+  },
+  "Mbpp/441": {
+    "n_words": 158,
+    "task_id": "Mbpp/441",
+    "trajectory_sha256": "ecf12eb02d88e2e3eb426a7a37e5f05206a53909172d2f8d0c0181d599a29397",
+    "usable": false
+  },
+  "Mbpp/445": {
+    "n_words": 326,
+    "task_id": "Mbpp/445",
+    "trajectory_sha256": "b22ee52ef9968030758e3ce595a2cfc335e380c00562bb8591f894c1b818d83b",
+    "usable": true
+  },
+  "Mbpp/446": {
+    "n_words": 437,
+    "task_id": "Mbpp/446",
+    "trajectory_sha256": "b4ca81ecaaf790f49cb1208b42f4a47a2910de77e33bc6a4b231703fe4494b70",
+    "usable": true
+  },
+  "Mbpp/447": {
+    "n_words": 162,
+    "task_id": "Mbpp/447",
+    "trajectory_sha256": "0dd8f8e808d6c7a5a9f81cad8b72c1bbf799d9dac3bbc7706ec941cc98dc45ef",
+    "usable": true
+  },
+  "Mbpp/448": {
+    "n_words": 468,
+    "task_id": "Mbpp/448",
+    "trajectory_sha256": "861d47ddfe8f0049d46a7481ebe23f0d273e1fe94b4e4c61a7fa6511b03aa4d2",
+    "usable": true
+  },
+  "Mbpp/450": {
+    "n_words": 307,
+    "task_id": "Mbpp/450",
+    "trajectory_sha256": "b6acbd54d910626f0942d1aba0b90b36a6139d242944921b4f3afebede7210b4",
+    "usable": true
+  },
+  "Mbpp/451": {
+    "n_words": 150,
+    "task_id": "Mbpp/451",
+    "trajectory_sha256": "7ac00b26add594e2a8511bad09efe870b634528fc6460fef894131a6742d39d5",
+    "usable": false
+  },
+  "Mbpp/453": {
+    "n_words": 261,
+    "task_id": "Mbpp/453",
+    "trajectory_sha256": "b6dd331bd464370849cd0e4c3d7ab3c51a6c49d8b58e1148e59bf55193d1980f",
+    "usable": true
+  },
+  "Mbpp/454": {
+    "n_words": 263,
+    "task_id": "Mbpp/454",
+    "trajectory_sha256": "c3da6e2c793857ff33cbeb0f54db2c0d601bc71d264aff514389e609ff87e3fa",
+    "usable": true
+  },
+  "Mbpp/455": {
+    "n_words": 238,
+    "task_id": "Mbpp/455",
+    "trajectory_sha256": "f616b76c5bdc2f84ede88d7ebf21a17c841b31eb0761c567e97a8514b9e66bd2",
+    "usable": true
+  },
+  "Mbpp/456": {
+    "n_words": 181,
+    "task_id": "Mbpp/456",
+    "trajectory_sha256": "47fb30198551d3b663cd98a0bc07eb9f71fcfada5597b05ca77e70a4ca6edaeb",
+    "usable": true
+  },
+  "Mbpp/457": {
+    "n_words": 308,
+    "task_id": "Mbpp/457",
+    "trajectory_sha256": "205587b25e5ca65d395ce795c0498bb149658760db48f06323e3cb85a723ecf6",
+    "usable": true
+  },
+  "Mbpp/458": {
+    "n_words": 146,
+    "task_id": "Mbpp/458",
+    "trajectory_sha256": "d824ab72f1fd99b4a1726895e3666174c947b7b24bee52367f233f6813f9f27d",
+    "usable": false
+  },
+  "Mbpp/459": {
+    "n_words": 655,
+    "task_id": "Mbpp/459",
+    "trajectory_sha256": "d26cbbde2e5f8434579d012faf991ec2bfaaf8bead96329dba54ede2b8fee1f1",
+    "usable": true
+  },
+  "Mbpp/460": {
+    "n_words": 204,
+    "task_id": "Mbpp/460",
+    "trajectory_sha256": "97c9be926113d2cae5cfaa7432eab97148f2683d0300fe5e7fd53f065dea626c",
+    "usable": true
+  },
+  "Mbpp/462": {
+    "n_words": 914,
+    "task_id": "Mbpp/462",
+    "trajectory_sha256": "12aaf0b0ac554ffb7742bc4e00e8772b06186680d90d1450df3c7e8d16c40f13",
+    "usable": true
+  },
+  "Mbpp/463": {
+    "n_words": 483,
+    "task_id": "Mbpp/463",
+    "trajectory_sha256": "22e33709880adf663dc686a14c47d65f81c2dfb587aec345a39b41ac5e964e82",
+    "usable": true
+  },
+  "Mbpp/465": {
+    "n_words": 548,
+    "task_id": "Mbpp/465",
+    "trajectory_sha256": "6d17f60d41ee9cb1433d999f2a4f09422c8ea0ce882e99357ab4ea9bd706856a",
+    "usable": true
+  },
+  "Mbpp/468": {
+    "n_words": 811,
+    "task_id": "Mbpp/468",
+    "trajectory_sha256": "0e7e3c434dc10d9a8308e4190dfaee3140843762ab8b7a9162fb1a644f69061d",
+    "usable": true
+  },
+  "Mbpp/470": {
+    "n_words": 186,
+    "task_id": "Mbpp/470",
+    "trajectory_sha256": "746c9552baca560abc9c34a86b5200d949e7205384d839d6b2a15697ac948c90",
+    "usable": true
+  },
+  "Mbpp/471": {
+    "n_words": 281,
+    "task_id": "Mbpp/471",
+    "trajectory_sha256": "489e06534fac74a8d359772a5238ffc3aca6c78e71c74cf6d482f049abb03724",
+    "usable": true
+  },
+  "Mbpp/472": {
+    "n_words": 367,
+    "task_id": "Mbpp/472",
+    "trajectory_sha256": "766d32c72f277e60bc6ad32c035254fffbb47ee3c2decb5dbd98308642f59a5b",
+    "usable": true
+  },
+  "Mbpp/473": {
+    "n_words": 566,
+    "task_id": "Mbpp/473",
+    "trajectory_sha256": "3f9cdf1f8e2813905dc8447976e3521de19e65586a419957ab98e7f01e8d0598",
+    "usable": true
+  },
+  "Mbpp/474": {
+    "n_words": 333,
+    "task_id": "Mbpp/474",
+    "trajectory_sha256": "8733924d2308e99b199d223ccf70ad1224cd78ab1deee1e7c7b2d244f21185e5",
+    "usable": true
+  },
+  "Mbpp/475": {
+    "n_words": 192,
+    "task_id": "Mbpp/475",
+    "trajectory_sha256": "ceff908b3f3b07e0b7ce962142362461c1572a5abca909636f614ed5cae34440",
+    "usable": true
+  },
+  "Mbpp/476": {
+    "n_words": 170,
+    "task_id": "Mbpp/476",
+    "trajectory_sha256": "4b902402ce17d57421f73dd4584c6010042549d38e129f4f1829cdd6924e81a2",
+    "usable": true
+  },
+  "Mbpp/477": {
+    "n_words": 130,
+    "task_id": "Mbpp/477",
+    "trajectory_sha256": "ed36125efe60d16adb60385403587680eab2b153c4bdb45a84346968444968ae",
+    "usable": false
+  },
+  "Mbpp/478": {
+    "n_words": 362,
+    "task_id": "Mbpp/478",
+    "trajectory_sha256": "f46a9fc7541dfd7f5bc4a706a8d0a29b7cfed23abf99282324753981e4121f97",
+    "usable": true
+  },
+  "Mbpp/479": {
+    "n_words": 257,
+    "task_id": "Mbpp/479",
+    "trajectory_sha256": "bd9f1b42ea6f0372cc97a7712995db5ab44c85a69b30d371078c7731390dd42e",
+    "usable": true
+  },
+  "Mbpp/554": {
+    "n_words": 118,
+    "task_id": "Mbpp/554",
+    "trajectory_sha256": "29290a70e5ad6da2642f8a4d31d08be857eff22a5b5d238eaef544ef05bab3bd",
+    "usable": false
+  },
+  "Mbpp/555": {
+    "n_words": 267,
+    "task_id": "Mbpp/555",
+    "trajectory_sha256": "122c38b24e281e1ae14b21f6adb00b1c7c086cc0560612a2e04c27c0c623f7cc",
+    "usable": true
+  },
+  "Mbpp/556": {
+    "n_words": 371,
+    "task_id": "Mbpp/556",
+    "trajectory_sha256": "aaae0de9867fc83e26f2570302dc1785d2f74375c9ee210c3e7768516e551f35",
+    "usable": true
+  },
+  "Mbpp/557": {
+    "n_words": 199,
+    "task_id": "Mbpp/557",
+    "trajectory_sha256": "3e26d1bd4c9cba4786cf33ef5331f43f0733abd829b6b2a2d5caad462b5402eb",
+    "usable": true
+  },
+  "Mbpp/558": {
+    "n_words": 393,
+    "task_id": "Mbpp/558",
+    "trajectory_sha256": "05a78ac76ff51de50e4c0615954dfc920acee56fc21d55bc592b0b791543bb31",
+    "usable": true
+  },
+  "Mbpp/559": {
+    "n_words": 325,
+    "task_id": "Mbpp/559",
+    "trajectory_sha256": "7d04c1be9ba535938c174e2dffcd7225a9a85b00f3dcda7baa6243e2162b4322",
+    "usable": true
+  },
+  "Mbpp/56": {
+    "n_words": 848,
+    "task_id": "Mbpp/56",
+    "trajectory_sha256": "168b0cab9e5fb3f7d824297d4fd74d33b69a95c5e26ef286ad368434df53db74",
+    "usable": true
+  },
+  "Mbpp/560": {
+    "n_words": 220,
+    "task_id": "Mbpp/560",
+    "trajectory_sha256": "4d41fcb64ed7536f7122f69eea05aefb6d0a16a3e7d74fbaa9e70d190c1005ae",
+    "usable": true
+  },
+  "Mbpp/562": {
+    "n_words": 250,
+    "task_id": "Mbpp/562",
+    "trajectory_sha256": "b3d61f20621e27f042eaba16273653e1e8c92cd8ba7275e7caf166e49f151948",
+    "usable": true
+  },
+  "Mbpp/563": {
+    "n_words": 130,
+    "task_id": "Mbpp/563",
+    "trajectory_sha256": "1a6c1b691e5487e4b7c8abc53769771ba3ab05d1d325838041d698ab5c31a7a6",
+    "usable": false
+  },
+  "Mbpp/564": {
+    "n_words": 735,
+    "task_id": "Mbpp/564",
+    "trajectory_sha256": "4c279aa875d6d51bf4924c26c7cc856d455b29d4b6ac07a7247ce2f5556efa8a",
+    "usable": true
+  },
+  "Mbpp/565": {
+    "n_words": 172,
+    "task_id": "Mbpp/565",
+    "trajectory_sha256": "84bbd31a2697900cad8240a6aae760cec64ef730d0a2edaf389bbfea36ec62d4",
+    "usable": true
+  },
+  "Mbpp/566": {
+    "n_words": 140,
+    "task_id": "Mbpp/566",
+    "trajectory_sha256": "d4f697df50421483f6536616050aef090579bd0575e1b8f79f59e333fca90bf1",
+    "usable": false
+  },
+  "Mbpp/567": {
+    "n_words": 250,
+    "task_id": "Mbpp/567",
+    "trajectory_sha256": "0bc18603152bb9469617301b3067aee6a20820f397c83b7d858f53ae1a477e60",
+    "usable": true
+  },
+  "Mbpp/568": {
+    "n_words": 151,
+    "task_id": "Mbpp/568",
+    "trajectory_sha256": "f6361518c504a0b3ead5ec09b91522c5db559bf46c6c4fd9bc0e868f7054a806",
+    "usable": false
+  },
+  "Mbpp/569": {
+    "n_words": 237,
+    "task_id": "Mbpp/569",
+    "trajectory_sha256": "f794e67b0c80ee0add03c7dba101b86391b301dde430f846df477007a44096bf",
+    "usable": true
+  },
+  "Mbpp/57": {
+    "n_words": 257,
+    "task_id": "Mbpp/57",
+    "trajectory_sha256": "64d29b88dba6045f00cf93f082a48fea607e89896a5ee88a705983b9875b3b12",
+    "usable": true
+  },
+  "Mbpp/572": {
+    "n_words": 419,
+    "task_id": "Mbpp/572",
+    "trajectory_sha256": "5dfc7316f5382698ba7d6ba9b91a5359fdfad734e7f033f955a5f886997289c1",
+    "usable": true
+  },
+  "Mbpp/573": {
+    "n_words": 541,
+    "task_id": "Mbpp/573",
+    "trajectory_sha256": "a8e20493e1be444d9e41ed7d4bfbb16fbd503bae48702982c59da253cb396089",
+    "usable": true
+  },
+  "Mbpp/576": {
+    "n_words": 938,
+    "task_id": "Mbpp/576",
+    "trajectory_sha256": "d37eeb0aef6d711917669f093a6d0828745f7edd54b4d4fb75025fbecdcde4b1",
+    "usable": true
+  },
+  "Mbpp/577": {
+    "n_words": 245,
+    "task_id": "Mbpp/577",
+    "trajectory_sha256": "ad595c21717504d6696f4b8f3a789e9791007e426d855673be7b69549344251e",
+    "usable": true
+  },
+  "Mbpp/578": {
+    "n_words": 195,
+    "task_id": "Mbpp/578",
+    "trajectory_sha256": "96ebc076113db7f1f4a163be0767fe1625f1033d4c2ddef8b1b9162fafa4280c",
+    "usable": true
+  },
+  "Mbpp/579": {
+    "n_words": 586,
+    "task_id": "Mbpp/579",
+    "trajectory_sha256": "e83529480b5fd42d940e1ca63ff9ea94350899f9d97e2ad57f4018e26c25b5ac",
+    "usable": true
+  },
+  "Mbpp/58": {
+    "n_words": 142,
+    "task_id": "Mbpp/58",
+    "trajectory_sha256": "53ae2e1016eaa0001c922be3ebc2c50d90edfea07e93052a72e6ec5a1de880f7",
+    "usable": false
+  },
+  "Mbpp/580": {
+    "n_words": 484,
+    "task_id": "Mbpp/580",
+    "trajectory_sha256": "a2ba225c051e09d9b3c5d3429a1dbc4a729648bcd024ead1139504b595d09f6d",
+    "usable": true
+  },
+  "Mbpp/581": {
+    "n_words": 620,
+    "task_id": "Mbpp/581",
+    "trajectory_sha256": "8c8acb1acca7224965fa7217c247ccb89d01b2d14994fdb42318cdfb7bb49554",
+    "usable": true
+  },
+  "Mbpp/583": {
+    "n_words": 399,
+    "task_id": "Mbpp/583",
+    "trajectory_sha256": "087e5e505e049bf646ace47a242a3fb3798ee3cf15cea879d08abca168cc946a",
+    "usable": true
+  },
+  "Mbpp/585": {
+    "n_words": 324,
+    "task_id": "Mbpp/585",
+    "trajectory_sha256": "b34df8a75b538e3a149cb62743a301185c5d82d0a28f4f9b3b0337d142c783f6",
+    "usable": true
+  },
+  "Mbpp/586": {
+    "n_words": 232,
+    "task_id": "Mbpp/586",
+    "trajectory_sha256": "52c89dfdf8013e693e3ef1c69bee85a33c69ca3df46b61a5b3c841f53cea158f",
+    "usable": true
+  },
+  "Mbpp/587": {
+    "n_words": 199,
+    "task_id": "Mbpp/587",
+    "trajectory_sha256": "e214a97c257b94190cbbb1cb8f5a7ea94a881d8bc481cef97e95ddd78099faae",
+    "usable": true
+  },
+  "Mbpp/588": {
+    "n_words": 189,
+    "task_id": "Mbpp/588",
+    "trajectory_sha256": "a3dd0d2421703f22cfeadfae4d2737e113ddb2db7f42c3c5a207f98f3a021013",
+    "usable": true
+  },
+  "Mbpp/589": {
+    "n_words": 357,
+    "task_id": "Mbpp/589",
+    "trajectory_sha256": "fc24cc4bc9e9abe5a507e289d37325edee8222f0901e4edf998d844e58c715b7",
+    "usable": true
+  },
+  "Mbpp/59": {
+    "n_words": 302,
+    "task_id": "Mbpp/59",
+    "trajectory_sha256": "f41efcf666489330e17d06a366659ef6cffbde5d89809772f01d1f65ade5c022",
+    "usable": true
+  },
+  "Mbpp/590": {
+    "n_words": 857,
+    "task_id": "Mbpp/590",
+    "trajectory_sha256": "7a23a37cdcfa560eaf8c8ecc6a67838dc601ffc813e26063886bee54f37b0fd7",
+    "usable": true
+  },
+  "Mbpp/591": {
+    "n_words": 201,
+    "task_id": "Mbpp/591",
+    "trajectory_sha256": "afddb97647ab200525aa6cb29180a19491b9c68d0ccd270544f539a628cc4de1",
+    "usable": true
+  },
+  "Mbpp/592": {
+    "n_words": 631,
+    "task_id": "Mbpp/592",
+    "trajectory_sha256": "376884ee7b8bd8dee003f9a694e24b9676d4132137959ba887b31bc808228a70",
+    "usable": true
+  },
+  "Mbpp/593": {
+    "n_words": 692,
+    "task_id": "Mbpp/593",
+    "trajectory_sha256": "a7e39d4a11d3ca0a74d36e71e6acadb561bd7cecd34f5998b82546873b444330",
+    "usable": true
+  },
+  "Mbpp/594": {
+    "n_words": 330,
+    "task_id": "Mbpp/594",
+    "trajectory_sha256": "fb57158a79174f75327d85846cd47a8f3ac824630ab7702fcd56d62fc2601eea",
+    "usable": true
+  },
+  "Mbpp/596": {
+    "n_words": 341,
+    "task_id": "Mbpp/596",
+    "trajectory_sha256": "c78399f213f7c1485acb43db5640f961fda359a3c79410e0e62571cabef6bf3d",
+    "usable": true
+  },
+  "Mbpp/597": {
+    "n_words": 918,
+    "task_id": "Mbpp/597",
+    "trajectory_sha256": "72d2d91da3646578516018fcd7f44ee0a066f868527dbc14d553c726e984f492",
+    "usable": true
+  },
+  "Mbpp/598": {
+    "n_words": 305,
+    "task_id": "Mbpp/598",
+    "trajectory_sha256": "b062f9eb10bcef85e9fd423b101d85ff7afbe3cda02ba2f2a56b2fab34c955bb",
+    "usable": true
+  },
+  "Mbpp/599": {
+    "n_words": 208,
+    "task_id": "Mbpp/599",
+    "trajectory_sha256": "98c8b23b7ee3136398335d754a6fb62d1be4f3fa19dd96b7a1d3dd01b5e37724",
+    "usable": true
+  },
+  "Mbpp/6": {
+    "n_words": 311,
+    "task_id": "Mbpp/6",
+    "trajectory_sha256": "d32a0cf3d7ac7078ba18d84b6e9f56dee5e37420bca8255b2ff09c978b758b71",
+    "usable": true
+  },
+  "Mbpp/600": {
+    "n_words": 230,
+    "task_id": "Mbpp/600",
+    "trajectory_sha256": "fbe384ab0b0680ea32245ee5970703daae71932fb2691d8f39e74cb0c91d8a96",
+    "usable": true
+  },
+  "Mbpp/602": {
+    "n_words": 516,
+    "task_id": "Mbpp/602",
+    "trajectory_sha256": "da9dbf241ccf10a02934586a5e62cb31d23878a7c7e15846d4aac533c32f05f4",
+    "usable": true
+  },
+  "Mbpp/603": {
+    "n_words": 519,
+    "task_id": "Mbpp/603",
+    "trajectory_sha256": "1b6de5dc0613f87dad8fc0a26b697d90b9eb4e6bc3b15dc67af820e959b64dae",
+    "usable": true
+  },
+  "Mbpp/604": {
+    "n_words": 196,
+    "task_id": "Mbpp/604",
+    "trajectory_sha256": "4a9ff55434e7f4cbbb9c7645cc04a4a03d1a05873904cb0c25ea160bec990fcd",
+    "usable": true
+  },
+  "Mbpp/605": {
+    "n_words": 256,
+    "task_id": "Mbpp/605",
+    "trajectory_sha256": "b803a8f702ca31472afc4dd032f0ea0282fd8be4e6c04e29b9f37dd5d9bf41a8",
+    "usable": true
+  },
+  "Mbpp/606": {
+    "n_words": 87,
+    "task_id": "Mbpp/606",
+    "trajectory_sha256": "f758fd1a9539e5c3135aa35bc88da58942ef8e8988eea974f31d2170ca1df869",
+    "usable": false
+  },
+  "Mbpp/607": {
+    "n_words": 309,
+    "task_id": "Mbpp/607",
+    "trajectory_sha256": "a45f8407e07693e6aad0d5896295e96442395422ec240c370d4ffdced6a21da4",
+    "usable": true
+  },
+  "Mbpp/608": {
+    "n_words": 835,
+    "task_id": "Mbpp/608",
+    "trajectory_sha256": "d99b7153bd50db72dc8513e0291908d11ac1eaeaff6c00eaa92f54d93f5376ec",
+    "usable": true
+  },
+  "Mbpp/61": {
+    "n_words": 692,
+    "task_id": "Mbpp/61",
+    "trajectory_sha256": "ede469b0a7da9881c419e187c95ca32cce8862e61a25618b9a8c0923903e3556",
+    "usable": true
+  },
+  "Mbpp/610": {
+    "n_words": 344,
+    "task_id": "Mbpp/610",
+    "trajectory_sha256": "5ba6f2b0ba2673c36e6c9c4f39cb6c9bda2dbaca1c82feda8257e234c1c4aab1",
+    "usable": true
+  },
+  "Mbpp/611": {
+    "n_words": 444,
+    "task_id": "Mbpp/611",
+    "trajectory_sha256": "a8b7dd93910a785f74242140025eb30dbc8a47080afcef4f87c8ddf2a204b01c",
+    "usable": true
+  },
+  "Mbpp/612": {
+    "n_words": 245,
+    "task_id": "Mbpp/612",
+    "trajectory_sha256": "dd1314c5a6e1a3b03321f153fa7c0f607e54855646045b5c03585cd3ecd7f440",
+    "usable": true
+  },
+  "Mbpp/614": {
+    "n_words": 215,
+    "task_id": "Mbpp/614",
+    "trajectory_sha256": "73ebdf7a5e1779c144237da8bdb9589b35f085bc12f03f5daaffc00c639a200d",
+    "usable": true
+  },
+  "Mbpp/615": {
+    "n_words": 281,
+    "task_id": "Mbpp/615",
+    "trajectory_sha256": "f9410c23e32217aee0a9d73d5dc9ab418a38cfcdf90318b5e9f194d84c59a7fb",
+    "usable": true
+  },
+  "Mbpp/616": {
+    "n_words": 209,
+    "task_id": "Mbpp/616",
+    "trajectory_sha256": "dc64598452ed375d3856292eae032e19acd090a50bb667abff048ca757cd3dc8",
+    "usable": true
+  },
+  "Mbpp/618": {
+    "n_words": 291,
+    "task_id": "Mbpp/618",
+    "trajectory_sha256": "9858d3cf0e7ba67c14d33af1fa625821ca5873adab0460dfbedb6e91dc23c418",
+    "usable": true
+  },
+  "Mbpp/619": {
+    "n_words": 431,
+    "task_id": "Mbpp/619",
+    "trajectory_sha256": "67964c30a815bc7d1ba610b7064f1c6186ff3f4c842bf047082f58df501a5b1a",
+    "usable": true
+  },
+  "Mbpp/62": {
+    "n_words": 213,
+    "task_id": "Mbpp/62",
+    "trajectory_sha256": "f6298af0f6766e65998010258f60e6f4a980878ed855a489d6581a64f993dbfc",
+    "usable": true
+  },
+  "Mbpp/620": {
+    "n_words": 416,
+    "task_id": "Mbpp/620",
+    "trajectory_sha256": "fdbe56518d60510fed3d05dce184afd319f3df52b51ae1b3c6356221210f9c55",
+    "usable": true
+  },
+  "Mbpp/622": {
+    "n_words": 457,
+    "task_id": "Mbpp/622",
+    "trajectory_sha256": "50211bbd89ef05a22b4a2546bc99e79d553a9a70ea1e5e916c6134635b52f2b4",
+    "usable": true
+  },
+  "Mbpp/623": {
+    "n_words": 279,
+    "task_id": "Mbpp/623",
+    "trajectory_sha256": "2a4b9578d63d20c79bd21554b1b7a3864e29df8ef1f917447151ac46ee905ff5",
+    "usable": true
+  },
+  "Mbpp/624": {
+    "n_words": 109,
+    "task_id": "Mbpp/624",
+    "trajectory_sha256": "26a16cbb8fc57b40a915fcb05c44d29bb0ab3819e6513ae748306d6992373646",
+    "usable": false
+  },
+  "Mbpp/626": {
+    "n_words": 1108,
+    "task_id": "Mbpp/626",
+    "trajectory_sha256": "86f7013126eb24375d3fd1faa2517c82e4f118af0bdcb144cf695ed8873c7f25",
+    "usable": true
+  },
+  "Mbpp/628": {
+    "n_words": 200,
+    "task_id": "Mbpp/628",
+    "trajectory_sha256": "44edb9689f1c0174a157f205e19f5175d227409fb778cd52581ce013d15b7bd2",
+    "usable": true
+  },
+  "Mbpp/629": {
+    "n_words": 219,
+    "task_id": "Mbpp/629",
+    "trajectory_sha256": "5e8a20797c3f6d7865e72ad507e1c1603670259ad0654042837d896725de7d31",
+    "usable": true
+  },
+  "Mbpp/63": {
+    "n_words": 283,
+    "task_id": "Mbpp/63",
+    "trajectory_sha256": "effc355026a8d1e1204237f030ea54b29d59eccdacc93944745c5f94c24680eb",
+    "usable": true
+  },
+  "Mbpp/630": {
+    "n_words": 304,
+    "task_id": "Mbpp/630",
+    "trajectory_sha256": "421167b1e0fe08dc4be0d5fb543264f3ffe72ec597ea92a38d818846a71cf7ec",
+    "usable": true
+  },
+  "Mbpp/631": {
+    "n_words": 247,
+    "task_id": "Mbpp/631",
+    "trajectory_sha256": "1d379d60c7ae5e040d87d62510156a3141412f77037d80019c523877ee332828",
+    "usable": true
+  },
+  "Mbpp/632": {
+    "n_words": 221,
+    "task_id": "Mbpp/632",
+    "trajectory_sha256": "250e759bae7efb4ca9f8c9eed227bbb170d22fa11c136710f44c84cce99aca88",
+    "usable": true
+  },
+  "Mbpp/633": {
+    "n_words": 309,
+    "task_id": "Mbpp/633",
+    "trajectory_sha256": "ac7ec3562ad44a37abb478d5c455836e85f8210acc9272caf59ffb044a0c5dbb",
+    "usable": true
+  },
+  "Mbpp/635": {
+    "n_words": 240,
+    "task_id": "Mbpp/635",
+    "trajectory_sha256": "922ef971efb432e691d445579471cd6d47936115fa271d11cfb10cea8fc1c196",
+    "usable": true
+  },
+  "Mbpp/637": {
+    "n_words": 263,
+    "task_id": "Mbpp/637",
+    "trajectory_sha256": "f61ab9a83da8fb42374b5c3c03367e23cf144021e1c8d9b04c0a8443038b6989",
+    "usable": true
+  },
+  "Mbpp/638": {
+    "n_words": 542,
+    "task_id": "Mbpp/638",
+    "trajectory_sha256": "92104e5bca82e6c693fdcf46e370d8ec1887841d9fc89a64fb19cf43e5d966ba",
+    "usable": true
+  },
+  "Mbpp/639": {
+    "n_words": 377,
+    "task_id": "Mbpp/639",
+    "trajectory_sha256": "a6485c53ed1f2215bebf8fe5de6207b9bbeca93bb190afdf4388a16b7c05dbad",
+    "usable": true
+  },
+  "Mbpp/64": {
+    "n_words": 127,
+    "task_id": "Mbpp/64",
+    "trajectory_sha256": "e50427c40cf90e325552d749728bb2ab467c64dba2336866c6edaba1b2a49bb3",
+    "usable": false
+  },
+  "Mbpp/641": {
+    "n_words": 240,
+    "task_id": "Mbpp/641",
+    "trajectory_sha256": "cea8153f61bddd99034a0800dcedffd3aecca02eeb722f36544c4d79f55f6fea",
+    "usable": true
+  },
+  "Mbpp/643": {
+    "n_words": 995,
+    "task_id": "Mbpp/643",
+    "trajectory_sha256": "69bbbc851e9b4c0fdd4eef2329f5209cee0a4722a8ed6c1f9c1e7eadd2730e13",
+    "usable": true
+  },
+  "Mbpp/644": {
+    "n_words": 299,
+    "task_id": "Mbpp/644",
+    "trajectory_sha256": "19483a38b411fcbd299078db805e4eb176490f9a8537814b5d1f9bcf224f3526",
+    "usable": true
+  },
+  "Mbpp/65": {
+    "n_words": 264,
+    "task_id": "Mbpp/65",
+    "trajectory_sha256": "ec3b852d93c7c33cbf6fd1eb4e4d6d9a73140eb9f898b581987ee7c6557f6303",
+    "usable": true
+  },
+  "Mbpp/66": {
+    "n_words": 176,
+    "task_id": "Mbpp/66",
+    "trajectory_sha256": "be070b2e0f54e10955451ef9f737f7ee9e96ad8d2f48a5b22a208f177d80d162",
+    "usable": true
+  },
+  "Mbpp/67": {
+    "n_words": 622,
+    "task_id": "Mbpp/67",
+    "trajectory_sha256": "3cdb2b8d4dabe37afc5331f1c1af297dfc89250a47da9b1995baa00bb7e8da2e",
+    "usable": true
+  },
+  "Mbpp/68": {
+    "n_words": 179,
+    "task_id": "Mbpp/68",
+    "trajectory_sha256": "b62d9195881d807770f349f48c926516b8509c482505de2b1552515f8bad2340",
+    "usable": true
+  },
+  "Mbpp/69": {
+    "n_words": 306,
+    "task_id": "Mbpp/69",
+    "trajectory_sha256": "cfea076e1a2e4845e414cfae55451919d7643593614038b2e426eb6ff404a1d2",
+    "usable": true
+  },
+  "Mbpp/7": {
+    "n_words": 235,
+    "task_id": "Mbpp/7",
+    "trajectory_sha256": "cc578c5cb7d1762bcc788359fa5d25da4a2c54cb932197533123d18385653f19",
+    "usable": true
+  },
+  "Mbpp/70": {
+    "n_words": 264,
+    "task_id": "Mbpp/70",
+    "trajectory_sha256": "48152435c3c30975da588062a984424ff7b4facbc0d89088e8cb02fdba4a16f6",
+    "usable": true
+  },
+  "Mbpp/71": {
+    "n_words": 362,
+    "task_id": "Mbpp/71",
+    "trajectory_sha256": "5fee1a21cab232a4ff0f41b193b9379a46c30c67f7f2679a121c234c95a1e804",
+    "usable": true
+  },
+  "Mbpp/72": {
+    "n_words": 543,
+    "task_id": "Mbpp/72",
+    "trajectory_sha256": "fff7bded64dc0e8854fa29957e76c971848265952456625639a37ca7c5bac737",
+    "usable": true
+  },
+  "Mbpp/720": {
+    "n_words": 267,
+    "task_id": "Mbpp/720",
+    "trajectory_sha256": "c094d796cdec167249dec4ed956415e6b52395659d1fd609151e381323825693",
+    "usable": true
+  },
+  "Mbpp/721": {
+    "n_words": 832,
+    "task_id": "Mbpp/721",
+    "trajectory_sha256": "cd1ef2f410b84b217511edf508bdf673d81660b80bedb0f2db4330673331422e",
+    "usable": true
+  },
+  "Mbpp/722": {
+    "n_words": 196,
+    "task_id": "Mbpp/722",
+    "trajectory_sha256": "250a514e5f651599d7d648de02350fbbda59951ab50b9958253fc13256868c06",
+    "usable": true
+  },
+  "Mbpp/723": {
+    "n_words": 204,
+    "task_id": "Mbpp/723",
+    "trajectory_sha256": "8e202ba8e8a539482995590711a466c32fd11251024b51499ba15a0a9d09e5a0",
+    "usable": true
+  },
+  "Mbpp/724": {
+    "n_words": 308,
+    "task_id": "Mbpp/724",
+    "trajectory_sha256": "7c87d5f10c9692dd1085bede4f05e248973929a79892ff0d9b8dd03b900399ac",
+    "usable": true
+  },
+  "Mbpp/725": {
+    "n_words": 138,
+    "task_id": "Mbpp/725",
+    "trajectory_sha256": "929bff0e8d3859c79d5f16820b51af19df1e0398fa32ea677cd23aa52bc6450b",
+    "usable": false
+  },
+  "Mbpp/726": {
+    "n_words": 201,
+    "task_id": "Mbpp/726",
+    "trajectory_sha256": "0c27ddb1e20c3bb68c456720a417d603d94aebb31e9e10027c9af50ad651f7a9",
+    "usable": true
+  },
+  "Mbpp/728": {
+    "n_words": 207,
+    "task_id": "Mbpp/728",
+    "trajectory_sha256": "e2c3e99c403d30b06921d4d681c5b9c669afc28d8b87d1a255eed28d3dc0d7b1",
+    "usable": true
+  },
+  "Mbpp/730": {
+    "n_words": 189,
+    "task_id": "Mbpp/730",
+    "trajectory_sha256": "7c521dd7a714b910dddf269a69a8f7179124b4a1242f62230c2e552ade2c2c6e",
+    "usable": true
+  },
+  "Mbpp/731": {
+    "n_words": 162,
+    "task_id": "Mbpp/731",
+    "trajectory_sha256": "77106c1788a8d58b0e540b58343d8c86f3e438c2a506fa6159025d359399f900",
+    "usable": true
+  },
+  "Mbpp/732": {
+    "n_words": 187,
+    "task_id": "Mbpp/732",
+    "trajectory_sha256": "92ae114b13fd6b3092f1a3b2718b7b69907b08adadb80e25ddac4a346f099bfb",
+    "usable": true
+  },
+  "Mbpp/733": {
+    "n_words": 168,
+    "task_id": "Mbpp/733",
+    "trajectory_sha256": "1d4b112222ba87c50e2b92fbb26781aada204f59e43902c9470cf614a1ae3f94",
+    "usable": true
+  },
+  "Mbpp/734": {
+    "n_words": 463,
+    "task_id": "Mbpp/734",
+    "trajectory_sha256": "0555e721dfd1a2780c34011eee7f0fdc60d7017bf120519fd66e366e73b9de25",
+    "usable": true
+  },
+  "Mbpp/735": {
+    "n_words": 831,
+    "task_id": "Mbpp/735",
+    "trajectory_sha256": "2a4766a3f7e42c8c3e4220a18a4d86ae4dae2f79679f5db63f52cbaf37d49320",
+    "usable": true
+  },
+  "Mbpp/736": {
+    "n_words": 244,
+    "task_id": "Mbpp/736",
+    "trajectory_sha256": "1c96a00d459dbe85700cf9fa0cf781c7484b9051e9603687b7563fec0dbb21a3",
+    "usable": true
+  },
+  "Mbpp/737": {
+    "n_words": 147,
+    "task_id": "Mbpp/737",
+    "trajectory_sha256": "c17bd8a821aecce8e867c7d6138966ea26736b164f5293088a70e7557595662f",
+    "usable": false
+  },
+  "Mbpp/739": {
+    "n_words": 917,
+    "task_id": "Mbpp/739",
+    "trajectory_sha256": "1792aaad19900fef9d1e40fd8cde2fe8b7cf3b511bea59e8bb87de9da9b52bf8",
+    "usable": true
+  },
+  "Mbpp/74": {
+    "n_words": 308,
+    "task_id": "Mbpp/74",
+    "trajectory_sha256": "62826122e7f28ed9000e76e9a8cadf5b0b4a588cbe078aeee087cd2caf0a2971",
+    "usable": true
+  },
+  "Mbpp/740": {
+    "n_words": 250,
+    "task_id": "Mbpp/740",
+    "trajectory_sha256": "2768d58c620cbb5ef266da6b30a16eca18585ccc8f760eb5de229ce91326533e",
+    "usable": true
+  },
+  "Mbpp/741": {
+    "n_words": 190,
+    "task_id": "Mbpp/741",
+    "trajectory_sha256": "05e1976ec54076e9ee6f8925fbf9dae476b6a5a878d510588e24f4905e8f82c9",
+    "usable": true
+  },
+  "Mbpp/742": {
+    "n_words": 829,
+    "task_id": "Mbpp/742",
+    "trajectory_sha256": "abab38292bacf3eb682ecfe6e10c19e08099526627444029ad038b2b424b1df2",
+    "usable": true
+  },
+  "Mbpp/743": {
+    "n_words": 275,
+    "task_id": "Mbpp/743",
+    "trajectory_sha256": "f3d51f52bbd155bbb26394604a2c28b251c70da3e7d3ecb6fc3bc2d5c05f1ebd",
+    "usable": true
+  },
+  "Mbpp/744": {
+    "n_words": 179,
+    "task_id": "Mbpp/744",
+    "trajectory_sha256": "927a90c9b58fa0b67943672831bb0852fcd7b44860ca552467e1f6917bb7593f",
+    "usable": true
+  },
+  "Mbpp/745": {
+    "n_words": 897,
+    "task_id": "Mbpp/745",
+    "trajectory_sha256": "f10a4429b1d65d16bbebdf5742930b938b2d5cff53bc9c16d1234ae117da039c",
+    "usable": true
+  },
+  "Mbpp/748": {
+    "n_words": 1132,
+    "task_id": "Mbpp/748",
+    "trajectory_sha256": "37ced1d2eb9bdddc34e325c35a6a90c5cbd2e12e8a9b37c00a32a4e4e3efbccb",
+    "usable": true
+  },
+  "Mbpp/749": {
+    "n_words": 276,
+    "task_id": "Mbpp/749",
+    "trajectory_sha256": "a7e94a4f0acb40c76f9309bbaa90c67f4edb475a22ece8e0c97759758ed8cefe",
+    "usable": true
+  },
+  "Mbpp/75": {
+    "n_words": 240,
+    "task_id": "Mbpp/75",
+    "trajectory_sha256": "1440c451d3a6b4aff811e4732bf36d69b03911e98ecd3c88b3bb5fe9ed3346f4",
+    "usable": true
+  },
+  "Mbpp/750": {
+    "n_words": 192,
+    "task_id": "Mbpp/750",
+    "trajectory_sha256": "d8b5e7f0d089031c73c060937399041965d7979b80845d14ce4e7f80115b23b6",
+    "usable": true
+  },
+  "Mbpp/751": {
+    "n_words": 1141,
+    "task_id": "Mbpp/751",
+    "trajectory_sha256": "777d110aae5fb785c03d3e30de30dd751765a03ddab1d492b0590a34e6b62886",
+    "usable": true
+  },
+  "Mbpp/752": {
+    "n_words": 260,
+    "task_id": "Mbpp/752",
+    "trajectory_sha256": "54a41a6a51554d8f279f38b1fbb52998eb84f3204f0b1ce02269ba690160064e",
+    "usable": true
+  },
+  "Mbpp/753": {
+    "n_words": 233,
+    "task_id": "Mbpp/753",
+    "trajectory_sha256": "bb775630ef7542392c8fabe9252a50de9f8da7fc953e8da23d1bc8e97a9b93f6",
+    "usable": true
+  },
+  "Mbpp/754": {
+    "n_words": 346,
+    "task_id": "Mbpp/754",
+    "trajectory_sha256": "8e284a87febce1169e5d1658c4dc9b935be71c8740c69e3eab10ae64b54bee94",
+    "usable": true
+  },
+  "Mbpp/755": {
+    "n_words": 399,
+    "task_id": "Mbpp/755",
+    "trajectory_sha256": "969b83bd62199459302e9caa0a821a205dd119f75862c72976f59acf5d8cd626",
+    "usable": true
+  },
+  "Mbpp/757": {
+    "n_words": 847,
+    "task_id": "Mbpp/757",
+    "trajectory_sha256": "96db6127a2418dfa390de3cece507d5827f526b2baa8bab807a477e5b704d1a9",
+    "usable": true
+  },
+  "Mbpp/758": {
+    "n_words": 174,
+    "task_id": "Mbpp/758",
+    "trajectory_sha256": "a67e420dd591845fb583772c1bcf4d150f926007835fb83b35a7b504499c62bd",
+    "usable": true
+  },
+  "Mbpp/759": {
+    "n_words": 360,
+    "task_id": "Mbpp/759",
+    "trajectory_sha256": "fe0c62d4aa7cd252fa91e5b9f251dfc2574bc51bd7d937255269f5f9350c9513",
+    "usable": true
+  },
+  "Mbpp/760": {
+    "n_words": 151,
+    "task_id": "Mbpp/760",
+    "trajectory_sha256": "cf6f29ba56330ec9d31b372c3d7e79ab66840725de2b3e4a88192987754152b5",
+    "usable": false
+  },
+  "Mbpp/762": {
+    "n_words": 258,
+    "task_id": "Mbpp/762",
+    "trajectory_sha256": "9da8f847700e898cb48132e6cc07ecda3da7bde28d50a656d3487810ee1782c8",
+    "usable": true
+  },
+  "Mbpp/763": {
+    "n_words": 449,
+    "task_id": "Mbpp/763",
+    "trajectory_sha256": "6ec9fc0f6e3efdc3d6bd99b826ac4fbe6fdd6c3e93eeb35b0cccb83730c943bf",
+    "usable": true
+  },
+  "Mbpp/764": {
+    "n_words": 142,
+    "task_id": "Mbpp/764",
+    "trajectory_sha256": "9e5b1691b013e615a21ebf401b66048c2cefd3c36515ec33edec99c6a0d894ce",
+    "usable": false
+  },
+  "Mbpp/765": {
+    "n_words": 881,
+    "task_id": "Mbpp/765",
+    "trajectory_sha256": "9fcc87c8d866a019e3c644304520706ac8131516ed5d171350017d505d9dd217",
+    "usable": true
+  },
+  "Mbpp/766": {
+    "n_words": 223,
+    "task_id": "Mbpp/766",
+    "trajectory_sha256": "534af1ac4bea0d1418479375b2f2dbd799ecf6950591d84e3718be212caa91cc",
+    "usable": true
+  },
+  "Mbpp/767": {
+    "n_words": 815,
+    "task_id": "Mbpp/767",
+    "trajectory_sha256": "746e5609af3580b373cfcf69722bf73ae567426020ec6e2edc7930ceb5a7df21",
+    "usable": true
+  },
+  "Mbpp/769": {
+    "n_words": 1130,
+    "task_id": "Mbpp/769",
+    "trajectory_sha256": "8a3442d7a3042eb315cfaf7bb824874fbcae63b02a349bdae111ef8f48555376",
+    "usable": true
+  },
+  "Mbpp/77": {
+    "n_words": 313,
+    "task_id": "Mbpp/77",
+    "trajectory_sha256": "48252c5fb38aa75adb9e026129e5def7f3ce0df5eede8e5f00e5d6e02ad51a27",
+    "usable": true
+  },
+  "Mbpp/770": {
+    "n_words": 272,
+    "task_id": "Mbpp/770",
+    "trajectory_sha256": "961a7ac6ce901743f487e0be294abf3bb0b5f3f43ae38e956f7706a0e804baa4",
+    "usable": true
+  },
+  "Mbpp/771": {
+    "n_words": 232,
+    "task_id": "Mbpp/771",
+    "trajectory_sha256": "ba2a522889865b212ae583f9eeb940e8f4c50ae572850808995d47f9cbc1bf03",
+    "usable": true
+  },
+  "Mbpp/772": {
+    "n_words": 305,
+    "task_id": "Mbpp/772",
+    "trajectory_sha256": "ab0c80460daba8125505338ff5d5002e7f2592f4d9411f5cb91db5f3c5dac024",
+    "usable": true
+  },
+  "Mbpp/773": {
+    "n_words": 281,
+    "task_id": "Mbpp/773",
+    "trajectory_sha256": "1c275c48f653fd65b7d27c5132655fda193d114bfd1a1299d40103fd57931ce3",
+    "usable": true
+  },
+  "Mbpp/775": {
+    "n_words": 263,
+    "task_id": "Mbpp/775",
+    "trajectory_sha256": "64da7507150cd1e8dc326709b00f8e8aa9a89931dff6851da5ffe87acd361403",
+    "usable": true
+  },
+  "Mbpp/777": {
+    "n_words": 200,
+    "task_id": "Mbpp/777",
+    "trajectory_sha256": "ff560f1a6b38636dfbde42d6888867c7e1e80c9a42b5162ef0475d53dcb00a31",
+    "usable": true
+  },
+  "Mbpp/778": {
+    "n_words": 193,
+    "task_id": "Mbpp/778",
+    "trajectory_sha256": "d6e1677f06abd12a73b40d06c0bd51b576fef01ac7a43e0c2b371ed5d435eac8",
+    "usable": true
+  },
+  "Mbpp/780": {
+    "n_words": 495,
+    "task_id": "Mbpp/780",
+    "trajectory_sha256": "db372a617027b8c15c80286464da62e67bfe28b94757183728d483e5b3d3601b",
+    "usable": true
+  },
+  "Mbpp/781": {
+    "n_words": 319,
+    "task_id": "Mbpp/781",
+    "trajectory_sha256": "1f011eb95f9008bf3dad0f15de9e6bc4d84d996e7f9c3d082471872513c552cc",
+    "usable": true
+  },
+  "Mbpp/782": {
+    "n_words": 832,
+    "task_id": "Mbpp/782",
+    "trajectory_sha256": "618edf22046787249b63656e5a4311b2cafba24be043a4c3522c4d6c72638c90",
+    "usable": true
+  },
+  "Mbpp/784": {
+    "n_words": 331,
+    "task_id": "Mbpp/784",
+    "trajectory_sha256": "27017d6e571a13e8ac49696e63ce0568b09f37e6fd2e752cd9d35b07b016ff3c",
+    "usable": true
+  },
+  "Mbpp/785": {
+    "n_words": 677,
+    "task_id": "Mbpp/785",
+    "trajectory_sha256": "922d013464b72fd4efccf3b140681bf6b3e13e1bd18638920df10b1fa53f6ffb",
+    "usable": true
+  },
+  "Mbpp/786": {
+    "n_words": 345,
+    "task_id": "Mbpp/786",
+    "trajectory_sha256": "618be7b27bfd659ee77fe072136c77b9dbcff6882282370d26acc0bbbafe11d5",
+    "usable": true
+  },
+  "Mbpp/787": {
+    "n_words": 481,
+    "task_id": "Mbpp/787",
+    "trajectory_sha256": "5d03f91b6076a8560a4b0c8901695764bcea8a182e6f745c9c86186bd3f193da",
+    "usable": true
+  },
+  "Mbpp/788": {
+    "n_words": 214,
+    "task_id": "Mbpp/788",
+    "trajectory_sha256": "6a4f4095fdfd78fb0431beb8be08fca5c3641708e23c59898fee6be96f38380c",
+    "usable": true
+  },
+  "Mbpp/79": {
+    "n_words": 216,
+    "task_id": "Mbpp/79",
+    "trajectory_sha256": "6eb32161cc80507fb75c09bf3e2ba39a3377b55a42ce3aacd1fdfda0c8b54f80",
+    "usable": true
+  },
+  "Mbpp/790": {
+    "n_words": 568,
+    "task_id": "Mbpp/790",
+    "trajectory_sha256": "6726e7ac01460d4ec1f620e3ec3c2a9c0f5caaf8586ad636a0bf10e9e0931736",
+    "usable": true
+  },
+  "Mbpp/791": {
+    "n_words": 380,
+    "task_id": "Mbpp/791",
+    "trajectory_sha256": "6fb5b088a62676ef7a327c95a879313bb7d3a82faa98356458d92aaa23630f93",
+    "usable": true
+  },
+  "Mbpp/792": {
+    "n_words": 747,
+    "task_id": "Mbpp/792",
+    "trajectory_sha256": "902b823b3ea8ad2129f659df127dd44b795ffdc06ea78607d1fc48c8dcad7006",
+    "usable": true
+  },
+  "Mbpp/794": {
+    "n_words": 470,
+    "task_id": "Mbpp/794",
+    "trajectory_sha256": "ee6bc90f99e498c5153444691dc8b6dfdb82e8619db02696c35f1a7ff2c61d04",
+    "usable": true
+  },
+  "Mbpp/796": {
+    "n_words": 127,
+    "task_id": "Mbpp/796",
+    "trajectory_sha256": "e4860cd3b7bd5a9e6e13d70c55977b8ded480b172cf4d3ccdd0672ee08349f42",
+    "usable": false
+  },
+  "Mbpp/797": {
+    "n_words": 486,
+    "task_id": "Mbpp/797",
+    "trajectory_sha256": "d8687e55376eb1e7134a68b455ce8ebcb3d6bb44ab1c45353bfad00a790c5753",
+    "usable": true
+  },
+  "Mbpp/798": {
+    "n_words": 146,
+    "task_id": "Mbpp/798",
+    "trajectory_sha256": "52fdddb1a62113edcc0eb1b5d47817c4698f13b82cdccc0ac94938f640592f4a",
+    "usable": false
+  },
+  "Mbpp/799": {
+    "n_words": 321,
+    "task_id": "Mbpp/799",
+    "trajectory_sha256": "224f573da3c992a900115761595a741c673a89ca1e61f62ef0c4b74448daf8a8",
+    "usable": true
+  },
+  "Mbpp/8": {
+    "n_words": 204,
+    "task_id": "Mbpp/8",
+    "trajectory_sha256": "dee95660be60dec87c0325270328f7c98c70b5d3bc0f39024d9fb0d6687dd5dd",
+    "usable": true
+  },
+  "Mbpp/80": {
+    "n_words": 176,
+    "task_id": "Mbpp/80",
+    "trajectory_sha256": "dced4a43f1aabc5f43a4587f3752ac638e649f9e303429a80ba43730ca28d3aa",
+    "usable": true
+  },
+  "Mbpp/800": {
+    "n_words": 133,
+    "task_id": "Mbpp/800",
+    "trajectory_sha256": "60691f7c9d277abb888fe982c175101bcb3c1822d56b094a6196ec9f30438d56",
+    "usable": false
+  },
+  "Mbpp/801": {
+    "n_words": 370,
+    "task_id": "Mbpp/801",
+    "trajectory_sha256": "006225bf80cd4d879b5a7b1ddd872643aa44993c3a198c8d1f3c2d304569a3c2",
+    "usable": true
+  },
+  "Mbpp/803": {
+    "n_words": 210,
+    "task_id": "Mbpp/803",
+    "trajectory_sha256": "628e95ae3d7ff985ee7ff70d21376378dddfcdd359ce600c0eaf96994e28d096",
+    "usable": true
+  },
+  "Mbpp/804": {
+    "n_words": 263,
+    "task_id": "Mbpp/804",
+    "trajectory_sha256": "88cdf63fef04de2107be2534bf2e4f1fee4c278a096581e85a0175efe8911496",
+    "usable": true
+  },
+  "Mbpp/805": {
+    "n_words": 321,
+    "task_id": "Mbpp/805",
+    "trajectory_sha256": "09844da2767e566806c14ffdc7d63c96bc6ea05ec7f39f736b88424740d62c90",
+    "usable": true
+  },
+  "Mbpp/806": {
+    "n_words": 178,
+    "task_id": "Mbpp/806",
+    "trajectory_sha256": "61a1eb533e537ddd96d2dc6e2b47b104a7bec2e50cfbf309babffb7311a3d40d",
+    "usable": true
+  },
+  "Mbpp/807": {
+    "n_words": 299,
+    "task_id": "Mbpp/807",
+    "trajectory_sha256": "40a7dfeafeed805221f962ca4da946940fb7ca676e2f13993097a08de159253a",
+    "usable": true
+  },
+  "Mbpp/808": {
+    "n_words": 515,
+    "task_id": "Mbpp/808",
+    "trajectory_sha256": "e7e4e22b055cb5805de69e3365444b408c2b8c8b617afa4e57c979b4c5d51e10",
+    "usable": true
+  },
+  "Mbpp/809": {
+    "n_words": 259,
+    "task_id": "Mbpp/809",
+    "trajectory_sha256": "d22ff47eddfb88d95c7d4f450f8ed46e427aea7869d5ea61f8f501faf507b00f",
+    "usable": true
+  },
+  "Mbpp/82": {
+    "n_words": 286,
+    "task_id": "Mbpp/82",
+    "trajectory_sha256": "fef4e99e8e3136190662ed25a6ed34474b40b4e5aa89f8e2be1c0cec97699c26",
+    "usable": true
+  },
+  "Mbpp/84": {
+    "n_words": 801,
+    "task_id": "Mbpp/84",
+    "trajectory_sha256": "fb41bf12f718efe8a7efa0860122ac7a8984ded8391579ac775bf2ccdb1120e7",
+    "usable": true
+  },
+  "Mbpp/85": {
+    "n_words": 296,
+    "task_id": "Mbpp/85",
+    "trajectory_sha256": "2e7388afdc980326d0c6d4c9544fdbb32ce7b039cfe0f10f30787d19cbe78af9",
+    "usable": true
+  },
+  "Mbpp/86": {
+    "n_words": 181,
+    "task_id": "Mbpp/86",
+    "trajectory_sha256": "76eebe0ed934008f2ce7ffd6ae1900b23e778a9ada31aa4564fa36ef65236daf",
+    "usable": true
+  },
+  "Mbpp/87": {
+    "n_words": 269,
+    "task_id": "Mbpp/87",
+    "trajectory_sha256": "6a6bea2347d08e04be7555d9385e69c5759e0508b47249630d879a38573cb1d2",
+    "usable": true
+  },
+  "Mbpp/88": {
+    "n_words": 130,
+    "task_id": "Mbpp/88",
+    "trajectory_sha256": "d4ccc4c615d705d796e249fd8b5a97f37c58a0008c31c9de4665148a4bcffbe8",
+    "usable": false
+  },
+  "Mbpp/89": {
+    "n_words": 1065,
+    "task_id": "Mbpp/89",
+    "trajectory_sha256": "e310f0e6a96f4944164e7f51bf64b65b2e7086e287f28f0933d0546137b9d376",
+    "usable": true
+  },
+  "Mbpp/9": {
+    "n_words": 451,
+    "task_id": "Mbpp/9",
+    "trajectory_sha256": "03fb8d75934565bc28ca588bf7badd5a36c6bd56edf96bd8c872d3ee92919fd9",
+    "usable": true
+  },
+  "Mbpp/90": {
+    "n_words": 167,
+    "task_id": "Mbpp/90",
+    "trajectory_sha256": "87c3fd283dbb35891988afe235264be4dd674b0fa2d6a6a00630df206e7de3be",
+    "usable": true
+  },
+  "Mbpp/91": {
+    "n_words": 183,
+    "task_id": "Mbpp/91",
+    "trajectory_sha256": "b7555668f192150c1d065296d3f765c517046dd1af21f3111d3a1c28d6055457",
+    "usable": true
+  },
+  "Mbpp/92": {
+    "n_words": 892,
+    "task_id": "Mbpp/92",
+    "trajectory_sha256": "184b86cc6785854f0cf5bdf3e4607a48a1b6d8882bd25aca8c53f2a3d2adea64",
+    "usable": true
+  },
+  "Mbpp/93": {
+    "n_words": 299,
+    "task_id": "Mbpp/93",
+    "trajectory_sha256": "d2ea3fff6e870f3a837af55e6993df95f726652d940f3cfc3e76baa29dd1a9b5",
+    "usable": true
+  },
+  "Mbpp/94": {
+    "n_words": 257,
+    "task_id": "Mbpp/94",
+    "trajectory_sha256": "8d796da74e19584d355877398d6722d4452d1234ef1fa97b78a4b5b0a1c1de9e",
+    "usable": true
+  },
+  "Mbpp/95": {
+    "n_words": 183,
+    "task_id": "Mbpp/95",
+    "trajectory_sha256": "be997ecc56e805ced571c0dd762a9a3054f4a73fb44f4e6c726737cfc10444d1",
+    "usable": true
+  },
+  "Mbpp/96": {
+    "n_words": 201,
+    "task_id": "Mbpp/96",
+    "trajectory_sha256": "6ee1188d2f406dd86be439d5d2461de3d58352d846d2e84880602b402b629728",
+    "usable": true
+  },
+  "Mbpp/97": {
+    "n_words": 119,
+    "task_id": "Mbpp/97",
+    "trajectory_sha256": "93d0cc5a78713ba261241817feb79e01641a15cfe02670085a022178dbf7f49b",
+    "usable": false
+  },
+  "Mbpp/98": {
+    "n_words": 255,
+    "task_id": "Mbpp/98",
+    "trajectory_sha256": "e3817974c690fe8111348e4a4b030421086b031418af6b114fcf911153834ffe",
+    "usable": true
+  },
+  "Mbpp/99": {
+    "n_words": 183,
+    "task_id": "Mbpp/99",
+    "trajectory_sha256": "84e0276d2efa04f9a9e81c440ba2f7131793eaf2aacc53b67b44e747de5d822b",
+    "usable": true
+  }
+}

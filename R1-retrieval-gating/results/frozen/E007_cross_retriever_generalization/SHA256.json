@@ -1,0 +1,23 @@
+{
+  "E007_cross_retriever_comparison.json": "c3f9354b2865a31dacd9313ef15f30de728af2003e3a86b31566d1181237551d",
+  "E007_cross_retriever_generalization.json": "70ad79d8e56b6c8a5bd6aba4a3d2877f1fc154fb514f3b7bc7ec758b40cfee62",
+  "E007_fold_assignments.json": "92219e3f62e4d8e8ad7ddc1197869d961e8f3ab3d1a3adad59b65d9b2bf83b15",
+  "E007_natural_qwen_details.jsonl": "9aa8b6856b959eebc8879df892f849381495ac4fe16badba44cc4952c0dff5b3",
+  "E007_natural_qwen_merge_report.json": "76381ef71e7d80a066b887f637b2c2f929b7378b501e2a20759b41b2e9f8a791",
+  "E007_official_backend_reproduction.json": "19b4fdd924dff40ef8238ec8f4cdfb554d1df7c9a0bed3ede24b432458979397",
+  "E007_qwen_embedding_oof.jsonl": "e66cbb81298dd12061b23044d6072575ea615385347378abeeaa28a580c37c66",
+  "E007_qwen_equivalence_smoke.json": "c730f89beb0e8aa5283c6f9808aa87247b1312e2f3eb1f7b615a2cb44c662882",
+  "E007_qwen_gate.json": "1a7a8c9da378da89d80b8fde44314ac14e07aa55f2d500ee1ab604e3ee8ca715",
+  "E007_qwen_positive345.json": "77ae81cebd1fe2342c8328fc1a6c2d1ed18e0521f1f610a87d717a70a2c27838",
+  "E007_qwen_shard_validation.json": "8f559db01fa32e02052173b365f2e6c0ca52ed7d3f12271805adca27dfac89d3",
+  "E007_repomap_gate.json": "9220179d7744600ea1f2c2b76ee832bfb57d895a09c8807e0f21d4362c4c421c",
+  "E007_repomap_oof.jsonl": "c13714831ed93180568d8e96924d871dfa255d876be49b04cd975ac449436993",
+  "E007_repomap_positive345.json": "82dbf9af194e5a7fb9e0fd36a3fed3ef30dba2c1f34fc23d50acc75edefeacf6",
+  "E007_run.txt": "4f9e8982cdaea92f493813209729c3df6ede6faea8be01f1fff8915cbacd43be",
+  "E007_thresholds.json": "fbe3e71a32903b218462f0b94337d0eea3ac50470a170432d4e13e7b2ef760fa",
+  "e007_cross_retriever.py": "5d5535bd3074bc3de69a0e703aa9c234e4820543bb31ed8d8a2f583c6cbc46eb",
+  "e007_qwen_shards.py": "e56e036506e62e9e1aea9cd85068097089230fdcb073a058be0aa979e892b89c",
+  "manifest.json": "b5f6ffb115323bc39f1083d2cee839b0c425adc300940c9910c0067cea4101fd",
+  "run_e007_qwen.sh": "5549589c48f4ffce92909e60508e51eadd40c172c5af9d070f921fe68b3dc57b",
+  "run_e007_qwen_shard_queue.sh": "5375c8ba07d761a5eafb638491f22e1286b6db294c164c07b1be448c2e799ec7"
+}

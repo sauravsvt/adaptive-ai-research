@@ -1,0 +1,27 @@
+[
+  {
+    "bytes": 6304,
+    "path": "E001_usable.json",
+    "sha256": "4436dd26ab98d56805b8b264cca605abdc58c9ac525bdd9d6bac6a82f0868873"
+  },
+  {
+    "bytes": 434173,
+    "path": "E001_prefixes.jsonl",
+    "sha256": "1b544cd3451895fbd498334b08d8b593c11e104d25793a8d39d32d43e611f757"
+  },
+  {
+    "bytes": 67786,
+    "path": "E001_initial_hashes.json",
+    "sha256": "c868a30d507a836a9884e8aee198815ad05ca380c381db7bdfa588ac9bf6e606"
+  },
+  {
+    "bytes": 1903792,
+    "path": "E001_initial.jsonl",
+    "sha256": "c4fc2955ab303047ddff47106ad2951d232992f222fc92304a73bf2d8a7a559f"
+  },
+  {
+    "bytes": 78395,
+    "path": "E001_stage2_manifest.json",
+    "sha256": "55ef7aee71755a63bf402be31d2b907011d199748611c45998accd19b1df48d7"
+  }
+]

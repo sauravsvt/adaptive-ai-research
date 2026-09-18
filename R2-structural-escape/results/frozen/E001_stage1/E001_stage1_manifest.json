@@ -1,0 +1,39 @@
+{
+  "arms": [
+    "A1_CONTINUE_LOCAL",
+    "A4_STRUCTURAL_ESCAPE"
+  ],
+  "benchmark": {
+    "dataset_hash": "ee43ecabebf20deef4bb776a405ac5b1",
+    "excluded_a_priori": [
+      "Mbpp/793"
+    ],
+    "n_catalog": 378,
+    "n_plus_testable": 377,
+    "name": "MbppPlus",
+    "release": "v0.2.0"
+  },
+  "config_sha256": "243e52c9fc9a1f67a6486b2f288b926ca417e15c6b90a9e30496dcef253ae3fd",
+  "experiment_id": "E001",
+  "model": {
+    "blob_sha256": "e7b273f9636059a689e3ddcab3716e4f65abe0143ac978e46673ad0e52d09efb",
+    "initial_num_predict": 1536,
+    "intervention_num_predict": 1024,
+    "name": "gpt-oss:20b",
+    "num_ctx": 8192,
+    "ollama_id": "17052f91a42e",
+    "temperature": 0,
+    "think": "medium"
+  },
+  "note": "Pre-initial freeze. No E001 generation before this file.",
+  "plus_testable_sha256": "2c2fdabe17f720140ed6151aafe4e226603b0b8eda23a1737d44adc20e33d423",
+  "prefix_K": 160,
+  "prereg_sha256": "cca6fb2e20793ee7c8143e5a4c16219716f38a61fd373863bb9e44f8e4c067ad",
+  "prompts": {
+    "A1_sha256": "ea2c65a2b7be99cf3eb73923129563e2ec115d3ca558d6a260daf394b689ffcc",
+    "A4_sha256": "2bb16c2f1b2e576bf8ec5af25f2c2e8ec30a46efb1755f78b6d64286bcea7286",
+    "system_sha256": "988834b3804622cef83deaa27c18a55329eff3432579466c89a3a924c1236863",
+    "task_template_sha256": "85b7b076af2dc9d3260a96350604bbe53b1c483c8a258720e749b583f43a25af"
+  },
+  "stage": 1
+}

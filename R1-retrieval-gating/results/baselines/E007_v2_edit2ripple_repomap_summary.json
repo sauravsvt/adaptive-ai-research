@@ -1,0 +1,72 @@
+{
+  "candidate_filter": "all_files",
+  "evaluated": 58,
+  "keep_list": null,
+  "metrics": {
+    "edit2ripple": {
+      "F0.5@10": 0.09838415279767208,
+      "F0.5@20": 0.06085670953088479,
+      "F0.5@5": 0.12258278328368283,
+      "MRR": 0.2292358176372595,
+      "Precision@10": 0.08275862068965517,
+      "Precision@20": 0.05,
+      "Precision@5": 0.10689655172413794,
+      "Recall@10": 0.5172413793103449,
+      "Recall@20": 0.5933908045977011,
+      "Recall@5": 0.3692528735632184,
+      "context_efficiency@8k": 0.05172413793103448,
+      "context_pollution_tokens@8k": 6471.672413793103,
+      "coverage_auc@20": 0.4573994252873563,
+      "gold_coverage@8k": 0.04310344827586207,
+      "gold_token_ratio@8k": 0.05172413793103448,
+      "hard_negative_hits@10": 0.0,
+      "hard_negative_hits@20": 0.0,
+      "hard_negative_hits@5": 0.0,
+      "irrelevant_files@10": 9.172413793103448,
+      "irrelevant_files@20": 19.0,
+      "irrelevant_files@5": 4.4655172413793105,
+      "redundancy@8k": 0.0,
+      "samples": 58
+    },
+    "overall": {
+      "F0.5@10": 0.09838415279767208,
+      "F0.5@20": 0.06085670953088479,
+      "F0.5@5": 0.12258278328368283,
+      "MRR": 0.2292358176372595,
+      "Precision@10": 0.08275862068965517,
+      "Precision@20": 0.05,
+      "Precision@5": 0.10689655172413794,
+      "Recall@10": 0.5172413793103449,
+      "Recall@20": 0.5933908045977011,
+      "Recall@5": 0.3692528735632184,
+      "context_efficiency@8k": 0.05172413793103448,
+      "context_pollution_tokens@8k": 6471.672413793103,
+      "coverage_auc@20": 0.4573994252873563,
+      "gold_coverage@8k": 0.04310344827586207,
+      "gold_token_ratio@8k": 0.05172413793103448,
+      "hard_negative_hits@10": 0.0,
+      "hard_negative_hits@20": 0.0,
+      "hard_negative_hits@5": 0.0,
+      "irrelevant_files@10": 9.172413793103448,
+      "irrelevant_files@20": 19.0,
+      "irrelevant_files@5": 4.4655172413793105,
+      "redundancy@8k": 0.0,
+      "samples": 58
+    }
+  },
+  "mode": "repomap",
+  "model": "aider-style-repomap",
+  "runtime": {
+    "affinity_weight": 0.1,
+    "pagerank_weight": 0.25,
+    "progress": true,
+    "query_weight": 0.65,
+    "wall_time_seconds": 52.78934820200084
+  },
+  "skipped": {},
+  "weights": {
+    "affinity": 0.1,
+    "pagerank": 0.25,
+    "query": 0.65
+  }
+}

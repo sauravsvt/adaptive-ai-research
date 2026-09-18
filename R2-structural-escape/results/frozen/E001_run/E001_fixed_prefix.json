@@ -1,0 +1,60 @@
+{
+  "arms": [
+    "A1_CONTINUE_LOCAL",
+    "A4_STRUCTURAL_ESCAPE"
+  ],
+  "benchmark": {
+    "check_dataset": "mbpp",
+    "dataset_hash": "ee43ecabebf20deef4bb776a405ac5b1",
+    "excluded_a_priori": [
+      "Mbpp/793"
+    ],
+    "n_catalog": 378,
+    "n_plus_testable": 377,
+    "name": "MbppPlus",
+    "release": "v0.2.0",
+    "source": "evalplus.get_mbpp_plus",
+    "success_criterion": "EvalPlus plus-tests PASS"
+  },
+  "bootstrap": {
+    "n_resamples": 10000,
+    "seed": 0
+  },
+  "experiment_id": "E001",
+  "model": {
+    "blob_sha256": "e7b273f9636059a689e3ddcab3716e4f65abe0143ac978e46673ad0e52d09efb",
+    "initial_num_predict": 1536,
+    "intervention_num_predict": 1024,
+    "name": "gpt-oss:20b",
+    "num_ctx": 8192,
+    "ollama_id": "17052f91a42e",
+    "temperature": 0,
+    "think": "medium"
+  },
+  "order": {
+    "arm_order": "last bit of sha256('R2-E001|' + task_id) == 0 => A1 then A4; == 1 => A4 then A1",
+    "method": "sha256(seed_string + '|' + task_id), sort by digest then task_id",
+    "seed_string": "R2-E001"
+  },
+  "prereg_path": "PREREG_E001.md",
+  "prereg_sha256": "cca6fb2e20793ee7c8143e5a4c16219716f38a61fd373863bb9e44f8e4c067ad",
+  "prefix": {
+    "K": 160,
+    "align": "align_prefix",
+    "rule": "FIXED-K",
+    "tokenizer": "[A-Za-z0-9_]+"
+  },
+  "prompts": {
+    "A1_sha256": "ea2c65a2b7be99cf3eb73923129563e2ec115d3ca558d6a260daf394b689ffcc",
+    "A4_sha256": "2bb16c2f1b2e576bf8ec5af25f2c2e8ec30a46efb1755f78b6d64286bcea7286",
+    "system_sha256": "988834b3804622cef83deaa27c18a55329eff3432579466c89a3a924c1236863",
+    "task_template_sha256": "85b7b076af2dc9d3260a96350604bbe53b1c483c8a258720e749b583f43a25af"
+  },
+  "success": {
+    "ceiling_a1": 0.95,
+    "ci95_low_gt": 0.0,
+    "delta_min": 0.05,
+    "unevaluable_n_lt": 80
+  },
+  "title": "Frozen A4 vs A1 on fixed early trajectory prefixes"
+}

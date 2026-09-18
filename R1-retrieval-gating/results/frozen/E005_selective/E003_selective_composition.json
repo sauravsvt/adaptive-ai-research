@@ -1,0 +1,233 @@
+{
+  "abstention_release": {
+    "duplicate_ids": 0,
+    "n": 82,
+    "name": "v2_abstention",
+    "no_gold": 82,
+    "no_gold_organic_true_false": {
+      "false": 32,
+      "true": 50
+    },
+    "no_gold_reasons": {
+      "counterfactual_wrong_repo": 32,
+      "external_service": 7,
+      "upstream_dependency": 41,
+      "user_error": 2
+    },
+    "no_gold_share": 1.0,
+    "positive": 0,
+    "repo_counts": {
+      "HypothesisWorks/hypothesis": 5,
+      "astral-sh/ruff": 4,
+      "caddyserver/caddy": 3,
+      "clap-rs/clap": 1,
+      "eslint/eslint": 5,
+      "huggingface/diffusers": 2,
+      "ipython/ipython": 2,
+      "microsoft/playwright": 4,
+      "numpy/numpy": 6,
+      "pydantic/pydantic": 1,
+      "pypa/pip": 6,
+      "pytest-dev/pytest": 19,
+      "scrapy/scrapy": 3,
+      "tokio-rs/tokio": 2,
+      "tox-dev/tox": 3,
+      "vitejs/vite": 16
+    },
+    "repo_n": 16,
+    "task_counts": {
+      "abstention": 82
+    },
+    "unique_ids": 82
+  },
+  "balanced": {
+    "duplicate_ids": 0,
+    "n": 164,
+    "name": "v2_selective_retrieval_balanced",
+    "no_gold": 82,
+    "no_gold_organic_true_false": {
+      "false": 32,
+      "true": 50
+    },
+    "no_gold_reasons": {
+      "counterfactual_wrong_repo": 32,
+      "external_service": 7,
+      "upstream_dependency": 41,
+      "user_error": 2
+    },
+    "no_gold_share": 0.5,
+    "positive": 82,
+    "repo_counts": {
+      "HypothesisWorks/hypothesis": 5,
+      "astral-sh/ruff": 5,
+      "caddyserver/caddy": 6,
+      "clap-rs/clap": 3,
+      "eslint/eslint": 5,
+      "etcd-io/etcd": 10,
+      "fastapi/fastapi": 1,
+      "gin-gonic/gin": 21,
+      "huggingface/diffusers": 5,
+      "huggingface/transformers": 9,
+      "ipython/ipython": 3,
+      "microsoft/playwright": 5,
+      "numpy/numpy": 6,
+      "pallets/click": 6,
+      "pydantic/pydantic": 1,
+      "pypa/pip": 7,
+      "pytest-dev/pytest": 21,
+      "scrapy/scrapy": 4,
+      "spring-projects/spring-boot": 2,
+      "tokio-rs/tokio": 13,
+      "tox-dev/tox": 4,
+      "vitejs/vite": 21,
+      "vuejs/core": 1
+    },
+    "repo_n": 23,
+    "task_counts": {
+      "abstention": 82,
+      "code2test": 25,
+      "comment2context": 19,
+      "edit2ripple": 14,
+      "trace2code": 24
+    },
+    "unique_ids": 164
+  },
+  "natural": {
+    "duplicate_ids": 0,
+    "n": 427,
+    "name": "v2_selective_retrieval_natural",
+    "no_gold": 82,
+    "no_gold_organic_true_false": {
+      "false": 32,
+      "true": 50
+    },
+    "no_gold_reasons": {
+      "counterfactual_wrong_repo": 32,
+      "external_service": 7,
+      "upstream_dependency": 41,
+      "user_error": 2
+    },
+    "no_gold_share": 0.1920374707259953,
+    "positive": 345,
+    "repo_counts": {
+      "HypothesisWorks/hypothesis": 6,
+      "astral-sh/ruff": 10,
+      "caddyserver/caddy": 16,
+      "clap-rs/clap": 11,
+      "eslint/eslint": 6,
+      "etcd-io/etcd": 41,
+      "fastapi/fastapi": 3,
+      "gin-gonic/gin": 88,
+      "huggingface/diffusers": 18,
+      "huggingface/transformers": 36,
+      "ipython/ipython": 4,
+      "microsoft/playwright": 8,
+      "mockito/mockito": 1,
+      "numpy/numpy": 7,
+      "pallets/click": 26,
+      "pydantic/pydantic": 2,
+      "pypa/pip": 11,
+      "pytest-dev/pytest": 26,
+      "python/mypy": 1,
+      "scrapy/scrapy": 6,
+      "spring-projects/spring-boot": 8,
+      "tokio-rs/tokio": 40,
+      "tox-dev/tox": 5,
+      "vitejs/vite": 41,
+      "vuejs/core": 6
+    },
+    "repo_n": 25,
+    "task_counts": {
+      "abstention": 82,
+      "code2test": 106,
+      "comment2context": 80,
+      "edit2ripple": 58,
+      "trace2code": 101
+    },
+    "unique_ids": 427
+  },
+  "no_gold_strata": {
+    "counterfactual_wrong_repo": {
+      "n": 32
+    },
+    "natural_like": {
+      "n": 50,
+      "reasons": {
+        "external_service": 7,
+        "upstream_dependency": 41,
+        "user_error": 2
+      }
+    }
+  },
+  "note": "Composition only. No train/dev/test split was invented.",
+  "official_calibration": {
+    "confidence": "top retrieval score",
+    "eval_command": "arb eval-selective-baseline --ranker {lexical|bm25} --candidate-filter all_files --no-keep-list",
+    "paper_protocol": "arb report-selective-cv: repo-grouped 5-fold CV; threshold maximizing balanced accuracy on training repos is applied once to held-out repos.",
+    "primary_metric_frozen": "selective_success@20",
+    "selective_success@20_definition": "no-gold abstention is correct; an accepted positive is correct only when a gold file appears in the top 20.",
+    "sweep": "eval-selective-baseline writes a threshold sweep over observed top scores; operating points include no_abstain and best_* but those in-sample maxima are not used as our method."
+  },
+  "overlap": {
+    "balanced_ids_vs_345_positive": {
+      "intersection": 82
+    },
+    "balanced_ids_vs_abstention82": {
+      "intersection": 82
+    },
+    "balanced_vs_natural": {
+      "id_intersection": 164,
+      "id_only_a": 0,
+      "id_only_b": 263,
+      "repo_intersection": [
+        "HypothesisWorks/hypothesis",
+        "astral-sh/ruff",
+        "caddyserver/caddy",
+        "clap-rs/clap",
+        "eslint/eslint",
+        "etcd-io/etcd",
+        "fastapi/fastapi",
+        "gin-gonic/gin",
+        "huggingface/diffusers",
+        "huggingface/transformers",
+        "ipython/ipython",
+        "microsoft/playwright",
+        "numpy/numpy",
+        "pallets/click",
+        "pydantic/pydantic",
+        "pypa/pip",
+        "pytest-dev/pytest",
+        "scrapy/scrapy",
+        "spring-projects/spring-boot",
+        "tokio-rs/tokio",
+        "tox-dev/tox",
+        "vitejs/vite",
+        "vuejs/core"
+      ],
+      "repo_only_a": [],
+      "repo_only_b": [
+        "mockito/mockito",
+        "python/mypy"
+      ]
+    },
+    "natural_ids_vs_abstention82": {
+      "intersection": 82
+    },
+    "natural_ids_vs_all_positive": {
+      "intersection_with_345_positive": 345,
+      "natural_ids_not_in_345_positive": 82
+    },
+    "natural_positive_coverage": {
+      "expected_positive": 345,
+      "missing_positive_ids_from_natural": 0,
+      "natural_ids_in_345_positive": 345,
+      "natural_no_gold_ids": 82
+    }
+  },
+  "positive_release_counts": {
+    "code2test": 106,
+    "comment2context": 80,
+    "edit2ripple": 58,
+    "trace2code": 101
+  }
+}

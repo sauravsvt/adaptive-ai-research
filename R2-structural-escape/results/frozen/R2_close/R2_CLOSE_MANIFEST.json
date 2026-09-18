@@ -1,0 +1,258 @@
+{
+  "all_listed_frozen_match": true,
+  "decision": "STOP \u2014 NO A4 OVER A1 SIGNAL",
+  "e000_decision": "CONTINUE \u2014 MIXED SIGNAL",
+  "items": [
+    {
+      "bytes": 6879,
+      "listed_sha256": "59375a3e0db4bf6079aec639953cc0647aceb5c566a05ad22e716c0c796cc768",
+      "match": true,
+      "path": "results/frozen/E000_prereg/E000_split.json",
+      "sha256": "59375a3e0db4bf6079aec639953cc0647aceb5c566a05ad22e716c0c796cc768"
+    },
+    {
+      "bytes": 955,
+      "listed_sha256": "002983b0bd858de6fa5c1af692ab5734feca4c6a946e72b2ad8c894feda07b28",
+      "match": true,
+      "path": "results/frozen/E000_prereg/E000_structural_escape.json",
+      "sha256": "002983b0bd858de6fa5c1af692ab5734feca4c6a946e72b2ad8c894feda07b28"
+    },
+    {
+      "bytes": 9616,
+      "listed_sha256": "9bf07f9437f04bf7c0666a136ac29deae3d7f76d6c2159f03e96d24cb70096c4",
+      "match": true,
+      "path": "results/frozen/E000_prereg/PREREG.md",
+      "sha256": "9bf07f9437f04bf7c0666a136ac29deae3d7f76d6c2159f03e96d24cb70096c4"
+    },
+    {
+      "bytes": 267,
+      "listed_sha256": "8f7f33ad5bda2aa1a5d43a5d4d0623f8041350386a81aa8210b4716d07b5fb38",
+      "match": true,
+      "path": "results/frozen/E000_prereg/E000_detector_thresholds.json",
+      "sha256": "8f7f33ad5bda2aa1a5d43a5d4d0623f8041350386a81aa8210b4716d07b5fb38"
+    },
+    {
+      "bytes": 9828,
+      "listed_sha256": "68729d4182d552e94a1872aa3925cc30db7c54d0a090b131b45595235f4b4119",
+      "match": true,
+      "path": "results/frozen/E000_prereg/PREREG_thresholds.md",
+      "sha256": "68729d4182d552e94a1872aa3925cc30db7c54d0a090b131b45595235f4b4119"
+    },
+    {
+      "bytes": 1397797,
+      "listed_sha256": "6b880a584442e66c612278b1d5741f59e9c316697fc430e985e2c66ece29f449",
+      "match": true,
+      "path": "results/frozen/E000_run/E000_arms.jsonl",
+      "sha256": "6b880a584442e66c612278b1d5741f59e9c316697fc430e985e2c66ece29f449"
+    },
+    {
+      "bytes": 267,
+      "listed_sha256": "8f7f33ad5bda2aa1a5d43a5d4d0623f8041350386a81aa8210b4716d07b5fb38",
+      "match": true,
+      "path": "results/frozen/E000_run/E000_detector_thresholds.json",
+      "sha256": "8f7f33ad5bda2aa1a5d43a5d4d0623f8041350386a81aa8210b4716d07b5fb38"
+    },
+    {
+      "bytes": 916614,
+      "listed_sha256": "8a17ffbd062dca154c66e3625b3649c1f771b2fdd60860b3f8d8e9d489784c23",
+      "match": true,
+      "path": "results/frozen/E000_run/E000_initial.jsonl",
+      "sha256": "8a17ffbd062dca154c66e3625b3649c1f771b2fdd60860b3f8d8e9d489784c23"
+    },
+    {
+      "bytes": 212736,
+      "listed_sha256": "d63539346cbe5ef5f54e9b77a3852b7cb3329020f3b91ee4f4f7da2ffd1112d4",
+      "match": true,
+      "path": "results/frozen/E000_run/E000_prefixes.jsonl",
+      "sha256": "d63539346cbe5ef5f54e9b77a3852b7cb3329020f3b91ee4f4f7da2ffd1112d4"
+    },
+    {
+      "bytes": 6879,
+      "listed_sha256": "59375a3e0db4bf6079aec639953cc0647aceb5c566a05ad22e716c0c796cc768",
+      "match": true,
+      "path": "results/frozen/E000_run/E000_split.json",
+      "sha256": "59375a3e0db4bf6079aec639953cc0647aceb5c566a05ad22e716c0c796cc768"
+    },
+    {
+      "bytes": 81268,
+      "listed_sha256": "a6f7a54e86fb67301f98a89521936759047c2622a12b5608ae60705a4b57b927",
+      "match": true,
+      "path": "results/frozen/E000_run/E000_verify.jsonl",
+      "sha256": "a6f7a54e86fb67301f98a89521936759047c2622a12b5608ae60705a4b57b927"
+    },
+    {
+      "bytes": 1931,
+      "listed_sha256": "1ffd0c7ae4b95397f75ca452da8877aed659c129324ce9ff72173c6968850727",
+      "match": true,
+      "path": "results/frozen/E000_run/E000_analysis.json",
+      "sha256": "1ffd0c7ae4b95397f75ca452da8877aed659c129324ce9ff72173c6968850727"
+    },
+    {
+      "bytes": 13831,
+      "listed_sha256": "cca6fb2e20793ee7c8143e5a4c16219716f38a61fd373863bb9e44f8e4c067ad",
+      "match": true,
+      "path": "results/frozen/E001_stage1/PREREG_E001.md",
+      "sha256": "cca6fb2e20793ee7c8143e5a4c16219716f38a61fd373863bb9e44f8e4c067ad"
+    },
+    {
+      "bytes": 1837,
+      "listed_sha256": "243e52c9fc9a1f67a6486b2f288b926ca417e15c6b90a9e30496dcef253ae3fd",
+      "match": true,
+      "path": "results/frozen/E001_stage1/E001_fixed_prefix.json",
+      "sha256": "243e52c9fc9a1f67a6486b2f288b926ca417e15c6b90a9e30496dcef253ae3fd"
+    },
+    {
+      "bytes": 6165,
+      "listed_sha256": "2c2fdabe17f720140ed6151aafe4e226603b0b8eda23a1737d44adc20e33d423",
+      "match": true,
+      "path": "results/frozen/E001_stage1/E001_plus_testable.json",
+      "sha256": "2c2fdabe17f720140ed6151aafe4e226603b0b8eda23a1737d44adc20e33d423"
+    },
+    {
+      "bytes": 1372,
+      "listed_sha256": "f6ab4cf3ee794ed98120b27c5ee6fe996e2fd6a1dae671b6353b641e72e989bc",
+      "match": true,
+      "path": "results/frozen/E001_stage1/E001_stage1_manifest.json",
+      "sha256": "f6ab4cf3ee794ed98120b27c5ee6fe996e2fd6a1dae671b6353b641e72e989bc"
+    },
+    {
+      "bytes": 6304,
+      "listed_sha256": "4436dd26ab98d56805b8b264cca605abdc58c9ac525bdd9d6bac6a82f0868873",
+      "match": true,
+      "path": "results/frozen/E001_stage2/E001_usable.json",
+      "sha256": "4436dd26ab98d56805b8b264cca605abdc58c9ac525bdd9d6bac6a82f0868873"
+    },
+    {
+      "bytes": 434173,
+      "listed_sha256": "1b544cd3451895fbd498334b08d8b593c11e104d25793a8d39d32d43e611f757",
+      "match": true,
+      "path": "results/frozen/E001_stage2/E001_prefixes.jsonl",
+      "sha256": "1b544cd3451895fbd498334b08d8b593c11e104d25793a8d39d32d43e611f757"
+    },
+    {
+      "bytes": 67786,
+      "listed_sha256": "c868a30d507a836a9884e8aee198815ad05ca380c381db7bdfa588ac9bf6e606",
+      "match": true,
+      "path": "results/frozen/E001_stage2/E001_initial_hashes.json",
+      "sha256": "c868a30d507a836a9884e8aee198815ad05ca380c381db7bdfa588ac9bf6e606"
+    },
+    {
+      "bytes": 1903792,
+      "listed_sha256": "c4fc2955ab303047ddff47106ad2951d232992f222fc92304a73bf2d8a7a559f",
+      "match": true,
+      "path": "results/frozen/E001_stage2/E001_initial.jsonl",
+      "sha256": "c4fc2955ab303047ddff47106ad2951d232992f222fc92304a73bf2d8a7a559f"
+    },
+    {
+      "bytes": 78395,
+      "listed_sha256": "55ef7aee71755a63bf402be31d2b907011d199748611c45998accd19b1df48d7",
+      "match": true,
+      "path": "results/frozen/E001_stage2/E001_stage2_manifest.json",
+      "sha256": "55ef7aee71755a63bf402be31d2b907011d199748611c45998accd19b1df48d7"
+    },
+    {
+      "bytes": 1903792,
+      "listed_sha256": "c4fc2955ab303047ddff47106ad2951d232992f222fc92304a73bf2d8a7a559f",
+      "match": true,
+      "path": "results/frozen/E001_run/E001_initial.jsonl",
+      "sha256": "c4fc2955ab303047ddff47106ad2951d232992f222fc92304a73bf2d8a7a559f"
+    },
+    {
+      "bytes": 434173,
+      "listed_sha256": "1b544cd3451895fbd498334b08d8b593c11e104d25793a8d39d32d43e611f757",
+      "match": true,
+      "path": "results/frozen/E001_run/E001_prefixes.jsonl",
+      "sha256": "1b544cd3451895fbd498334b08d8b593c11e104d25793a8d39d32d43e611f757"
+    },
+    {
+      "bytes": 6304,
+      "listed_sha256": "4436dd26ab98d56805b8b264cca605abdc58c9ac525bdd9d6bac6a82f0868873",
+      "match": true,
+      "path": "results/frozen/E001_run/E001_usable.json",
+      "sha256": "4436dd26ab98d56805b8b264cca605abdc58c9ac525bdd9d6bac6a82f0868873"
+    },
+    {
+      "bytes": 67786,
+      "listed_sha256": "c868a30d507a836a9884e8aee198815ad05ca380c381db7bdfa588ac9bf6e606",
+      "match": true,
+      "path": "results/frozen/E001_run/E001_initial_hashes.json",
+      "sha256": "c868a30d507a836a9884e8aee198815ad05ca380c381db7bdfa588ac9bf6e606"
+    },
+    {
+      "bytes": 2578062,
+      "listed_sha256": "1ee97330d4f92a1736d75624ab36a98f8396fef0240a43c7c7cd85f93230d502",
+      "match": true,
+      "path": "results/frozen/E001_run/E001_arms.jsonl",
+      "sha256": "1ee97330d4f92a1736d75624ab36a98f8396fef0240a43c7c7cd85f93230d502"
+    },
+    {
+      "bytes": 183390,
+      "listed_sha256": "8fafbf99522e3c489451919c5257eda1ec1a1be2a40cf397c80000770f457c60",
+      "match": true,
+      "path": "results/frozen/E001_run/E001_verify.jsonl",
+      "sha256": "8fafbf99522e3c489451919c5257eda1ec1a1be2a40cf397c80000770f457c60"
+    },
+    {
+      "bytes": 2402,
+      "listed_sha256": "ac3e99d2537e862df165b76dee913960098dfb68b2f46809ff5a0c5a83158705",
+      "match": true,
+      "path": "results/frozen/E001_run/E001_analysis.json",
+      "sha256": "ac3e99d2537e862df165b76dee913960098dfb68b2f46809ff5a0c5a83158705"
+    },
+    {
+      "bytes": 6165,
+      "listed_sha256": "2c2fdabe17f720140ed6151aafe4e226603b0b8eda23a1737d44adc20e33d423",
+      "match": true,
+      "path": "results/frozen/E001_run/E001_plus_testable.json",
+      "sha256": "2c2fdabe17f720140ed6151aafe4e226603b0b8eda23a1737d44adc20e33d423"
+    },
+    {
+      "bytes": 1837,
+      "listed_sha256": "243e52c9fc9a1f67a6486b2f288b926ca417e15c6b90a9e30496dcef253ae3fd",
+      "match": true,
+      "path": "results/frozen/E001_run/E001_fixed_prefix.json",
+      "sha256": "243e52c9fc9a1f67a6486b2f288b926ca417e15c6b90a9e30496dcef253ae3fd"
+    },
+    {
+      "bytes": 13831,
+      "listed_sha256": "cca6fb2e20793ee7c8143e5a4c16219716f38a61fd373863bb9e44f8e4c067ad",
+      "match": true,
+      "path": "results/frozen/E001_run/PREREG_E001.md",
+      "sha256": "cca6fb2e20793ee7c8143e5a4c16219716f38a61fd373863bb9e44f8e4c067ad"
+    },
+    {
+      "bytes": 957,
+      "path": "CLOSE.md",
+      "sha256": "8c97079ca3b83783c6aafdf0c7e15874a96a877ff66bce14e6663eaae561deff"
+    },
+    {
+      "bytes": 9539,
+      "path": "EXPERIMENT_RESULTS.md",
+      "sha256": "53f8d1370b4e235aadb647af070a45a137319ff7faee7f340d5e12064c7233ec"
+    },
+    {
+      "bytes": 9828,
+      "path": "PREREG.md",
+      "sha256": "68729d4182d552e94a1872aa3925cc30db7c54d0a090b131b45595235f4b4119"
+    },
+    {
+      "bytes": 13831,
+      "path": "PREREG_E001.md",
+      "sha256": "cca6fb2e20793ee7c8143e5a4c16219716f38a61fd373863bb9e44f8e4c067ad"
+    },
+    {
+      "bytes": 955,
+      "path": "configs/E000_structural_escape.json",
+      "sha256": "002983b0bd858de6fa5c1af692ab5734feca4c6a946e72b2ad8c894feda07b28"
+    },
+    {
+      "bytes": 1837,
+      "path": "configs/E001_fixed_prefix.json",
+      "sha256": "243e52c9fc9a1f67a6486b2f288b926ca417e15c6b90a9e30496dcef253ae3fd"
+    }
+  ],
+  "n_hashed": 37,
+  "note": "Hash-only close checkpoint. E000/E001 frozen bytes were not rewritten.",
+  "project": "R2",
+  "status": "CLOSED"
+}

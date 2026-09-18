@@ -1,0 +1,14 @@
+{
+  "duplicates": 0,
+  "extra": [],
+  "merged_at": "2026-09-11T08:54:33+02:00",
+  "missing": [],
+  "n": 427,
+  "not_a_monolithic_official_invocation": true,
+  "order": "official v2_selective_retrieval_natural samples.jsonl",
+  "reason": "Monolithic official eval-selective-embedding keeps unbounded chunk/vector caches and only writes details at the end. Per-corpus official CLI shards were required to finish on 32 GB RAM. Scores and rankings are official ARB output; this file is aggregation only.",
+  "shard_count": 271,
+  "source": "official arb eval-selective-embedding per unique (repo, base_commit) corpus, lossless concat",
+  "unique_ids": 427,
+  "written": "results/raw/E007_natural_qwen_details.jsonl"
+}

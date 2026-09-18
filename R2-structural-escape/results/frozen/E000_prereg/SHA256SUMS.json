@@ -1,0 +1,27 @@
+[
+  {
+    "path": "E000_split.json",
+    "sha256": "59375a3e0db4bf6079aec639953cc0647aceb5c566a05ad22e716c0c796cc768",
+    "bytes": 6879
+  },
+  {
+    "path": "E000_structural_escape.json",
+    "sha256": "002983b0bd858de6fa5c1af692ab5734feca4c6a946e72b2ad8c894feda07b28",
+    "bytes": 955
+  },
+  {
+    "path": "PREREG.md",
+    "sha256": "9bf07f9437f04bf7c0666a136ac29deae3d7f76d6c2159f03e96d24cb70096c4",
+    "bytes": 9616
+  },
+  {
+    "path": "E000_detector_thresholds.json",
+    "sha256": "8f7f33ad5bda2aa1a5d43a5d4d0623f8041350386a81aa8210b4716d07b5fb38",
+    "bytes": 267
+  },
+  {
+    "path": "PREREG_thresholds.md",
+    "sha256": "68729d4182d552e94a1872aa3925cc30db7c54d0a090b131b45595235f4b4119",
+    "bytes": 9828
+  }
+]

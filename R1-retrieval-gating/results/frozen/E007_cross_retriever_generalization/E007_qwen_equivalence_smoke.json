@@ -1,0 +1,57 @@
+{
+  "chunks_path": "data/corpus/v2_trace2code/gin-gonic__gin/0cbb30aa940a643e31874f8ad8e355219d306756.chunks.jsonl",
+  "comparison": {
+    "comparisons": [
+      {
+        "base_commit": "0cbb30aa940a643e31874f8ad8e355219d306756",
+        "numeric": {
+          "note": "Official eval-embedding positive details store top_files only; they do not serialize top_score/second_score. Numeric equality is therefore not observable against that artifact.",
+          "numeric_comparable": false,
+          "numeric_match": null,
+          "positive_has_top_score": false,
+          "selective_second_score": 0.6626949310302734,
+          "selective_top_score": 0.8136180639266968
+        },
+        "ranked_files_match": true,
+        "repo": "gin-gonic/gin",
+        "sample_id": "157caed0d859c12fb0ea4caf",
+        "subset": "v2_edit2ripple",
+        "task_type_positive": "edit2ripple",
+        "task_type_selective": "edit2ripple",
+        "top20_order_match": true
+      },
+      {
+        "base_commit": "0cbb30aa940a643e31874f8ad8e355219d306756",
+        "numeric": {
+          "note": "Official eval-embedding positive details store top_files only; they do not serialize top_score/second_score. Numeric equality is therefore not observable against that artifact.",
+          "numeric_comparable": false,
+          "numeric_match": null,
+          "positive_has_top_score": false,
+          "selective_second_score": 0.6252654790878296,
+          "selective_top_score": 0.6349393129348755
+        },
+        "ranked_files_match": true,
+        "repo": "gin-gonic/gin",
+        "sample_id": "9151d23c9630aed754b3355b",
+        "subset": "v2_trace2code",
+        "task_type_positive": "trace2code",
+        "task_type_selective": "trace2code",
+        "top20_order_match": true
+      }
+    ],
+    "n_file_match": 2,
+    "n_order_match": 2,
+    "n_overlap": 2,
+    "unexplained_discrepancies": []
+  },
+  "corpus_id": "gin-gonic__gin__0cbb30aa940a643e31874f8ad8e355219d306756",
+  "note": "Smoke uses official eval-selective-embedding --sample-id-file on one corpus that already appears in official eval-embedding positive details. Query texts match for all 345 overlapping IDs. Mixed-corpus chunks_path points at the same subset snapshot file used for the positive run.",
+  "overlap_ids": [
+    "157caed0d859c12fb0ea4caf",
+    "9151d23c9630aed754b3355b"
+  ],
+  "pass": true,
+  "recorded_at": "2026-09-11T07:42:05+02:00",
+  "same_query_text_all_345_positives": true,
+  "sample_count": 2
+}

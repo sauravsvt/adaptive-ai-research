@@ -1,0 +1,277 @@
+{
+  "bm25": [
+    {
+      "inner_false_abstentions": 0,
+      "inner_selective_success@20": 0.41455696202531644,
+      "model": "C2_TOP1_LOGISTIC",
+      "n_test": 111,
+      "n_train": 316,
+      "outer_fold": 0,
+      "threshold": 0.2924299599270287
+    },
+    {
+      "inner_false_abstentions": 3,
+      "inner_selective_success@20": 0.4610951008645533,
+      "model": "C2_TOP1_LOGISTIC",
+      "n_test": 80,
+      "n_train": 347,
+      "outer_fold": 1,
+      "threshold": 0.26468080215514533
+    },
+    {
+      "inner_false_abstentions": 0,
+      "inner_selective_success@20": 0.46839080459770116,
+      "model": "C2_TOP1_LOGISTIC",
+      "n_test": 79,
+      "n_train": 348,
+      "outer_fold": 2,
+      "threshold": 0.2923437994807939
+    },
+    {
+      "inner_false_abstentions": 0,
+      "inner_selective_success@20": 0.4297994269340974,
+      "model": "C2_TOP1_LOGISTIC",
+      "n_test": 78,
+      "n_train": 349,
+      "outer_fold": 3,
+      "threshold": 0.2872190059162467
+    },
+    {
+      "inner_false_abstentions": 1,
+      "inner_selective_success@20": 0.4339080459770115,
+      "model": "C2_TOP1_LOGISTIC",
+      "n_test": 79,
+      "n_train": 348,
+      "outer_fold": 4,
+      "threshold": 0.2822606260087174
+    },
+    {
+      "inner_false_abstentions": 94,
+      "inner_selective_success@20": 0.4177215189873418,
+      "model": "C3_SCORE_SHAPE_LOGISTIC",
+      "n_test": 111,
+      "n_train": 316,
+      "outer_fold": 0,
+      "threshold": 0.25619409399047766
+    },
+    {
+      "inner_false_abstentions": 36,
+      "inner_selective_success@20": 0.4956772334293948,
+      "model": "C3_SCORE_SHAPE_LOGISTIC",
+      "n_test": 80,
+      "n_train": 347,
+      "outer_fold": 1,
+      "threshold": 0.3477082726141329
+    },
+    {
+      "inner_false_abstentions": 54,
+      "inner_selective_success@20": 0.4942528735632184,
+      "model": "C3_SCORE_SHAPE_LOGISTIC",
+      "n_test": 79,
+      "n_train": 348,
+      "outer_fold": 2,
+      "threshold": 0.32363026694773817
+    },
+    {
+      "inner_false_abstentions": 80,
+      "inner_selective_success@20": 0.45272206303724927,
+      "model": "C3_SCORE_SHAPE_LOGISTIC",
+      "n_test": 78,
+      "n_train": 349,
+      "outer_fold": 3,
+      "threshold": 0.26691005818235675
+    },
+    {
+      "inner_false_abstentions": 75,
+      "inner_selective_success@20": 0.45977011494252873,
+      "model": "C3_SCORE_SHAPE_LOGISTIC",
+      "n_test": 79,
+      "n_train": 348,
+      "outer_fold": 4,
+      "threshold": 0.26957787254898313
+    },
+    {
+      "inner_false_abstentions": 8,
+      "inner_selective_success@20": 0.3987341772151899,
+      "model": "C3_NO_CONCENTRATION",
+      "n_test": 111,
+      "n_train": 316,
+      "outer_fold": 0,
+      "threshold": 0.3325077906314766
+    },
+    {
+      "inner_false_abstentions": 8,
+      "inner_selective_success@20": 0.5014409221902018,
+      "model": "C3_NO_CONCENTRATION",
+      "n_test": 80,
+      "n_train": 347,
+      "outer_fold": 1,
+      "threshold": 0.30224279529708165
+    },
+    {
+      "inner_false_abstentions": 11,
+      "inner_selective_success@20": 0.46551724137931033,
+      "model": "C3_NO_CONCENTRATION",
+      "n_test": 79,
+      "n_train": 348,
+      "outer_fold": 2,
+      "threshold": 0.3240820202299843
+    },
+    {
+      "inner_false_abstentions": 6,
+      "inner_selective_success@20": 0.4269340974212034,
+      "model": "C3_NO_CONCENTRATION",
+      "n_test": 78,
+      "n_train": 349,
+      "outer_fold": 3,
+      "threshold": 0.3395779180834117
+    },
+    {
+      "inner_false_abstentions": 8,
+      "inner_selective_success@20": 0.4281609195402299,
+      "model": "C3_NO_CONCENTRATION",
+      "n_test": 79,
+      "n_train": 348,
+      "outer_fold": 4,
+      "threshold": 0.32761655232298503
+    }
+  ],
+  "lexical": [
+    {
+      "inner_false_abstentions": 3,
+      "inner_selective_success@20": 0.4588607594936709,
+      "model": "C2_TOP1_LOGISTIC",
+      "n_test": 111,
+      "n_train": 316,
+      "outer_fold": 0,
+      "threshold": 0.42021730692865544
+    },
+    {
+      "inner_false_abstentions": 1,
+      "inner_selective_success@20": 0.5043227665706052,
+      "model": "C2_TOP1_LOGISTIC",
+      "n_test": 80,
+      "n_train": 347,
+      "outer_fold": 1,
+      "threshold": 0.39299325112877825
+    },
+    {
+      "inner_false_abstentions": 5,
+      "inner_selective_success@20": 0.5431034482758621,
+      "model": "C2_TOP1_LOGISTIC",
+      "n_test": 79,
+      "n_train": 348,
+      "outer_fold": 2,
+      "threshold": 0.4150453359349398
+    },
+    {
+      "inner_false_abstentions": 0,
+      "inner_selective_success@20": 0.4785100286532951,
+      "model": "C2_TOP1_LOGISTIC",
+      "n_test": 78,
+      "n_train": 349,
+      "outer_fold": 3,
+      "threshold": 0.47292190301386067
+    },
+    {
+      "inner_false_abstentions": 0,
+      "inner_selective_success@20": 0.48563218390804597,
+      "model": "C2_TOP1_LOGISTIC",
+      "n_test": 79,
+      "n_train": 348,
+      "outer_fold": 4,
+      "threshold": 0.4154591439455366
+    },
+    {
+      "inner_false_abstentions": 11,
+      "inner_selective_success@20": 0.5411392405063291,
+      "model": "C3_SCORE_SHAPE_LOGISTIC",
+      "n_test": 111,
+      "n_train": 316,
+      "outer_fold": 0,
+      "threshold": 0.3889762330449688
+    },
+    {
+      "inner_false_abstentions": 9,
+      "inner_selective_success@20": 0.5936599423631124,
+      "model": "C3_SCORE_SHAPE_LOGISTIC",
+      "n_test": 80,
+      "n_train": 347,
+      "outer_fold": 1,
+      "threshold": 0.5124038721018632
+    },
+    {
+      "inner_false_abstentions": 14,
+      "inner_selective_success@20": 0.617816091954023,
+      "model": "C3_SCORE_SHAPE_LOGISTIC",
+      "n_test": 79,
+      "n_train": 348,
+      "outer_fold": 2,
+      "threshold": 0.3950596045775766
+    },
+    {
+      "inner_false_abstentions": 11,
+      "inner_selective_success@20": 0.5845272206303725,
+      "model": "C3_SCORE_SHAPE_LOGISTIC",
+      "n_test": 78,
+      "n_train": 349,
+      "outer_fold": 3,
+      "threshold": 0.48529281470907054
+    },
+    {
+      "inner_false_abstentions": 4,
+      "inner_selective_success@20": 0.5862068965517241,
+      "model": "C3_SCORE_SHAPE_LOGISTIC",
+      "n_test": 79,
+      "n_train": 348,
+      "outer_fold": 4,
+      "threshold": 0.6399403408599913
+    },
+    {
+      "inner_false_abstentions": 14,
+      "inner_selective_success@20": 0.5379746835443038,
+      "model": "C3_NO_CONCENTRATION",
+      "n_test": 111,
+      "n_train": 316,
+      "outer_fold": 0,
+      "threshold": 0.41188836352442226
+    },
+    {
+      "inner_false_abstentions": 9,
+      "inner_selective_success@20": 0.5994236311239193,
+      "model": "C3_NO_CONCENTRATION",
+      "n_test": 80,
+      "n_train": 347,
+      "outer_fold": 1,
+      "threshold": 0.49952872594217895
+    },
+    {
+      "inner_false_abstentions": 12,
+      "inner_selective_success@20": 0.6235632183908046,
+      "model": "C3_NO_CONCENTRATION",
+      "n_test": 79,
+      "n_train": 348,
+      "outer_fold": 2,
+      "threshold": 0.4418693237674273
+    },
+    {
+      "inner_false_abstentions": 5,
+      "inner_selective_success@20": 0.5873925501432665,
+      "model": "C3_NO_CONCENTRATION",
+      "n_test": 78,
+      "n_train": 349,
+      "outer_fold": 3,
+      "threshold": 0.5189876540746089
+    },
+    {
+      "inner_false_abstentions": 7,
+      "inner_selective_success@20": 0.5890804597701149,
+      "model": "C3_NO_CONCENTRATION",
+      "n_test": 79,
+      "n_train": 348,
+      "outer_fold": 4,
+      "threshold": 0.49797027507087416
+    }
+  ],
+  "selection_rule": "Maximize inner-validation Selective Success@20; ties: fewer false abstentions, then more retrieve decisions, then smaller threshold."
+}

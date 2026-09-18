@@ -1,0 +1,95 @@
+{
+  "qwen_embedding": {
+    "hardware_deviation": "Official documented job uses --batch-size 8. That OOMed on this 20GB/70W GPU. Retry used --batch-size 1 and PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True. Model, normalize=True, empty prefixes, device=cuda, trust_remote_code, and all_files were unchanged.",
+    "model": "Qwen/Qwen3-Embedding-4B",
+    "note": "Official Qwen/Qwen3-Embedding-4B evaluated with frozen score-shape family.",
+    "positive_345": {
+      "abs_diff": {
+        "BCY@8k": 0.003399516908212552,
+        "MRR": 0.0012624726311514511,
+        "Recall@20": 0.002435748792270598
+      },
+      "published": {
+        "BCY@8k": 0.3409,
+        "MRR": 0.2379,
+        "Recall@20": 0.6306
+      },
+      "ranker": "qwen",
+      "reproduced": {
+        "BCY@8k": 0.34429951690821253,
+        "MRR": 0.23916247263115145,
+        "Recall@20": 0.6281642512077295,
+        "n": 345
+      },
+      "subset_metrics": {
+        "v2_code2test": {
+          "MRR": 0.31818845403920515,
+          "Recall@20": 0.719811320754717,
+          "n": 106
+        },
+        "v2_comment2context": {
+          "MRR": 0.29639927595645943,
+          "Recall@20": 0.6083333333333333,
+          "n": 80
+        },
+        "v2_edit2ripple": {
+          "MRR": 0.2811448249410991,
+          "Recall@20": 0.7112068965517241,
+          "n": 58
+        },
+        "v2_trace2code": {
+          "MRR": 0.08677955451971292,
+          "Recall@20": 0.5,
+          "n": 101
+        }
+      }
+    },
+    "status": "evaluated"
+  },
+  "repomap": {
+    "discrepancy_note": "Bundled data/eval/v2_edit2ripple/repomap_* does not match this machine's official CLI on the frozen ARB commit. E007 used unmodified official rank_files_for_sample.",
+    "positive_345": {
+      "abs_diff": {
+        "BCY@8k": 0.0014086956521739968,
+        "MRR": 0.004645604914182255,
+        "Recall@20": 0.008197584541062786
+      },
+      "published": {
+        "BCY@8k": 0.3788,
+        "MRR": 0.2158,
+        "Recall@20": 0.6333
+      },
+      "ranker": "repomap",
+      "reproduced": {
+        "BCY@8k": 0.37739130434782603,
+        "MRR": 0.21115439508581774,
+        "Recall@20": 0.6414975845410628,
+        "n": 345
+      },
+      "subset_metrics": {
+        "v2_code2test": {
+          "MRR": 0.19549682277879035,
+          "Recall@20": 0.5855345911949685,
+          "n": 106
+        },
+        "v2_comment2context": {
+          "MRR": 0.1524866707556452,
+          "Recall@20": 0.4916666666666667,
+          "n": 80
+        },
+        "v2_edit2ripple": {
+          "MRR": 0.2292358176372595,
+          "Recall@20": 0.5933908045977011,
+          "n": 58
+        },
+        "v2_trace2code": {
+          "MRR": 0.26367318818458096,
+          "Recall@20": 0.8465346534653465,
+          "n": 101
+        }
+      }
+    },
+    "score_semantics": "official final_score = 0.65*query + 0.25*pagerank + 0.10*affinity",
+    "score_shape_applicable": true
+  }
+}

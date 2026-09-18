@@ -1,0 +1,16 @@
+{
+  "experiment_id": "E004",
+  "purpose": "Reproduce official lexical and BM25 over all 345 positive samples",
+  "benchmark_commit": "07014c986f3deadb1548c62b32c0ffbe6a81465d",
+  "releases": ["v2_code2test", "v2_comment2context", "v2_trace2code", "v2_edit2ripple"],
+  "candidate_filter": "all_files",
+  "keep_list": null,
+  "rankers": ["lexical", "bm25"],
+  "aggregation": "official summarize_details sample-mean over concatenated per-subset details; canonical BCY via agent_retrieval_bench.bcy_curve.evaluate_run",
+  "edit2ripple_bm25": "reused frozen E002 artifacts; not rerun",
+  "published_check_only": {
+    "BM25_Recall@20": 0.4452,
+    "BM25_MRR": 0.1520,
+    "BM25_BCY@8k": 0.2051
+  }
+}

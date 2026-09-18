@@ -1,0 +1,94 @@
+{
+  "experiment_id": "E007",
+  "title": "CROSS-RETRIEVER GENERALIZATION",
+  "status": "EXPLORATORY",
+  "frozen_before_gate_implementation": true,
+  "do_not_claim_paper_result_from_E007_alone": true,
+  "pre_e007_git_commit": "d384c94c0048734b10295f768466ab4c8ff19e01",
+  "immutable_priors": ["E000", "E001", "E002", "E003", "E004", "E005", "E006"],
+  "research_question": "Does the SAME frozen E006 12-feature score-shape family improve RETRIEVE vs ABSTAIN on substantially different retrieval mechanisms (RepoMap, Qwen embedding)?",
+  "dataset": {
+    "primary": "official v2_selective_retrieval_natural",
+    "n": 427,
+    "composition": "345 positive + 82 no-gold",
+    "primary_metric": "Selective Success@20",
+    "diagnostic_strata": {
+      "natural_like_395": "345 positive + 50 organic/natural no-gold",
+      "counterfactual_32": "counterfactual_wrong_repo",
+      "balanced_164": "official v2_selective_retrieval_balanced",
+      "positive_345": "has gold repository context",
+      "no_gold_82": "official no-gold"
+    }
+  },
+  "frozen_feature_family": "exactly E006 12 score-shape features; same missing/zero/negative handling; no additions",
+  "outer_folds": "reuse E006 results/raw/E006_fold_assignments.json outer_repo_folds; do not reassign",
+  "classifier": {
+    "estimator": "sklearn.linear_model.LogisticRegression",
+    "penalty": "l2",
+    "C": 1.0,
+    "solver": "liblinear",
+    "max_iter": 2000,
+    "random_state": 0,
+    "standardize": "training-fold statistics only",
+    "hyperparameter_tuning": false,
+    "do_not_reuse_lexical_coefficients_as_primary": true
+  },
+  "backends": {
+    "lexical_frozen_reference": {
+      "source": "E006",
+      "C0": 0.4613583138173302,
+      "C3": 0.5737704918032787,
+      "rerun": false
+    },
+    "bm25_frozen_reference": {
+      "source": "E006",
+      "C0": 0.42857142857142855,
+      "C3": 0.45433255269320844,
+      "rerun": false
+    },
+    "repomap": {
+      "official_cli": "arb eval-repomap",
+      "model_label": "aider-style-repomap",
+      "candidate_filter": "all_files",
+      "weights": {"query": 0.65, "pagerank": 0.25, "affinity": 0.10},
+      "max_symbol_refs_per_file": 80,
+      "published_345": {"Recall@20": 0.6333, "MRR": 0.2158, "BCY@8k": 0.3788},
+      "score_status": "PENDING_INSPECTION_AT_REPRODUCTION",
+      "note": "Official eval-repomap skips no-gold samples. Numeric file scores exist as final_score in rank_files_for_sample / top_file_scores. If those scores are legitimate, score-shape gating is applicable using official ranking without fabricating rank-derived pseudo-scores. Selective 427 ranking may use the official rank_files_for_sample on no-gold samples without changing weights."
+    },
+    "qwen_embedding": {
+      "official_cli_positive": "arb eval-embedding",
+      "official_cli_selective": "arb eval-selective-embedding",
+      "model": "Qwen/Qwen3-Embedding-4B",
+      "model_source": "ARB v1_1 required baseline and README published table",
+      "device": "cuda",
+      "trust_remote_code": true,
+      "normalize_embeddings": true,
+      "query_prefix": "",
+      "passage_prefix": "",
+      "batch_size": 8,
+      "query_batch_size": 8,
+      "candidate_filter": "all_files",
+      "published_345": {"Recall@20": 0.6306, "MRR": 0.2379, "BCY@8k": 0.3409},
+      "score_status": "cosine/dot product of normalized embeddings is a legitimate numeric ranking score"
+    }
+  },
+  "comparators": ["C0_ALWAYS_RETRIEVE", "C1_TOP_SCORE_THRESHOLD", "C2_TOP1_LOGISTIC", "C3_SCORE_SHAPE_LOGISTIC"],
+  "c1_note": "Use official report_selective_group_cv if details have confidence. If not applicable, E007_EQUIVALENT_TOP_SCORE_THRESHOLD. Do not call equivalent official.",
+  "ablation": {
+    "C3_FULL": "main method, all 12 features",
+    "C3_NO_CONCENTRATION": "optional secondary, evaluate exactly once, do not redefine method"
+  },
+  "bootstrap": {"type": "paired", "n_resamples": 10000, "random_state": 0},
+  "forbidden": [
+    "feature additions",
+    "feature subset search",
+    "reusing lexical coefficients as primary test",
+    "gpt-oss",
+    "escalation",
+    "web search",
+    "SWE-bench",
+    "paper prose",
+    "E008"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "experiment_id": "E000",
+  "title": "Saturation-triggered structural escape",
+  "model": {
+    "name": "gpt-oss:20b",
+    "ollama_id": "17052f91a42e",
+    "blob_sha256": "e7b273f9636059a689e3ddcab3716e4f65abe0143ac978e46673ad0e52d09efb",
+    "temperature": 0,
+    "think": "medium",
+    "num_ctx": 8192,
+    "initial_num_predict": 1536,
+    "intervention_num_predict": 1024
+  },
+  "benchmark": {
+    "name": "HumanEvalPlus",
+    "source": "evalplus.get_human_eval_plus",
+    "release": "v0.1.10",
+    "n_tasks": 164,
+    "success_criterion": "EvalPlus plus-tests PASS"
+  },
+  "split": {
+    "seed_string": "R2-E000",
+    "n_calibration": 40,
+    "n_evaluation": 124,
+    "method": "sha256(seed_string + '|' + task_id), sort by digest then task_id"
+  },
+  "detector": {
+    "formula_id": "mech_v1",
+    "threshold_source": "calibration mechanical percentiles; verifier labels unused"
+  },
+  "bootstrap": {
+    "n_resamples": 10000,
+    "seed": 0
+  }
+}

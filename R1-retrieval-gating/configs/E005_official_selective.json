@@ -1,0 +1,13 @@
+{
+  "experiment_id": "E005",
+  "purpose": "Reproduce official selective lexical and BM25 on released mixed manifests",
+  "benchmark_commit": "07014c986f3deadb1548c62b32c0ffbe6a81465d",
+  "manifests": ["v2_selective_retrieval_balanced", "v2_selective_retrieval_natural"],
+  "corpus": "data/corpus/v2_selective_mixed after arb merge-corpus-manifests",
+  "candidate_filter": "all_files",
+  "keep_list": null,
+  "rankers": ["lexical", "bm25"],
+  "primary_metric": "selective_success@20",
+  "threshold_policy": "Do not tune. Report no_abstain always-retrieve and official report-selective-cv repo-grouped 5-fold OOF calibration. In-sample best_* sweep points are logged by the official evaluator and are not used as our method.",
+  "no_train_dev_test_split_invented": true
+}

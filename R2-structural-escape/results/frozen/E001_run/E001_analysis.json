@@ -1,0 +1,95 @@
+{
+  "decision": "STOP — NO A4 OVER A1 SIGNAL",
+  "deltas": {
+    "A4-A1": {
+      "ci95_high": 0.02932551319648094,
+      "ci95_low": -0.02346041055718475,
+      "ci_excludes_zero": false,
+      "n": 341,
+      "n_resamples": 10000,
+      "point": 0.002932551319648094,
+      "random_state": 0
+    }
+  },
+  "experiment_id": "E001",
+  "mcnemar_descriptive": {
+    "n_A4fail_A1pass": 9,
+    "n_A4pass_A1fail": 10,
+    "n_both_fail": 79,
+    "n_both_pass": 243
+  },
+  "n_paired": 341,
+  "n_usable": 341,
+  "rates": {
+    "A1_CONTINUE_LOCAL": {
+      "n": 341,
+      "n_pass": 252,
+      "success": 0.7390029325513197
+    },
+    "A4_STRUCTURAL_ESCAPE": {
+      "n": 341,
+      "n_pass": 253,
+      "success": 0.7419354838709677
+    }
+  },
+  "secondary": {
+    "arms_A1": {
+      "done_reason": {
+        "length": 38,
+        "stop": 303
+      },
+      "eval_gpu_s_mean": 7.347057313771261,
+      "eval_gpu_s_sum": 2505.346543996,
+      "eval_tokens_mean": 409.16129032258067,
+      "eval_tokens_sum": 139524.0,
+      "n": 341,
+      "n_no_extractable": 38,
+      "wall_s_mean": 7.520129251557052,
+      "wall_s_sum": 2564.364074780955
+    },
+    "arms_A4": {
+      "done_reason": {
+        "length": 36,
+        "stop": 305
+      },
+      "eval_gpu_s_mean": 7.521202246322581,
+      "eval_gpu_s_sum": 2564.729965996,
+      "eval_tokens_mean": 418.108504398827,
+      "eval_tokens_sum": 142575.0,
+      "n": 341,
+      "n_no_extractable": 36,
+      "wall_s_mean": 7.725582699068563,
+      "wall_s_sum": 2634.42370038238
+    },
+    "arms_all": {
+      "done_reason": {
+        "length": 74,
+        "stop": 608
+      },
+      "eval_gpu_s_mean": 7.434129780046921,
+      "eval_gpu_s_sum": 5070.076509992,
+      "eval_tokens_mean": 413.6348973607038,
+      "eval_tokens_sum": 282099.0,
+      "n": 682,
+      "n_no_extractable": 74,
+      "wall_s_mean": 7.622855975312808,
+      "wall_s_sum": 5198.787775163335
+    },
+    "initials": {
+      "done_reason": {
+        "length": 32,
+        "stop": 345
+      },
+      "eval_gpu_s_mean": 10.901373448259948,
+      "eval_gpu_s_sum": 4109.817789994,
+      "eval_tokens_mean": 601.2519893899204,
+      "eval_tokens_sum": 226672.0,
+      "n": 377,
+      "n_no_extractable": 32,
+      "wall_s_mean": 11.052875592604599,
+      "wall_s_sum": 4166.9340984119335
+    },
+    "n_fence_open": 93,
+    "note": "Fence diagnostic is not a stratum. No efficiency claim."
+  }
+}

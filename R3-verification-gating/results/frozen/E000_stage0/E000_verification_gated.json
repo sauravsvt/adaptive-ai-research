@@ -1,0 +1,56 @@
+{
+  "experiment_id": "E000",
+  "title": "Verification-gated adaptive inference",
+  "status": "FROZEN_EXECUTABLE",
+  "prereg_path": "PREREG.md",
+  "prereg_sha256": "329b68dacb84dafaa6178f66a46deaa3d0a43e4021dd2e72144e56726a2f2f7f",
+  "model": {
+    "name": "gpt-oss:20b",
+    "ollama_id": "17052f91a42e",
+    "blob_sha256": "e7b273f9636059a689e3ddcab3716e4f65abe0143ac978e46673ad0e52d09efb",
+    "temperature": 0,
+    "num_ctx": 8192
+  },
+  "paths": {
+    "cheap": {
+      "think": "low",
+      "num_predict": 512
+    },
+    "expensive": {
+      "think": "high",
+      "num_predict": 1536
+    }
+  },
+  "benchmark": {
+    "name": "HumanEvalPlus",
+    "source": "evalplus.get_human_eval_plus",
+    "release": "v0.1.10",
+    "n_tasks": 164,
+    "check_dataset": "humaneval",
+    "gate": "EvalPlus base-tests PASS",
+    "success_criterion": "EvalPlus plus-tests PASS"
+  },
+  "compute": {
+    "primary": "G_decode = eval_duration",
+    "primary_note": "decode-time GPU-compute proxy while fully GPU-resident; not energy; not total inference compute",
+    "service_secondary": "G_service = prompt_eval_duration + eval_duration"
+  },
+  "order": {
+    "seed_string": "R3-E000",
+    "method": "sha256(seed_string + '|' + task_id); last bit 0 => cheap then expensive; last bit 1 => expensive then cheap"
+  },
+  "bootstrap": {
+    "n_resamples": 10000,
+    "seed": 0
+  },
+  "success": {
+    "quality_gap_delta_min": 0.05,
+    "noninferiority_margin": 0.05,
+    "g_decode_reduction_min": 0.20,
+    "unevaluable_n_lt": 80
+  },
+  "prompts": {
+    "system_sha256": "988834b3804622cef83deaa27c18a55329eff3432579466c89a3a924c1236863",
+    "task_template_sha256": "cdd64d1169143a84b3d157e3a776d43adeabd6aa61fa8293fa45e0fdf51a8894"
+  }
+}

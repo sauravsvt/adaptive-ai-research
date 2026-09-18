@@ -1,0 +1,47 @@
+[
+  {
+    "path": "E000_analysis.json",
+    "sha256": "ed3e991dca515e177f32812b50f7b04459c0a1db2d84f8bfe1b0df7a0f1a6f6f",
+    "bytes": 2224
+  },
+  {
+    "path": "E000_generations.jsonl",
+    "sha256": "ce64bc2306179ddb3d52f1474bcd570be39acbbcacb92f5fef73b7a8c97c2046",
+    "bytes": 2447615
+  },
+  {
+    "path": "E000_run.txt",
+    "sha256": "53ae19978619cd38febe167e717440746a6e8c86738f520d67832f7e72aee62b",
+    "bytes": 28014
+  },
+  {
+    "path": "E000_verification_gated.json",
+    "sha256": "afe6a0d044fa0865c5ea33492e2b61703f7ef78dc97e22fc3afddde6cbb40009",
+    "bytes": 1718
+  },
+  {
+    "path": "E000_verify.jsonl",
+    "sha256": "16d030888670610acae47105f9cfe7d5e0dffa13f120199f425c9292a3bb4e00",
+    "bytes": 146372
+  },
+  {
+    "path": "E000_warm.json",
+    "sha256": "3dbd878c192aec3fe6b8eac97e7bd1d8b21bb77edd6afdb83f430587e077271f",
+    "bytes": 968
+  },
+  {
+    "path": "PREREG.md",
+    "sha256": "329b68dacb84dafaa6178f66a46deaa3d0a43e4021dd2e72144e56726a2f2f7f",
+    "bytes": 11499
+  },
+  {
+    "path": "r3_e000.py",
+    "sha256": "e52b13f04406f7cde66f2b05e134ad8575a510cb8abe35b63f709a1595de523c",
+    "bytes": 22374
+  },
+  {
+    "path": "r3_lib.py",
+    "sha256": "21054a6a808bfd5dd834b3234aa2675dd6cd563db54e83350c99735c0f64be47",
+    "bytes": 8341
+  }
+]

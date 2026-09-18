@@ -1,0 +1,10 @@
+{
+  "E006_bm25_oof.jsonl": "8a799e2762432ab280691e7b80ca1e4dead1b6961e4a156f7effca67c3938a6a",
+  "E006_comparison.json": "2c80d91df1c6f5a2a5e5d99108b43f21a83c9c0389f1f4c610ba4af809d1c63a",
+  "E006_fold_assignments.json": "90b43566ab68cbba932c98c5ddcade7fd480a6df30771c5fcf7700aa8361118f",
+  "E006_fold_thresholds.json": "48501161d6dc7ae80ba73968fa058290b085bf509cbbee0b3e68d8f756d796b0",
+  "E006_lexical_oof.jsonl": "9ff40cf352856117dfa19268c7a006925d12f264226b04de20bad4d04c0e8b1b",
+  "E006_run.txt": "e55c5bfbfae6ce97bd33c66ebdc64edfccf0cfbdc8665dfeaa9a9be8154a2173",
+  "E006_score_shape_gate.json": "da2b4f762c54ed460b2c6ee542ff25165d559672ed8a18294e8ceed3929ccc4e",
+  "e006_score_shape_gate.py": "5ce95aed7c8902e1d05a54300aa18ebe847183e8f1c39005b79b2831cd5445bd"
+}

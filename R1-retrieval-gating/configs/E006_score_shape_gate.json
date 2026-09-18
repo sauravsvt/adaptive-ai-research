@@ -1,0 +1,113 @@
+{
+  "experiment_id": "E006",
+  "title": "SCORE-SHAPE EVIDENCE GATE",
+  "status": "EXPLORATORY",
+  "frozen_before_method_code": true,
+  "do_not_claim_paper_result_from_E006_alone": true,
+  "research_question": "Can richer pre-outcome retrieval-score evidence distinguish RETRIEVE from ABSTAIN better than always-retrieve and the official top-score threshold strategy, without embeddings, LLMs, RepoMap, ground-truth files, or repository-answer leakage?",
+  "immutable_priors": ["E000", "E001", "E002", "E003", "E004", "E005"],
+  "dataset": {
+    "primary": "official v2_selective_retrieval_natural",
+    "n": 427,
+    "do_not_replace_after_seeing_results": true,
+    "details": {
+      "lexical": "results/raw/E005_natural_lexical_details.jsonl",
+      "bm25": "results/raw/E005_natural_bm25_details.jsonl"
+    },
+    "secondary_reporting_strata": {
+      "A_full_natural_manifest": "427 = 345 positive + 82 no-gold",
+      "B_natural_like_slice": "395 = 345 positive + 50 organic/natural no-gold",
+      "C_counterfactual_no_gold": "32 counterfactual_wrong_repo cases",
+      "D_balanced_official_manifest": "164 samples (subset of natural IDs)"
+    }
+  },
+  "primary_metric": "Selective Success@20",
+  "retrieval_backends": {
+    "primary": "lexical",
+    "primary_reason": "Frozen before method development and has the stronger positive-only and always-retrieve baseline among the two reproduced lexical/BM25 systems.",
+    "secondary_replication": "bm25",
+    "combine_rankers": false,
+    "if_retrieve": "use that ranker's existing frozen top-20 result unchanged",
+    "if_abstain": "return no files",
+    "change_ranking": false
+  },
+  "target": {
+    "RETRIEVE": "sample has gold repository context (label=positive)",
+    "ABSTAIN": "official no-gold sample",
+    "label_use": "training/evaluation on allowed folds only; outer test fold receives no ground-truth label or gold-file information"
+  },
+  "feature_set": {
+    "only_pre_outcome_retrieval_score_shape": true,
+    "features": [
+      "top1 score",
+      "top2 score",
+      "top1 - top2 margin",
+      "safe top1 / top2 ratio",
+      "mean top5 score",
+      "std top5 score",
+      "mean top20 score",
+      "std top20 score",
+      "max-minus-min top20 range",
+      "top1 z-score relative to top20",
+      "top5 score mass / top20 score mass",
+      "normalized entropy of non-negative top20 score distribution"
+    ],
+    "disallowed": [
+      "query text features",
+      "repository-name features",
+      "task-type labels",
+      "filenames",
+      "embeddings",
+      "LLM outputs",
+      "dependency information",
+      "ground-truth files",
+      "no-gold reason",
+      "counterfactual marker"
+    ]
+  },
+  "comparators": {
+    "C0": "ALWAYS_RETRIEVE",
+    "C1": "OFFICIAL_TOP_SCORE_THRESHOLD (benchmark repo-grouped OOF procedure unchanged)",
+    "C2": "TOP1_LOGISTIC (feature 1 only)",
+    "C3": "SCORE_SHAPE_LOGISTIC (all 12 frozen features)"
+  },
+  "classifier": {
+    "estimator": "sklearn.linear_model.LogisticRegression",
+    "penalty": "l2",
+    "C": 1.0,
+    "solver": "liblinear",
+    "max_iter": 2000,
+    "random_state": 0,
+    "standardize": "training-fold statistics only",
+    "hyperparameter_tuning": false
+  },
+  "cross_validation": {
+    "random_sample_split": false,
+    "outer": "repository-grouped 5-fold; prefer official assign_repo_folds already recorded in E005_natural_selective_cv.json repo_folds for the 427 manifest",
+    "inner_threshold": "within each outer-training set, repository-grouped inner CV predictions; choose probability threshold maximizing Selective Success@20 on inner validation only; then fit on all outer-training data and evaluate once on outer-test",
+    "if_nested_cv_invalid": "STOP E006; do not fall back to in-sample threshold tuning"
+  },
+  "ablation": {
+    "C3_FULL": "all 12 features",
+    "C3_NO_CONCENTRATION": "remove normalized entropy, top5/top20 mass, and top1 z-score"
+  },
+  "bootstrap": {
+    "type": "paired",
+    "n_resamples": 10000,
+    "random_state": 0,
+    "minimum_deltas": ["C3-C0", "C3-C1", "C3-C2"]
+  },
+  "forbidden_this_experiment": [
+    "embeddings",
+    "RepoMap",
+    "gpt-oss",
+    "Qwen",
+    "any LLM router",
+    "web search",
+    "dependency features",
+    "query text classifier",
+    "SWE-bench",
+    "model escalation",
+    "Paper 1 prose"
+  ]
+}

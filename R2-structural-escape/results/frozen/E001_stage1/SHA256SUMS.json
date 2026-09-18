@@ -1,0 +1,22 @@
+[
+  {
+    "bytes": 13831,
+    "path": "PREREG_E001.md",
+    "sha256": "cca6fb2e20793ee7c8143e5a4c16219716f38a61fd373863bb9e44f8e4c067ad"
+  },
+  {
+    "bytes": 1837,
+    "path": "E001_fixed_prefix.json",
+    "sha256": "243e52c9fc9a1f67a6486b2f288b926ca417e15c6b90a9e30496dcef253ae3fd"
+  },
+  {
+    "bytes": 6165,
+    "path": "E001_plus_testable.json",
+    "sha256": "2c2fdabe17f720140ed6151aafe4e226603b0b8eda23a1737d44adc20e33d423"
+  },
+  {
+    "bytes": 1372,
+    "path": "E001_stage1_manifest.json",
+    "sha256": "f6ab4cf3ee794ed98120b27c5ee6fe996e2fd6a1dae671b6353b641e72e989bc"
+  }
+]

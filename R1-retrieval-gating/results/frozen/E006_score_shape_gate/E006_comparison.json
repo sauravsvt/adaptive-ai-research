@@ -1,0 +1,1922 @@
+{
+  "bm25": {
+    "fold_selective_success@20": [
+      {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": 0.5315315315315315,
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": 0.5315315315315315,
+          "C2_TOP1_LOGISTIC": 0.5315315315315315,
+          "C3_NO_CONCENTRATION": 0.5495495495495496,
+          "C3_SCORE_SHAPE_LOGISTIC": 0.5765765765765766
+        },
+        "n": 111,
+        "outer_fold": 0
+      },
+      {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": 0.35,
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": 0.375,
+          "C2_TOP1_LOGISTIC": 0.35,
+          "C3_NO_CONCENTRATION": 0.3,
+          "C3_SCORE_SHAPE_LOGISTIC": 0.3375
+        },
+        "n": 80,
+        "outer_fold": 1
+      },
+      {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": 0.3037974683544304,
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": 0.31645569620253167,
+          "C2_TOP1_LOGISTIC": 0.3037974683544304,
+          "C3_NO_CONCENTRATION": 0.3037974683544304,
+          "C3_SCORE_SHAPE_LOGISTIC": 0.35443037974683544
+        },
+        "n": 79,
+        "outer_fold": 2
+      },
+      {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": 0.47435897435897434,
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": 0.32051282051282054,
+          "C2_TOP1_LOGISTIC": 0.47435897435897434,
+          "C3_NO_CONCENTRATION": 0.48717948717948717,
+          "C3_SCORE_SHAPE_LOGISTIC": 0.48717948717948717
+        },
+        "n": 78,
+        "outer_fold": 3
+      },
+      {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": 0.4430379746835443,
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": 0.27848101265822783,
+          "C2_TOP1_LOGISTIC": 0.4430379746835443,
+          "C3_NO_CONCENTRATION": 0.45569620253164556,
+          "C3_SCORE_SHAPE_LOGISTIC": 0.46835443037974683
+        },
+        "n": 79,
+        "outer_fold": 4
+      }
+    ],
+    "paired_deltas": {
+      "C3-C0": {
+        "ci95_high": 0.0655737704918033,
+        "ci95_low": -0.01405152224824352,
+        "ci_includes_zero": true,
+        "n_resamples": 10000,
+        "point": 0.025761124121779888,
+        "random_state": 0
+      },
+      "C3-C1": {
+        "ci95_high": 0.12177985948477754,
+        "ci95_low": 0.032786885245901676,
+        "ci_includes_zero": false,
+        "n_resamples": 10000,
+        "point": 0.07728337236533961,
+        "random_state": 0
+      },
+      "C3-C2": {
+        "ci95_high": 0.0655737704918033,
+        "ci95_low": -0.01405152224824352,
+        "ci_includes_zero": true,
+        "n_resamples": 10000,
+        "point": 0.025761124121779888,
+        "random_state": 0
+      }
+    },
+    "primary_metrics": {
+      "C0_ALWAYS_RETRIEVE": {
+        "abstention_rate": 0.0,
+        "confusion": {
+          "correct_no_gold_abstentions": 0,
+          "no_gold_abstained": 0,
+          "no_gold_returned": 82,
+          "positive_abstained": 0,
+          "positive_returned": 345,
+          "successful_positive_retrievals": 183
+        },
+        "correctly_abstained_no_gold": 0,
+        "false_abstention_rate": 0.0,
+        "false_retrieval_rate": 1.0,
+        "n": 427,
+        "n_no_gold": 82,
+        "n_positive": 345,
+        "n_success": 183,
+        "no_gold_abstention_rate": 0.0,
+        "positive_retrieve_rate": 1.0,
+        "retrieve_rate": 1.0,
+        "selective_success@20": 0.42857142857142855,
+        "successful_positive_retrievals": 183
+      },
+      "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+        "abstention_rate": 0.351288056206089,
+        "confusion": {
+          "correct_no_gold_abstentions": 37,
+          "no_gold_abstained": 37,
+          "no_gold_returned": 45,
+          "positive_abstained": 113,
+          "positive_returned": 232,
+          "successful_positive_retrievals": 124
+        },
+        "correctly_abstained_no_gold": 37,
+        "false_abstention_rate": 0.32753623188405795,
+        "false_retrieval_rate": 0.5487804878048781,
+        "n": 427,
+        "n_no_gold": 82,
+        "n_positive": 345,
+        "n_success": 161,
+        "no_gold_abstention_rate": 0.45121951219512196,
+        "positive_retrieve_rate": 0.672463768115942,
+        "retrieve_rate": 0.6487119437939111,
+        "selective_success@20": 0.3770491803278688,
+        "successful_positive_retrievals": 124
+      },
+      "C2_TOP1_LOGISTIC": {
+        "abstention_rate": 0.0,
+        "confusion": {
+          "correct_no_gold_abstentions": 0,
+          "no_gold_abstained": 0,
+          "no_gold_returned": 82,
+          "positive_abstained": 0,
+          "positive_returned": 345,
+          "successful_positive_retrievals": 183
+        },
+        "correctly_abstained_no_gold": 0,
+        "false_abstention_rate": 0.0,
+        "false_retrieval_rate": 1.0,
+        "n": 427,
+        "n_no_gold": 82,
+        "n_positive": 345,
+        "n_success": 183,
+        "no_gold_abstention_rate": 0.0,
+        "positive_retrieve_rate": 1.0,
+        "retrieve_rate": 1.0,
+        "selective_success@20": 0.42857142857142855,
+        "successful_positive_retrievals": 183
+      },
+      "C3_NO_CONCENTRATION": {
+        "abstention_rate": 0.02576112412177986,
+        "confusion": {
+          "correct_no_gold_abstentions": 4,
+          "no_gold_abstained": 4,
+          "no_gold_returned": 78,
+          "positive_abstained": 7,
+          "positive_returned": 338,
+          "successful_positive_retrievals": 179
+        },
+        "correctly_abstained_no_gold": 4,
+        "false_abstention_rate": 0.020289855072463767,
+        "false_retrieval_rate": 0.9512195121951219,
+        "n": 427,
+        "n_no_gold": 82,
+        "n_positive": 345,
+        "n_success": 183,
+        "no_gold_abstention_rate": 0.04878048780487805,
+        "positive_retrieve_rate": 0.9797101449275363,
+        "retrieve_rate": 0.9742388758782201,
+        "selective_success@20": 0.42857142857142855,
+        "successful_positive_retrievals": 179
+      },
+      "C3_SCORE_SHAPE_LOGISTIC": {
+        "abstention_rate": 0.28805620608899296,
+        "confusion": {
+          "correct_no_gold_abstentions": 44,
+          "no_gold_abstained": 44,
+          "no_gold_returned": 38,
+          "positive_abstained": 79,
+          "positive_returned": 266,
+          "successful_positive_retrievals": 150
+        },
+        "correctly_abstained_no_gold": 44,
+        "false_abstention_rate": 0.2289855072463768,
+        "false_retrieval_rate": 0.4634146341463415,
+        "n": 427,
+        "n_no_gold": 82,
+        "n_positive": 345,
+        "n_success": 194,
+        "no_gold_abstention_rate": 0.5365853658536586,
+        "positive_retrieve_rate": 0.7710144927536232,
+        "retrieve_rate": 0.711943793911007,
+        "selective_success@20": 0.45433255269320844,
+        "successful_positive_retrievals": 150
+      }
+    },
+    "strata": {
+      "balanced_164": {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 82,
+              "positive_abstained": 0,
+              "positive_returned": 82,
+              "successful_positive_retrievals": 40
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 164,
+            "n_no_gold": 82,
+            "n_positive": 82,
+            "n_success": 40,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.24390243902439024,
+            "successful_positive_retrievals": 40
+          },
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+            "abstention_rate": 0.38414634146341464,
+            "confusion": {
+              "correct_no_gold_abstentions": 37,
+              "no_gold_abstained": 37,
+              "no_gold_returned": 45,
+              "positive_abstained": 26,
+              "positive_returned": 56,
+              "successful_positive_retrievals": 29
+            },
+            "correctly_abstained_no_gold": 37,
+            "false_abstention_rate": 0.3170731707317073,
+            "false_retrieval_rate": 0.5487804878048781,
+            "n": 164,
+            "n_no_gold": 82,
+            "n_positive": 82,
+            "n_success": 66,
+            "no_gold_abstention_rate": 0.45121951219512196,
+            "positive_retrieve_rate": 0.6829268292682927,
+            "retrieve_rate": 0.6158536585365854,
+            "selective_success@20": 0.4024390243902439,
+            "successful_positive_retrievals": 29
+          },
+          "C2_TOP1_LOGISTIC": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 82,
+              "positive_abstained": 0,
+              "positive_returned": 82,
+              "successful_positive_retrievals": 40
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 164,
+            "n_no_gold": 82,
+            "n_positive": 82,
+            "n_success": 40,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.24390243902439024,
+            "successful_positive_retrievals": 40
+          },
+          "C3_NO_CONCENTRATION": {
+            "abstention_rate": 0.042682926829268296,
+            "confusion": {
+              "correct_no_gold_abstentions": 4,
+              "no_gold_abstained": 4,
+              "no_gold_returned": 78,
+              "positive_abstained": 3,
+              "positive_returned": 79,
+              "successful_positive_retrievals": 40
+            },
+            "correctly_abstained_no_gold": 4,
+            "false_abstention_rate": 0.036585365853658534,
+            "false_retrieval_rate": 0.9512195121951219,
+            "n": 164,
+            "n_no_gold": 82,
+            "n_positive": 82,
+            "n_success": 44,
+            "no_gold_abstention_rate": 0.04878048780487805,
+            "positive_retrieve_rate": 0.9634146341463414,
+            "retrieve_rate": 0.9573170731707317,
+            "selective_success@20": 0.2682926829268293,
+            "successful_positive_retrievals": 40
+          },
+          "C3_SCORE_SHAPE_LOGISTIC": {
+            "abstention_rate": 0.3719512195121951,
+            "confusion": {
+              "correct_no_gold_abstentions": 44,
+              "no_gold_abstained": 44,
+              "no_gold_returned": 38,
+              "positive_abstained": 17,
+              "positive_returned": 65,
+              "successful_positive_retrievals": 34
+            },
+            "correctly_abstained_no_gold": 44,
+            "false_abstention_rate": 0.2073170731707317,
+            "false_retrieval_rate": 0.4634146341463415,
+            "n": 164,
+            "n_no_gold": 82,
+            "n_positive": 82,
+            "n_success": 78,
+            "no_gold_abstention_rate": 0.5365853658536586,
+            "positive_retrieve_rate": 0.7926829268292683,
+            "retrieve_rate": 0.6280487804878049,
+            "selective_success@20": 0.47560975609756095,
+            "successful_positive_retrievals": 34
+          }
+        },
+        "n": 164
+      },
+      "counterfactual_32": {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 32,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 32,
+            "n_no_gold": 32,
+            "n_positive": 0,
+            "n_success": 0,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.0,
+            "successful_positive_retrievals": 0
+          },
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+            "abstention_rate": 0.8125,
+            "confusion": {
+              "correct_no_gold_abstentions": 26,
+              "no_gold_abstained": 26,
+              "no_gold_returned": 6,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 26,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.1875,
+            "n": 32,
+            "n_no_gold": 32,
+            "n_positive": 0,
+            "n_success": 26,
+            "no_gold_abstention_rate": 0.8125,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.1875,
+            "selective_success@20": 0.8125,
+            "successful_positive_retrievals": 0
+          },
+          "C2_TOP1_LOGISTIC": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 32,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 32,
+            "n_no_gold": 32,
+            "n_positive": 0,
+            "n_success": 0,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.0,
+            "successful_positive_retrievals": 0
+          },
+          "C3_NO_CONCENTRATION": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 32,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 32,
+            "n_no_gold": 32,
+            "n_positive": 0,
+            "n_success": 0,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.0,
+            "successful_positive_retrievals": 0
+          },
+          "C3_SCORE_SHAPE_LOGISTIC": {
+            "abstention_rate": 0.5,
+            "confusion": {
+              "correct_no_gold_abstentions": 16,
+              "no_gold_abstained": 16,
+              "no_gold_returned": 16,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 16,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.5,
+            "n": 32,
+            "n_no_gold": 32,
+            "n_positive": 0,
+            "n_success": 16,
+            "no_gold_abstention_rate": 0.5,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.5,
+            "selective_success@20": 0.5,
+            "successful_positive_retrievals": 0
+          }
+        },
+        "n": 32
+      },
+      "full_427": {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 82,
+              "positive_abstained": 0,
+              "positive_returned": 345,
+              "successful_positive_retrievals": 183
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 427,
+            "n_no_gold": 82,
+            "n_positive": 345,
+            "n_success": 183,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.42857142857142855,
+            "successful_positive_retrievals": 183
+          },
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+            "abstention_rate": 0.351288056206089,
+            "confusion": {
+              "correct_no_gold_abstentions": 37,
+              "no_gold_abstained": 37,
+              "no_gold_returned": 45,
+              "positive_abstained": 113,
+              "positive_returned": 232,
+              "successful_positive_retrievals": 124
+            },
+            "correctly_abstained_no_gold": 37,
+            "false_abstention_rate": 0.32753623188405795,
+            "false_retrieval_rate": 0.5487804878048781,
+            "n": 427,
+            "n_no_gold": 82,
+            "n_positive": 345,
+            "n_success": 161,
+            "no_gold_abstention_rate": 0.45121951219512196,
+            "positive_retrieve_rate": 0.672463768115942,
+            "retrieve_rate": 0.6487119437939111,
+            "selective_success@20": 0.3770491803278688,
+            "successful_positive_retrievals": 124
+          },
+          "C2_TOP1_LOGISTIC": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 82,
+              "positive_abstained": 0,
+              "positive_returned": 345,
+              "successful_positive_retrievals": 183
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 427,
+            "n_no_gold": 82,
+            "n_positive": 345,
+            "n_success": 183,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.42857142857142855,
+            "successful_positive_retrievals": 183
+          },
+          "C3_NO_CONCENTRATION": {
+            "abstention_rate": 0.02576112412177986,
+            "confusion": {
+              "correct_no_gold_abstentions": 4,
+              "no_gold_abstained": 4,
+              "no_gold_returned": 78,
+              "positive_abstained": 7,
+              "positive_returned": 338,
+              "successful_positive_retrievals": 179
+            },
+            "correctly_abstained_no_gold": 4,
+            "false_abstention_rate": 0.020289855072463767,
+            "false_retrieval_rate": 0.9512195121951219,
+            "n": 427,
+            "n_no_gold": 82,
+            "n_positive": 345,
+            "n_success": 183,
+            "no_gold_abstention_rate": 0.04878048780487805,
+            "positive_retrieve_rate": 0.9797101449275363,
+            "retrieve_rate": 0.9742388758782201,
+            "selective_success@20": 0.42857142857142855,
+            "successful_positive_retrievals": 179
+          },
+          "C3_SCORE_SHAPE_LOGISTIC": {
+            "abstention_rate": 0.28805620608899296,
+            "confusion": {
+              "correct_no_gold_abstentions": 44,
+              "no_gold_abstained": 44,
+              "no_gold_returned": 38,
+              "positive_abstained": 79,
+              "positive_returned": 266,
+              "successful_positive_retrievals": 150
+            },
+            "correctly_abstained_no_gold": 44,
+            "false_abstention_rate": 0.2289855072463768,
+            "false_retrieval_rate": 0.4634146341463415,
+            "n": 427,
+            "n_no_gold": 82,
+            "n_positive": 345,
+            "n_success": 194,
+            "no_gold_abstention_rate": 0.5365853658536586,
+            "positive_retrieve_rate": 0.7710144927536232,
+            "retrieve_rate": 0.711943793911007,
+            "selective_success@20": 0.45433255269320844,
+            "successful_positive_retrievals": 150
+          }
+        },
+        "n": 427
+      },
+      "natural_like_395": {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 50,
+              "positive_abstained": 0,
+              "positive_returned": 345,
+              "successful_positive_retrievals": 183
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 395,
+            "n_no_gold": 50,
+            "n_positive": 345,
+            "n_success": 183,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.46329113924050636,
+            "successful_positive_retrievals": 183
+          },
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+            "abstention_rate": 0.3139240506329114,
+            "confusion": {
+              "correct_no_gold_abstentions": 11,
+              "no_gold_abstained": 11,
+              "no_gold_returned": 39,
+              "positive_abstained": 113,
+              "positive_returned": 232,
+              "successful_positive_retrievals": 124
+            },
+            "correctly_abstained_no_gold": 11,
+            "false_abstention_rate": 0.32753623188405795,
+            "false_retrieval_rate": 0.78,
+            "n": 395,
+            "n_no_gold": 50,
+            "n_positive": 345,
+            "n_success": 135,
+            "no_gold_abstention_rate": 0.22,
+            "positive_retrieve_rate": 0.672463768115942,
+            "retrieve_rate": 0.6860759493670886,
+            "selective_success@20": 0.34177215189873417,
+            "successful_positive_retrievals": 124
+          },
+          "C2_TOP1_LOGISTIC": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 50,
+              "positive_abstained": 0,
+              "positive_returned": 345,
+              "successful_positive_retrievals": 183
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 395,
+            "n_no_gold": 50,
+            "n_positive": 345,
+            "n_success": 183,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.46329113924050636,
+            "successful_positive_retrievals": 183
+          },
+          "C3_NO_CONCENTRATION": {
+            "abstention_rate": 0.027848101265822784,
+            "confusion": {
+              "correct_no_gold_abstentions": 4,
+              "no_gold_abstained": 4,
+              "no_gold_returned": 46,
+              "positive_abstained": 7,
+              "positive_returned": 338,
+              "successful_positive_retrievals": 179
+            },
+            "correctly_abstained_no_gold": 4,
+            "false_abstention_rate": 0.020289855072463767,
+            "false_retrieval_rate": 0.92,
+            "n": 395,
+            "n_no_gold": 50,
+            "n_positive": 345,
+            "n_success": 183,
+            "no_gold_abstention_rate": 0.08,
+            "positive_retrieve_rate": 0.9797101449275363,
+            "retrieve_rate": 0.9721518987341772,
+            "selective_success@20": 0.46329113924050636,
+            "successful_positive_retrievals": 179
+          },
+          "C3_SCORE_SHAPE_LOGISTIC": {
+            "abstention_rate": 0.2708860759493671,
+            "confusion": {
+              "correct_no_gold_abstentions": 28,
+              "no_gold_abstained": 28,
+              "no_gold_returned": 22,
+              "positive_abstained": 79,
+              "positive_returned": 266,
+              "successful_positive_retrievals": 150
+            },
+            "correctly_abstained_no_gold": 28,
+            "false_abstention_rate": 0.2289855072463768,
+            "false_retrieval_rate": 0.44,
+            "n": 395,
+            "n_no_gold": 50,
+            "n_positive": 345,
+            "n_success": 178,
+            "no_gold_abstention_rate": 0.56,
+            "positive_retrieve_rate": 0.7710144927536232,
+            "retrieve_rate": 0.7291139240506329,
+            "selective_success@20": 0.4506329113924051,
+            "successful_positive_retrievals": 150
+          }
+        },
+        "n": 395
+      },
+      "no_gold_82": {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 82,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 82,
+            "n_no_gold": 82,
+            "n_positive": 0,
+            "n_success": 0,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.0,
+            "successful_positive_retrievals": 0
+          },
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+            "abstention_rate": 0.45121951219512196,
+            "confusion": {
+              "correct_no_gold_abstentions": 37,
+              "no_gold_abstained": 37,
+              "no_gold_returned": 45,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 37,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.5487804878048781,
+            "n": 82,
+            "n_no_gold": 82,
+            "n_positive": 0,
+            "n_success": 37,
+            "no_gold_abstention_rate": 0.45121951219512196,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.5487804878048781,
+            "selective_success@20": 0.45121951219512196,
+            "successful_positive_retrievals": 0
+          },
+          "C2_TOP1_LOGISTIC": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 82,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 82,
+            "n_no_gold": 82,
+            "n_positive": 0,
+            "n_success": 0,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.0,
+            "successful_positive_retrievals": 0
+          },
+          "C3_NO_CONCENTRATION": {
+            "abstention_rate": 0.04878048780487805,
+            "confusion": {
+              "correct_no_gold_abstentions": 4,
+              "no_gold_abstained": 4,
+              "no_gold_returned": 78,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 4,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.9512195121951219,
+            "n": 82,
+            "n_no_gold": 82,
+            "n_positive": 0,
+            "n_success": 4,
+            "no_gold_abstention_rate": 0.04878048780487805,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.9512195121951219,
+            "selective_success@20": 0.04878048780487805,
+            "successful_positive_retrievals": 0
+          },
+          "C3_SCORE_SHAPE_LOGISTIC": {
+            "abstention_rate": 0.5365853658536586,
+            "confusion": {
+              "correct_no_gold_abstentions": 44,
+              "no_gold_abstained": 44,
+              "no_gold_returned": 38,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 44,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.4634146341463415,
+            "n": 82,
+            "n_no_gold": 82,
+            "n_positive": 0,
+            "n_success": 44,
+            "no_gold_abstention_rate": 0.5365853658536586,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.4634146341463415,
+            "selective_success@20": 0.5365853658536586,
+            "successful_positive_retrievals": 0
+          }
+        },
+        "n": 82
+      },
+      "positive_345": {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 0,
+              "positive_abstained": 0,
+              "positive_returned": 345,
+              "successful_positive_retrievals": 183
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.0,
+            "n": 345,
+            "n_no_gold": 0,
+            "n_positive": 345,
+            "n_success": 183,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.5304347826086957,
+            "successful_positive_retrievals": 183
+          },
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+            "abstention_rate": 0.32753623188405795,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 0,
+              "positive_abstained": 113,
+              "positive_returned": 232,
+              "successful_positive_retrievals": 124
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.32753623188405795,
+            "false_retrieval_rate": 0.0,
+            "n": 345,
+            "n_no_gold": 0,
+            "n_positive": 345,
+            "n_success": 124,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.672463768115942,
+            "retrieve_rate": 0.672463768115942,
+            "selective_success@20": 0.35942028985507246,
+            "successful_positive_retrievals": 124
+          },
+          "C2_TOP1_LOGISTIC": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 0,
+              "positive_abstained": 0,
+              "positive_returned": 345,
+              "successful_positive_retrievals": 183
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.0,
+            "n": 345,
+            "n_no_gold": 0,
+            "n_positive": 345,
+            "n_success": 183,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.5304347826086957,
+            "successful_positive_retrievals": 183
+          },
+          "C3_NO_CONCENTRATION": {
+            "abstention_rate": 0.020289855072463767,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 0,
+              "positive_abstained": 7,
+              "positive_returned": 338,
+              "successful_positive_retrievals": 179
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.020289855072463767,
+            "false_retrieval_rate": 0.0,
+            "n": 345,
+            "n_no_gold": 0,
+            "n_positive": 345,
+            "n_success": 179,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.9797101449275363,
+            "retrieve_rate": 0.9797101449275363,
+            "selective_success@20": 0.518840579710145,
+            "successful_positive_retrievals": 179
+          },
+          "C3_SCORE_SHAPE_LOGISTIC": {
+            "abstention_rate": 0.2289855072463768,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 0,
+              "positive_abstained": 79,
+              "positive_returned": 266,
+              "successful_positive_retrievals": 150
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.2289855072463768,
+            "false_retrieval_rate": 0.0,
+            "n": 345,
+            "n_no_gold": 0,
+            "n_positive": 345,
+            "n_success": 150,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.7710144927536232,
+            "retrieve_rate": 0.7710144927536232,
+            "selective_success@20": 0.43478260869565216,
+            "successful_positive_retrievals": 150
+          }
+        },
+        "n": 345
+      }
+    },
+    "timing": {
+      "C3_infer_per_sample_s": 2.386025764826201e-06,
+      "C3_infer_s": 0.0010188330015807878,
+      "C3_train_s": 0.03856765299860854,
+      "feature_from_scores_per_sample_s": 2.1978943797569413e-05,
+      "feature_from_scores_s": 0.009385009001562139,
+      "gate_overhead_per_sample_s": 2.4364969562395613e-05,
+      "note": "Score recovery reconstructs missing E005 top-20 score vectors by re-running the official ranker. Live gate overhead assumes those scores already exist from retrieval. Evaluation still uses frozen top-20 files.",
+      "score_recovery_s": 534.5197516260014
+    }
+  },
+  "compute": {
+    "cpu": {
+      "sys_s": 11.89653,
+      "user_s": 1042.05025
+    },
+    "e005_retrieval_reference": {
+      "natural_bm25_s": 503.08,
+      "natural_lexical_s": 471.46
+    },
+    "gpu_end": {
+      "memory_used_mib": 751.0,
+      "power_w": 13.36,
+      "utilization_pct": 35.0
+    },
+    "gpu_expected": "zero dedicated E006 usage; no LLM",
+    "peak_rss_bytes": 1732599808,
+    "wall_s": 1048.094182959001
+  },
+  "experiment_id": "E006",
+  "interpretation_primary_lexical": {
+    "c2_approx_c3": false,
+    "counterfactual_32": {
+      "C0": 0.0,
+      "C3": 0.8125
+    },
+    "counterfactual_only": false,
+    "decision": "CONTINUE — PROMISING SCORE-SHAPE SIGNAL",
+    "false_abstention_C3": 0.034782608695652174,
+    "natural_like_395": {
+      "C0": 0.49873417721518987,
+      "C3": 0.5544303797468354
+    },
+    "natural_like_395_improves": true,
+    "primary": {
+      "C0": 0.4613583138173302,
+      "C1": 0.4964871194379391,
+      "C2": 0.477751756440281,
+      "C3": 0.5737704918032787
+    },
+    "reasons": [
+      "C3 improves over C0 and C1 with a paired difference excluding zero; not solely the 32 counterfactuals."
+    ],
+    "signal_label": "PROMISING EXPLORATORY SIGNAL"
+  },
+  "lexical": {
+    "fold_selective_success@20": [
+      {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": 0.6666666666666666,
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": 0.5315315315315315,
+          "C2_TOP1_LOGISTIC": 0.6846846846846847,
+          "C3_NO_CONCENTRATION": 0.7387387387387387,
+          "C3_SCORE_SHAPE_LOGISTIC": 0.7207207207207207
+        },
+        "n": 111,
+        "outer_fold": 0
+      },
+      {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": 0.3625,
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": 0.5,
+          "C2_TOP1_LOGISTIC": 0.4,
+          "C3_NO_CONCENTRATION": 0.55,
+          "C3_SCORE_SHAPE_LOGISTIC": 0.55
+        },
+        "n": 80,
+        "outer_fold": 1
+      },
+      {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": 0.31645569620253167,
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": 0.3670886075949367,
+          "C2_TOP1_LOGISTIC": 0.34177215189873417,
+          "C3_NO_CONCENTRATION": 0.4430379746835443,
+          "C3_SCORE_SHAPE_LOGISTIC": 0.4430379746835443
+        },
+        "n": 79,
+        "outer_fold": 2
+      },
+      {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": 0.46153846153846156,
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": 0.5128205128205128,
+          "C2_TOP1_LOGISTIC": 0.46153846153846156,
+          "C3_NO_CONCENTRATION": 0.5512820512820513,
+          "C3_SCORE_SHAPE_LOGISTIC": 0.5384615384615384
+        },
+        "n": 78,
+        "outer_fold": 3
+      },
+      {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": 0.4177215189873418,
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": 0.5569620253164557,
+          "C2_TOP1_LOGISTIC": 0.4177215189873418,
+          "C3_NO_CONCENTRATION": 0.5822784810126582,
+          "C3_SCORE_SHAPE_LOGISTIC": 0.5569620253164557
+        },
+        "n": 79,
+        "outer_fold": 4
+      }
+    ],
+    "paired_deltas": {
+      "C3-C0": {
+        "ci95_high": 0.14754098360655737,
+        "ci95_low": 0.07728337236533961,
+        "ci_includes_zero": false,
+        "n_resamples": 10000,
+        "point": 0.11241217798594844,
+        "random_state": 0
+      },
+      "C3-C1": {
+        "ci95_high": 0.11007025761124123,
+        "ci95_low": 0.04449648711943788,
+        "ci_includes_zero": false,
+        "n_resamples": 10000,
+        "point": 0.07728337236533955,
+        "random_state": 0
+      },
+      "C3-C2": {
+        "ci95_high": 0.12880562060889927,
+        "ci95_low": 0.06557377049180324,
+        "ci_includes_zero": false,
+        "n_resamples": 10000,
+        "point": 0.09601873536299765,
+        "random_state": 0
+      }
+    },
+    "primary_metrics": {
+      "C0_ALWAYS_RETRIEVE": {
+        "abstention_rate": 0.0,
+        "confusion": {
+          "correct_no_gold_abstentions": 0,
+          "no_gold_abstained": 0,
+          "no_gold_returned": 82,
+          "positive_abstained": 0,
+          "positive_returned": 345,
+          "successful_positive_retrievals": 197
+        },
+        "correctly_abstained_no_gold": 0,
+        "false_abstention_rate": 0.0,
+        "false_retrieval_rate": 1.0,
+        "n": 427,
+        "n_no_gold": 82,
+        "n_positive": 345,
+        "n_success": 197,
+        "no_gold_abstention_rate": 0.0,
+        "positive_retrieve_rate": 1.0,
+        "retrieve_rate": 1.0,
+        "selective_success@20": 0.4613583138173302,
+        "successful_positive_retrievals": 197
+      },
+      "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+        "abstention_rate": 0.2646370023419204,
+        "confusion": {
+          "correct_no_gold_abstentions": 49,
+          "no_gold_abstained": 49,
+          "no_gold_returned": 33,
+          "positive_abstained": 64,
+          "positive_returned": 281,
+          "successful_positive_retrievals": 163
+        },
+        "correctly_abstained_no_gold": 49,
+        "false_abstention_rate": 0.1855072463768116,
+        "false_retrieval_rate": 0.4024390243902439,
+        "n": 427,
+        "n_no_gold": 82,
+        "n_positive": 345,
+        "n_success": 212,
+        "no_gold_abstention_rate": 0.5975609756097561,
+        "positive_retrieve_rate": 0.8144927536231884,
+        "retrieve_rate": 0.7353629976580797,
+        "selective_success@20": 0.4964871194379391,
+        "successful_positive_retrievals": 163
+      },
+      "C2_TOP1_LOGISTIC": {
+        "abstention_rate": 0.02107728337236534,
+        "confusion": {
+          "correct_no_gold_abstentions": 8,
+          "no_gold_abstained": 8,
+          "no_gold_returned": 74,
+          "positive_abstained": 1,
+          "positive_returned": 344,
+          "successful_positive_retrievals": 196
+        },
+        "correctly_abstained_no_gold": 8,
+        "false_abstention_rate": 0.002898550724637681,
+        "false_retrieval_rate": 0.9024390243902439,
+        "n": 427,
+        "n_no_gold": 82,
+        "n_positive": 345,
+        "n_success": 204,
+        "no_gold_abstention_rate": 0.0975609756097561,
+        "positive_retrieve_rate": 0.9971014492753624,
+        "retrieve_rate": 0.9789227166276346,
+        "selective_success@20": 0.477751756440281,
+        "successful_positive_retrievals": 196
+      },
+      "C3_NO_CONCENTRATION": {
+        "abstention_rate": 0.1686182669789227,
+        "confusion": {
+          "correct_no_gold_abstentions": 59,
+          "no_gold_abstained": 59,
+          "no_gold_returned": 23,
+          "positive_abstained": 13,
+          "positive_returned": 332,
+          "successful_positive_retrievals": 191
+        },
+        "correctly_abstained_no_gold": 59,
+        "false_abstention_rate": 0.03768115942028986,
+        "false_retrieval_rate": 0.2804878048780488,
+        "n": 427,
+        "n_no_gold": 82,
+        "n_positive": 345,
+        "n_success": 250,
+        "no_gold_abstention_rate": 0.7195121951219512,
+        "positive_retrieve_rate": 0.9623188405797102,
+        "retrieve_rate": 0.8313817330210773,
+        "selective_success@20": 0.585480093676815,
+        "successful_positive_retrievals": 191
+      },
+      "C3_SCORE_SHAPE_LOGISTIC": {
+        "abstention_rate": 0.1592505854800937,
+        "confusion": {
+          "correct_no_gold_abstentions": 56,
+          "no_gold_abstained": 56,
+          "no_gold_returned": 26,
+          "positive_abstained": 12,
+          "positive_returned": 333,
+          "successful_positive_retrievals": 189
+        },
+        "correctly_abstained_no_gold": 56,
+        "false_abstention_rate": 0.034782608695652174,
+        "false_retrieval_rate": 0.3170731707317073,
+        "n": 427,
+        "n_no_gold": 82,
+        "n_positive": 345,
+        "n_success": 245,
+        "no_gold_abstention_rate": 0.6829268292682927,
+        "positive_retrieve_rate": 0.9652173913043478,
+        "retrieve_rate": 0.8407494145199064,
+        "selective_success@20": 0.5737704918032787,
+        "successful_positive_retrievals": 189
+      }
+    },
+    "strata": {
+      "balanced_164": {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 82,
+              "positive_abstained": 0,
+              "positive_returned": 82,
+              "successful_positive_retrievals": 42
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 164,
+            "n_no_gold": 82,
+            "n_positive": 82,
+            "n_success": 42,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.25609756097560976,
+            "successful_positive_retrievals": 42
+          },
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+            "abstention_rate": 0.38414634146341464,
+            "confusion": {
+              "correct_no_gold_abstentions": 49,
+              "no_gold_abstained": 49,
+              "no_gold_returned": 33,
+              "positive_abstained": 14,
+              "positive_returned": 68,
+              "successful_positive_retrievals": 34
+            },
+            "correctly_abstained_no_gold": 49,
+            "false_abstention_rate": 0.17073170731707318,
+            "false_retrieval_rate": 0.4024390243902439,
+            "n": 164,
+            "n_no_gold": 82,
+            "n_positive": 82,
+            "n_success": 83,
+            "no_gold_abstention_rate": 0.5975609756097561,
+            "positive_retrieve_rate": 0.8292682926829268,
+            "retrieve_rate": 0.6158536585365854,
+            "selective_success@20": 0.5060975609756098,
+            "successful_positive_retrievals": 34
+          },
+          "C2_TOP1_LOGISTIC": {
+            "abstention_rate": 0.04878048780487805,
+            "confusion": {
+              "correct_no_gold_abstentions": 8,
+              "no_gold_abstained": 8,
+              "no_gold_returned": 74,
+              "positive_abstained": 0,
+              "positive_returned": 82,
+              "successful_positive_retrievals": 42
+            },
+            "correctly_abstained_no_gold": 8,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.9024390243902439,
+            "n": 164,
+            "n_no_gold": 82,
+            "n_positive": 82,
+            "n_success": 50,
+            "no_gold_abstention_rate": 0.0975609756097561,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 0.9512195121951219,
+            "selective_success@20": 0.3048780487804878,
+            "successful_positive_retrievals": 42
+          },
+          "C3_NO_CONCENTRATION": {
+            "abstention_rate": 0.38414634146341464,
+            "confusion": {
+              "correct_no_gold_abstentions": 59,
+              "no_gold_abstained": 59,
+              "no_gold_returned": 23,
+              "positive_abstained": 4,
+              "positive_returned": 78,
+              "successful_positive_retrievals": 39
+            },
+            "correctly_abstained_no_gold": 59,
+            "false_abstention_rate": 0.04878048780487805,
+            "false_retrieval_rate": 0.2804878048780488,
+            "n": 164,
+            "n_no_gold": 82,
+            "n_positive": 82,
+            "n_success": 98,
+            "no_gold_abstention_rate": 0.7195121951219512,
+            "positive_retrieve_rate": 0.9512195121951219,
+            "retrieve_rate": 0.6158536585365854,
+            "selective_success@20": 0.5975609756097561,
+            "successful_positive_retrievals": 39
+          },
+          "C3_SCORE_SHAPE_LOGISTIC": {
+            "abstention_rate": 0.3719512195121951,
+            "confusion": {
+              "correct_no_gold_abstentions": 56,
+              "no_gold_abstained": 56,
+              "no_gold_returned": 26,
+              "positive_abstained": 5,
+              "positive_returned": 77,
+              "successful_positive_retrievals": 39
+            },
+            "correctly_abstained_no_gold": 56,
+            "false_abstention_rate": 0.06097560975609756,
+            "false_retrieval_rate": 0.3170731707317073,
+            "n": 164,
+            "n_no_gold": 82,
+            "n_positive": 82,
+            "n_success": 95,
+            "no_gold_abstention_rate": 0.6829268292682927,
+            "positive_retrieve_rate": 0.9390243902439024,
+            "retrieve_rate": 0.6280487804878049,
+            "selective_success@20": 0.5792682926829268,
+            "successful_positive_retrievals": 39
+          }
+        },
+        "n": 164
+      },
+      "counterfactual_32": {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 32,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 32,
+            "n_no_gold": 32,
+            "n_positive": 0,
+            "n_success": 0,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.0,
+            "successful_positive_retrievals": 0
+          },
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+            "abstention_rate": 1.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 32,
+              "no_gold_abstained": 32,
+              "no_gold_returned": 0,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 32,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.0,
+            "n": 32,
+            "n_no_gold": 32,
+            "n_positive": 0,
+            "n_success": 32,
+            "no_gold_abstention_rate": 1.0,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.0,
+            "selective_success@20": 1.0,
+            "successful_positive_retrievals": 0
+          },
+          "C2_TOP1_LOGISTIC": {
+            "abstention_rate": 0.25,
+            "confusion": {
+              "correct_no_gold_abstentions": 8,
+              "no_gold_abstained": 8,
+              "no_gold_returned": 24,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 8,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.75,
+            "n": 32,
+            "n_no_gold": 32,
+            "n_positive": 0,
+            "n_success": 8,
+            "no_gold_abstention_rate": 0.25,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.75,
+            "selective_success@20": 0.25,
+            "successful_positive_retrievals": 0
+          },
+          "C3_NO_CONCENTRATION": {
+            "abstention_rate": 0.875,
+            "confusion": {
+              "correct_no_gold_abstentions": 28,
+              "no_gold_abstained": 28,
+              "no_gold_returned": 4,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 28,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.125,
+            "n": 32,
+            "n_no_gold": 32,
+            "n_positive": 0,
+            "n_success": 28,
+            "no_gold_abstention_rate": 0.875,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.125,
+            "selective_success@20": 0.875,
+            "successful_positive_retrievals": 0
+          },
+          "C3_SCORE_SHAPE_LOGISTIC": {
+            "abstention_rate": 0.8125,
+            "confusion": {
+              "correct_no_gold_abstentions": 26,
+              "no_gold_abstained": 26,
+              "no_gold_returned": 6,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 26,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.1875,
+            "n": 32,
+            "n_no_gold": 32,
+            "n_positive": 0,
+            "n_success": 26,
+            "no_gold_abstention_rate": 0.8125,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.1875,
+            "selective_success@20": 0.8125,
+            "successful_positive_retrievals": 0
+          }
+        },
+        "n": 32
+      },
+      "full_427": {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 82,
+              "positive_abstained": 0,
+              "positive_returned": 345,
+              "successful_positive_retrievals": 197
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 427,
+            "n_no_gold": 82,
+            "n_positive": 345,
+            "n_success": 197,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.4613583138173302,
+            "successful_positive_retrievals": 197
+          },
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+            "abstention_rate": 0.2646370023419204,
+            "confusion": {
+              "correct_no_gold_abstentions": 49,
+              "no_gold_abstained": 49,
+              "no_gold_returned": 33,
+              "positive_abstained": 64,
+              "positive_returned": 281,
+              "successful_positive_retrievals": 163
+            },
+            "correctly_abstained_no_gold": 49,
+            "false_abstention_rate": 0.1855072463768116,
+            "false_retrieval_rate": 0.4024390243902439,
+            "n": 427,
+            "n_no_gold": 82,
+            "n_positive": 345,
+            "n_success": 212,
+            "no_gold_abstention_rate": 0.5975609756097561,
+            "positive_retrieve_rate": 0.8144927536231884,
+            "retrieve_rate": 0.7353629976580797,
+            "selective_success@20": 0.4964871194379391,
+            "successful_positive_retrievals": 163
+          },
+          "C2_TOP1_LOGISTIC": {
+            "abstention_rate": 0.02107728337236534,
+            "confusion": {
+              "correct_no_gold_abstentions": 8,
+              "no_gold_abstained": 8,
+              "no_gold_returned": 74,
+              "positive_abstained": 1,
+              "positive_returned": 344,
+              "successful_positive_retrievals": 196
+            },
+            "correctly_abstained_no_gold": 8,
+            "false_abstention_rate": 0.002898550724637681,
+            "false_retrieval_rate": 0.9024390243902439,
+            "n": 427,
+            "n_no_gold": 82,
+            "n_positive": 345,
+            "n_success": 204,
+            "no_gold_abstention_rate": 0.0975609756097561,
+            "positive_retrieve_rate": 0.9971014492753624,
+            "retrieve_rate": 0.9789227166276346,
+            "selective_success@20": 0.477751756440281,
+            "successful_positive_retrievals": 196
+          },
+          "C3_NO_CONCENTRATION": {
+            "abstention_rate": 0.1686182669789227,
+            "confusion": {
+              "correct_no_gold_abstentions": 59,
+              "no_gold_abstained": 59,
+              "no_gold_returned": 23,
+              "positive_abstained": 13,
+              "positive_returned": 332,
+              "successful_positive_retrievals": 191
+            },
+            "correctly_abstained_no_gold": 59,
+            "false_abstention_rate": 0.03768115942028986,
+            "false_retrieval_rate": 0.2804878048780488,
+            "n": 427,
+            "n_no_gold": 82,
+            "n_positive": 345,
+            "n_success": 250,
+            "no_gold_abstention_rate": 0.7195121951219512,
+            "positive_retrieve_rate": 0.9623188405797102,
+            "retrieve_rate": 0.8313817330210773,
+            "selective_success@20": 0.585480093676815,
+            "successful_positive_retrievals": 191
+          },
+          "C3_SCORE_SHAPE_LOGISTIC": {
+            "abstention_rate": 0.1592505854800937,
+            "confusion": {
+              "correct_no_gold_abstentions": 56,
+              "no_gold_abstained": 56,
+              "no_gold_returned": 26,
+              "positive_abstained": 12,
+              "positive_returned": 333,
+              "successful_positive_retrievals": 189
+            },
+            "correctly_abstained_no_gold": 56,
+            "false_abstention_rate": 0.034782608695652174,
+            "false_retrieval_rate": 0.3170731707317073,
+            "n": 427,
+            "n_no_gold": 82,
+            "n_positive": 345,
+            "n_success": 245,
+            "no_gold_abstention_rate": 0.6829268292682927,
+            "positive_retrieve_rate": 0.9652173913043478,
+            "retrieve_rate": 0.8407494145199064,
+            "selective_success@20": 0.5737704918032787,
+            "successful_positive_retrievals": 189
+          }
+        },
+        "n": 427
+      },
+      "natural_like_395": {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 50,
+              "positive_abstained": 0,
+              "positive_returned": 345,
+              "successful_positive_retrievals": 197
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 395,
+            "n_no_gold": 50,
+            "n_positive": 345,
+            "n_success": 197,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.49873417721518987,
+            "successful_positive_retrievals": 197
+          },
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+            "abstention_rate": 0.20506329113924052,
+            "confusion": {
+              "correct_no_gold_abstentions": 17,
+              "no_gold_abstained": 17,
+              "no_gold_returned": 33,
+              "positive_abstained": 64,
+              "positive_returned": 281,
+              "successful_positive_retrievals": 163
+            },
+            "correctly_abstained_no_gold": 17,
+            "false_abstention_rate": 0.1855072463768116,
+            "false_retrieval_rate": 0.66,
+            "n": 395,
+            "n_no_gold": 50,
+            "n_positive": 345,
+            "n_success": 180,
+            "no_gold_abstention_rate": 0.34,
+            "positive_retrieve_rate": 0.8144927536231884,
+            "retrieve_rate": 0.7949367088607595,
+            "selective_success@20": 0.45569620253164556,
+            "successful_positive_retrievals": 163
+          },
+          "C2_TOP1_LOGISTIC": {
+            "abstention_rate": 0.002531645569620253,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 50,
+              "positive_abstained": 1,
+              "positive_returned": 344,
+              "successful_positive_retrievals": 196
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.002898550724637681,
+            "false_retrieval_rate": 1.0,
+            "n": 395,
+            "n_no_gold": 50,
+            "n_positive": 345,
+            "n_success": 196,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.9971014492753624,
+            "retrieve_rate": 0.9974683544303797,
+            "selective_success@20": 0.4962025316455696,
+            "successful_positive_retrievals": 196
+          },
+          "C3_NO_CONCENTRATION": {
+            "abstention_rate": 0.11139240506329114,
+            "confusion": {
+              "correct_no_gold_abstentions": 31,
+              "no_gold_abstained": 31,
+              "no_gold_returned": 19,
+              "positive_abstained": 13,
+              "positive_returned": 332,
+              "successful_positive_retrievals": 191
+            },
+            "correctly_abstained_no_gold": 31,
+            "false_abstention_rate": 0.03768115942028986,
+            "false_retrieval_rate": 0.38,
+            "n": 395,
+            "n_no_gold": 50,
+            "n_positive": 345,
+            "n_success": 222,
+            "no_gold_abstention_rate": 0.62,
+            "positive_retrieve_rate": 0.9623188405797102,
+            "retrieve_rate": 0.8886075949367088,
+            "selective_success@20": 0.5620253164556962,
+            "successful_positive_retrievals": 191
+          },
+          "C3_SCORE_SHAPE_LOGISTIC": {
+            "abstention_rate": 0.10632911392405063,
+            "confusion": {
+              "correct_no_gold_abstentions": 30,
+              "no_gold_abstained": 30,
+              "no_gold_returned": 20,
+              "positive_abstained": 12,
+              "positive_returned": 333,
+              "successful_positive_retrievals": 189
+            },
+            "correctly_abstained_no_gold": 30,
+            "false_abstention_rate": 0.034782608695652174,
+            "false_retrieval_rate": 0.4,
+            "n": 395,
+            "n_no_gold": 50,
+            "n_positive": 345,
+            "n_success": 219,
+            "no_gold_abstention_rate": 0.6,
+            "positive_retrieve_rate": 0.9652173913043478,
+            "retrieve_rate": 0.8936708860759494,
+            "selective_success@20": 0.5544303797468354,
+            "successful_positive_retrievals": 189
+          }
+        },
+        "n": 395
+      },
+      "no_gold_82": {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 82,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 1.0,
+            "n": 82,
+            "n_no_gold": 82,
+            "n_positive": 0,
+            "n_success": 0,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.0,
+            "successful_positive_retrievals": 0
+          },
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+            "abstention_rate": 0.5975609756097561,
+            "confusion": {
+              "correct_no_gold_abstentions": 49,
+              "no_gold_abstained": 49,
+              "no_gold_returned": 33,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 49,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.4024390243902439,
+            "n": 82,
+            "n_no_gold": 82,
+            "n_positive": 0,
+            "n_success": 49,
+            "no_gold_abstention_rate": 0.5975609756097561,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.4024390243902439,
+            "selective_success@20": 0.5975609756097561,
+            "successful_positive_retrievals": 0
+          },
+          "C2_TOP1_LOGISTIC": {
+            "abstention_rate": 0.0975609756097561,
+            "confusion": {
+              "correct_no_gold_abstentions": 8,
+              "no_gold_abstained": 8,
+              "no_gold_returned": 74,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 8,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.9024390243902439,
+            "n": 82,
+            "n_no_gold": 82,
+            "n_positive": 0,
+            "n_success": 8,
+            "no_gold_abstention_rate": 0.0975609756097561,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.9024390243902439,
+            "selective_success@20": 0.0975609756097561,
+            "successful_positive_retrievals": 0
+          },
+          "C3_NO_CONCENTRATION": {
+            "abstention_rate": 0.7195121951219512,
+            "confusion": {
+              "correct_no_gold_abstentions": 59,
+              "no_gold_abstained": 59,
+              "no_gold_returned": 23,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 59,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.2804878048780488,
+            "n": 82,
+            "n_no_gold": 82,
+            "n_positive": 0,
+            "n_success": 59,
+            "no_gold_abstention_rate": 0.7195121951219512,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.2804878048780488,
+            "selective_success@20": 0.7195121951219512,
+            "successful_positive_retrievals": 0
+          },
+          "C3_SCORE_SHAPE_LOGISTIC": {
+            "abstention_rate": 0.6829268292682927,
+            "confusion": {
+              "correct_no_gold_abstentions": 56,
+              "no_gold_abstained": 56,
+              "no_gold_returned": 26,
+              "positive_abstained": 0,
+              "positive_returned": 0,
+              "successful_positive_retrievals": 0
+            },
+            "correctly_abstained_no_gold": 56,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.3170731707317073,
+            "n": 82,
+            "n_no_gold": 82,
+            "n_positive": 0,
+            "n_success": 56,
+            "no_gold_abstention_rate": 0.6829268292682927,
+            "positive_retrieve_rate": 0.0,
+            "retrieve_rate": 0.3170731707317073,
+            "selective_success@20": 0.6829268292682927,
+            "successful_positive_retrievals": 0
+          }
+        },
+        "n": 82
+      },
+      "positive_345": {
+        "metrics": {
+          "C0_ALWAYS_RETRIEVE": {
+            "abstention_rate": 0.0,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 0,
+              "positive_abstained": 0,
+              "positive_returned": 345,
+              "successful_positive_retrievals": 197
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.0,
+            "false_retrieval_rate": 0.0,
+            "n": 345,
+            "n_no_gold": 0,
+            "n_positive": 345,
+            "n_success": 197,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 1.0,
+            "retrieve_rate": 1.0,
+            "selective_success@20": 0.5710144927536231,
+            "successful_positive_retrievals": 197
+          },
+          "C1_OFFICIAL_TOP_SCORE_THRESHOLD": {
+            "abstention_rate": 0.1855072463768116,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 0,
+              "positive_abstained": 64,
+              "positive_returned": 281,
+              "successful_positive_retrievals": 163
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.1855072463768116,
+            "false_retrieval_rate": 0.0,
+            "n": 345,
+            "n_no_gold": 0,
+            "n_positive": 345,
+            "n_success": 163,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.8144927536231884,
+            "retrieve_rate": 0.8144927536231884,
+            "selective_success@20": 0.47246376811594204,
+            "successful_positive_retrievals": 163
+          },
+          "C2_TOP1_LOGISTIC": {
+            "abstention_rate": 0.002898550724637681,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 0,
+              "positive_abstained": 1,
+              "positive_returned": 344,
+              "successful_positive_retrievals": 196
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.002898550724637681,
+            "false_retrieval_rate": 0.0,
+            "n": 345,
+            "n_no_gold": 0,
+            "n_positive": 345,
+            "n_success": 196,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.9971014492753624,
+            "retrieve_rate": 0.9971014492753624,
+            "selective_success@20": 0.5681159420289855,
+            "successful_positive_retrievals": 196
+          },
+          "C3_NO_CONCENTRATION": {
+            "abstention_rate": 0.03768115942028986,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 0,
+              "positive_abstained": 13,
+              "positive_returned": 332,
+              "successful_positive_retrievals": 191
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.03768115942028986,
+            "false_retrieval_rate": 0.0,
+            "n": 345,
+            "n_no_gold": 0,
+            "n_positive": 345,
+            "n_success": 191,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.9623188405797102,
+            "retrieve_rate": 0.9623188405797102,
+            "selective_success@20": 0.553623188405797,
+            "successful_positive_retrievals": 191
+          },
+          "C3_SCORE_SHAPE_LOGISTIC": {
+            "abstention_rate": 0.034782608695652174,
+            "confusion": {
+              "correct_no_gold_abstentions": 0,
+              "no_gold_abstained": 0,
+              "no_gold_returned": 0,
+              "positive_abstained": 12,
+              "positive_returned": 333,
+              "successful_positive_retrievals": 189
+            },
+            "correctly_abstained_no_gold": 0,
+            "false_abstention_rate": 0.034782608695652174,
+            "false_retrieval_rate": 0.0,
+            "n": 345,
+            "n_no_gold": 0,
+            "n_positive": 345,
+            "n_success": 189,
+            "no_gold_abstention_rate": 0.0,
+            "positive_retrieve_rate": 0.9652173913043478,
+            "retrieve_rate": 0.9652173913043478,
+            "selective_success@20": 0.5478260869565217,
+            "successful_positive_retrievals": 189
+          }
+        },
+        "n": 345
+      }
+    },
+    "timing": {
+      "C3_infer_per_sample_s": 2.407859490810298e-06,
+      "C3_infer_s": 0.0010281560025759973,
+      "C3_train_s": 0.04271905199493631,
+      "feature_from_scores_per_sample_s": 2.1933276343322413e-05,
+      "feature_from_scores_s": 0.00936550899859867,
+      "gate_overhead_per_sample_s": 2.4341135834132712e-05,
+      "note": "Score recovery reconstructs missing E005 top-20 score vectors by re-running the official ranker. Live gate overhead assumes those scores already exist from retrieval. Evaluation still uses frozen top-20 files.",
+      "score_recovery_s": 510.7244974560017
+    }
+  },
+  "n": 427,
+  "numpy_version": "2.5.3",
+  "primary_backend": "lexical",
+  "primary_dataset": "official v2_selective_retrieval_natural",
+  "primary_metric": "selective_success@20",
+  "secondary_backend": "bm25",
+  "sklearn_version": "1.9.0",
+  "status": "EXPLORATORY"
+}

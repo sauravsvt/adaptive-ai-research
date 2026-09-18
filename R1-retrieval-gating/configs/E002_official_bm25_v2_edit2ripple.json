@@ -1,0 +1,35 @@
+{
+  "experiment_id": "E002",
+  "purpose": "Reproduce one official ARB BM25 baseline unchanged",
+  "benchmark": "agent-retrieval-bench",
+  "benchmark_commit": "07014c986f3deadb1548c62b32c0ffbe6a81465d",
+  "benchmark_version": "0.2.1",
+  "dataset_repo": "eyuansu71/agent_retrieval_bench",
+  "release_id": "v2_edit2ripple",
+  "release_sha256": "a174196d69b531d176a65c76fea928b3f1c893710baa4efccc48e901ff404b2c",
+  "ranker": "bm25",
+  "candidate_filter": "all_files",
+  "keep_list": null,
+  "seed": null,
+  "command": [
+    "arb",
+    "eval-baseline",
+    "--derived",
+    "data/benchmark/v2_edit2ripple",
+    "--corpus",
+    "data/corpus/v2_edit2ripple",
+    "--ranker",
+    "bm25",
+    "--candidate-filter",
+    "all_files",
+    "--no-keep-list",
+    "--out",
+    "results/baselines/E002_v2_edit2ripple_bm25_summary.json",
+    "--details",
+    "results/raw/E002_v2_edit2ripple_bm25_details.jsonl"
+  ],
+  "notes": [
+    "Output paths redirected from data/eval/v2_edit2ripple/ to results/ to avoid overwriting bundled official eval artifacts.",
+    "Ranker, candidate filter, samples, and corpus were unchanged from the README example."
+  ]
+}

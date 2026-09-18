@@ -1,0 +1,138 @@
+{
+  "bm25_frozen_reference": {
+    "C0": 0.42857142857142855,
+    "C3": 0.45433255269320844
+  },
+  "experiment_id": "E007",
+  "frozen_feature_family": "E006 12 score-shape features; per-backend nested CV; lexical coefficients not reused",
+  "interpretation": {
+    "decision": "CONTINUE — LEXICAL-SPECIFIC SIGNAL",
+    "n_non_lexical_reliable": 0,
+    "reasons": [
+      "RepoMap does not show a reliable C3-C0 gain under the frozen protocol.",
+      "Qwen embedding does not show a reliable C3-C0 gain under the frozen protocol."
+    ]
+  },
+  "lexical_frozen_reference": {
+    "C0": 0.4613583138173302,
+    "C3": 0.5737704918032787
+  },
+  "numpy_version": "2.5.3",
+  "primary_dataset": "official v2_selective_retrieval_natural n=427",
+  "primary_metric": "Selective Success@20",
+  "qwen_embedding": {
+    "C0": 0.5667447306791569,
+    "C1": 0.65807962529274,
+    "C2": 0.6557377049180327,
+    "C3": 0.6323185011709602,
+    "C3-C0": {
+      "ci95_high": 0.1053864168618267,
+      "ci95_low": 0.025761124121779888,
+      "ci_includes_zero": false,
+      "n_resamples": 10000,
+      "point": 0.06557377049180335,
+      "random_state": 0
+    },
+    "C3-C1": {
+      "ci95_high": -0.007025761124121788,
+      "ci95_low": -0.04449648711943799,
+      "ci_includes_zero": false,
+      "n_resamples": 10000,
+      "point": -0.025761124121779777,
+      "random_state": 0
+    },
+    "C3-C2": {
+      "ci95_high": -0.004683840749414525,
+      "ci95_low": -0.042154566744730726,
+      "ci_includes_zero": false,
+      "n_resamples": 10000,
+      "point": -0.023419203747072515,
+      "random_state": 0
+    },
+    "C3_NO_CONCENTRATION": 0.6440281030444965,
+    "c1_label": "C1_OFFICIAL_TOP_SCORE_THRESHOLD",
+    "counterfactual_C0": 0.0,
+    "counterfactual_C3": 0.875,
+    "false_abstention_C3": 0.1391304347826087,
+    "natural_like_C0": 0.6126582278481013,
+    "natural_like_C3": 0.6126582278481013,
+    "natural_like_delta": 0.0,
+    "ranker": "qwen_embedding",
+    "reliable_positive_C3_minus_C0": false,
+    "score_audit": {
+      "legitimate_numeric_geometry": true,
+      "looks_like_rank_position_scores": false,
+      "max": 0.9411048889160156,
+      "mean": 0.6143576044877184,
+      "min": 0.3646959364414215,
+      "n_score_values": 8540,
+      "n_unique_rounded": 8512,
+      "std": 0.0764864219380108
+    },
+    "status": "evaluated",
+    "timing": {
+      "C3_infer_s": 0.0007791510142851621,
+      "C3_train_s": 0.03473498494713567,
+      "feature_from_scores_s": 1.259904820472002e-07,
+      "gate_overhead_per_sample_s": 1.825004695005174e-06
+    }
+  },
+  "repomap": {
+    "C0": 0.5925058548009368,
+    "C1": 0.5035128805620609,
+    "C2": 0.5925058548009368,
+    "C3": 0.5925058548009368,
+    "C3-C0": {
+      "ci95_high": 0.0,
+      "ci95_low": 0.0,
+      "ci_includes_zero": true,
+      "n_resamples": 10000,
+      "point": 0.0,
+      "random_state": 0
+    },
+    "C3-C1": {
+      "ci95_high": 0.14285714285714285,
+      "ci95_low": 0.03747072599531609,
+      "ci_includes_zero": false,
+      "n_resamples": 10000,
+      "point": 0.08899297423887587,
+      "random_state": 0
+    },
+    "C3-C2": {
+      "ci95_high": 0.0,
+      "ci95_low": 0.0,
+      "ci_includes_zero": true,
+      "n_resamples": 10000,
+      "point": 0.0,
+      "random_state": 0
+    },
+    "C3_NO_CONCENTRATION": 0.5925058548009368,
+    "c1_label": "C1_OFFICIAL_TOP_SCORE_THRESHOLD",
+    "counterfactual_C0": 0.0,
+    "counterfactual_C3": 0.0,
+    "false_abstention_C3": 0.002898550724637681,
+    "natural_like_C0": 0.640506329113924,
+    "natural_like_C3": 0.640506329113924,
+    "natural_like_delta": 0.0,
+    "ranker": "repomap",
+    "reliable_positive_C3_minus_C0": false,
+    "score_audit": {
+      "legitimate_numeric_geometry": true,
+      "looks_like_rank_position_scores": false,
+      "max": 0.9698351223125506,
+      "mean": 0.5524049482420843,
+      "min": 0.23038775658748467,
+      "n_score_values": 8540,
+      "n_unique_rounded": 8464,
+      "std": 0.11311977301160386
+    },
+    "status": "score_shape_applicable",
+    "timing": {
+      "C3_infer_s": 0.0007984769763424993,
+      "C3_train_s": 0.035513795068254694,
+      "feature_from_scores_s": 1.960142981261015e-07,
+      "gate_overhead_per_sample_s": 1.8704285495096612e-06
+    }
+  },
+  "sklearn_version": "1.9.0"
+}

@@ -1,0 +1,23 @@
+{
+  "done_reason": "length",
+  "eval_duration_s": 0.15414,
+  "fully_gpu_resident": true,
+  "load_duration_ns": 11535209306,
+  "load_duration_s": 11.535209306,
+  "note": "Non-benchmark warm. Load time is not policy G_decode.",
+  "prompt": "Reply with the single word ready. Do not write code.",
+  "residency": {
+    "fully_gpu_resident": true,
+    "lines": [
+      "NAME           ID              SIZE     PROCESSOR    CONTEXT    UNTIL",
+      "gpt-oss:20b    17052f91a42e    12 GB    100% GPU     256        4 minutes from now"
+    ],
+    "raw": "NAME           ID              SIZE     PROCESSOR    CONTEXT    UNTIL              \ngpt-oss:20b    17052f91a42e    12 GB    100% GPU     256        4 minutes from now    \n",
+    "target_line": "gpt-oss:20b    17052f91a42e    12 GB    100% GPU     256        4 minutes from now",
+    "ts": 1789736030.2007556
+  },
+  "response": "",
+  "stage": "warm",
+  "total_duration_s": 11.991477141,
+  "wall_s": 12.003118731999166
+}

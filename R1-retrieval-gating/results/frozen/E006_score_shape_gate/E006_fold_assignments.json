@@ -1,0 +1,496 @@
+{
+  "inner_composition": [
+    {
+      "inner_folds": {
+        "0": {
+          "no_gold": 19,
+          "positive": 43,
+          "repos": [
+            "mockito/mockito",
+            "pallets/click",
+            "pytest-dev/pytest",
+            "python/mypy",
+            "spring-projects/spring-boot"
+          ]
+        },
+        "1": {
+          "no_gold": 17,
+          "positive": 44,
+          "repos": [
+            "clap-rs/clap",
+            "fastapi/fastapi",
+            "vitejs/vite",
+            "vuejs/core"
+          ]
+        },
+        "2": {
+          "no_gold": 10,
+          "positive": 60,
+          "repos": [
+            "HypothesisWorks/hypothesis",
+            "etcd-io/etcd",
+            "huggingface/diffusers",
+            "tox-dev/tox"
+          ]
+        },
+        "3": {
+          "no_gold": 10,
+          "positive": 52,
+          "repos": [
+            "caddyserver/caddy",
+            "eslint/eslint",
+            "tokio-rs/tokio"
+          ]
+        },
+        "4": {
+          "no_gold": 12,
+          "positive": 49,
+          "repos": [
+            "astral-sh/ruff",
+            "huggingface/transformers",
+            "ipython/ipython",
+            "pypa/pip"
+          ]
+        }
+      },
+      "n_train": 316,
+      "outer_fold": 0
+    },
+    {
+      "inner_folds": {
+        "0": {
+          "no_gold": 9,
+          "positive": 93,
+          "repos": [
+            "HypothesisWorks/hypothesis",
+            "gin-gonic/gin",
+            "pydantic/pydantic",
+            "scrapy/scrapy"
+          ]
+        },
+        "1": {
+          "no_gold": 16,
+          "positive": 37,
+          "repos": [
+            "fastapi/fastapi",
+            "python/mypy",
+            "spring-projects/spring-boot",
+            "vitejs/vite"
+          ]
+        },
+        "2": {
+          "no_gold": 12,
+          "positive": 48,
+          "repos": [
+            "etcd-io/etcd",
+            "ipython/ipython",
+            "microsoft/playwright",
+            "numpy/numpy"
+          ]
+        },
+        "3": {
+          "no_gold": 12,
+          "positive": 57,
+          "repos": [
+            "eslint/eslint",
+            "huggingface/diffusers",
+            "tokio-rs/tokio",
+            "tox-dev/tox"
+          ]
+        },
+        "4": {
+          "no_gold": 13,
+          "positive": 50,
+          "repos": [
+            "astral-sh/ruff",
+            "caddyserver/caddy",
+            "pallets/click",
+            "pypa/pip"
+          ]
+        }
+      },
+      "n_train": 347,
+      "outer_fold": 1
+    },
+    {
+      "inner_folds": {
+        "0": {
+          "no_gold": 8,
+          "positive": 92,
+          "repos": [
+            "HypothesisWorks/hypothesis",
+            "gin-gonic/gin",
+            "scrapy/scrapy"
+          ]
+        },
+        "1": {
+          "no_gold": 13,
+          "positive": 48,
+          "repos": [
+            "etcd-io/etcd",
+            "microsoft/playwright",
+            "numpy/numpy",
+            "tox-dev/tox"
+          ]
+        },
+        "2": {
+          "no_gold": 11,
+          "positive": 53,
+          "repos": [
+            "caddyserver/caddy",
+            "eslint/eslint",
+            "pydantic/pydantic",
+            "tokio-rs/tokio"
+          ]
+        },
+        "3": {
+          "no_gold": 12,
+          "positive": 49,
+          "repos": [
+            "astral-sh/ruff",
+            "huggingface/transformers",
+            "ipython/ipython",
+            "pypa/pip"
+          ]
+        },
+        "4": {
+          "no_gold": 22,
+          "positive": 40,
+          "repos": [
+            "clap-rs/clap",
+            "huggingface/diffusers",
+            "mockito/mockito",
+            "pytest-dev/pytest",
+            "vuejs/core"
+          ]
+        }
+      },
+      "n_train": 348,
+      "outer_fold": 2
+    },
+    {
+      "inner_folds": {
+        "0": {
+          "no_gold": 8,
+          "positive": 92,
+          "repos": [
+            "HypothesisWorks/hypothesis",
+            "gin-gonic/gin",
+            "scrapy/scrapy"
+          ]
+        },
+        "1": {
+          "no_gold": 19,
+          "positive": 42,
+          "repos": [
+            "mockito/mockito",
+            "pallets/click",
+            "pytest-dev/pytest",
+            "spring-projects/spring-boot"
+          ]
+        },
+        "2": {
+          "no_gold": 17,
+          "positive": 44,
+          "repos": [
+            "clap-rs/clap",
+            "fastapi/fastapi",
+            "vitejs/vite",
+            "vuejs/core"
+          ]
+        },
+        "3": {
+          "no_gold": 11,
+          "positive": 62,
+          "repos": [
+            "astral-sh/ruff",
+            "huggingface/diffusers",
+            "tokio-rs/tokio",
+            "tox-dev/tox"
+          ]
+        },
+        "4": {
+          "no_gold": 11,
+          "positive": 43,
+          "repos": [
+            "huggingface/transformers",
+            "microsoft/playwright",
+            "numpy/numpy",
+            "pydantic/pydantic",
+            "python/mypy"
+          ]
+        }
+      },
+      "n_train": 349,
+      "outer_fold": 3
+    },
+    {
+      "inner_folds": {
+        "0": {
+          "no_gold": 8,
+          "positive": 92,
+          "repos": [
+            "eslint/eslint",
+            "gin-gonic/gin",
+            "scrapy/scrapy"
+          ]
+        },
+        "1": {
+          "no_gold": 11,
+          "positive": 46,
+          "repos": [
+            "huggingface/transformers",
+            "microsoft/playwright",
+            "pydantic/pydantic",
+            "pypa/pip"
+          ]
+        },
+        "2": {
+          "no_gold": 17,
+          "positive": 44,
+          "repos": [
+            "clap-rs/clap",
+            "fastapi/fastapi",
+            "vitejs/vite",
+            "vuejs/core"
+          ]
+        },
+        "3": {
+          "no_gold": 11,
+          "positive": 57,
+          "repos": [
+            "caddyserver/caddy",
+            "etcd-io/etcd",
+            "ipython/ipython",
+            "numpy/numpy"
+          ]
+        },
+        "4": {
+          "no_gold": 19,
+          "positive": 43,
+          "repos": [
+            "mockito/mockito",
+            "pallets/click",
+            "pytest-dev/pytest",
+            "python/mypy",
+            "spring-projects/spring-boot"
+          ]
+        }
+      },
+      "n_train": 348,
+      "outer_fold": 4
+    }
+  ],
+  "inner_repo_folds_by_outer": {
+    "0": {
+      "HypothesisWorks/hypothesis": 2,
+      "astral-sh/ruff": 4,
+      "caddyserver/caddy": 3,
+      "clap-rs/clap": 1,
+      "eslint/eslint": 3,
+      "etcd-io/etcd": 2,
+      "fastapi/fastapi": 1,
+      "huggingface/diffusers": 2,
+      "huggingface/transformers": 4,
+      "ipython/ipython": 4,
+      "mockito/mockito": 0,
+      "pallets/click": 0,
+      "pypa/pip": 4,
+      "pytest-dev/pytest": 0,
+      "python/mypy": 0,
+      "spring-projects/spring-boot": 0,
+      "tokio-rs/tokio": 3,
+      "tox-dev/tox": 2,
+      "vitejs/vite": 1,
+      "vuejs/core": 1
+    },
+    "1": {
+      "HypothesisWorks/hypothesis": 0,
+      "astral-sh/ruff": 4,
+      "caddyserver/caddy": 4,
+      "eslint/eslint": 3,
+      "etcd-io/etcd": 2,
+      "fastapi/fastapi": 1,
+      "gin-gonic/gin": 0,
+      "huggingface/diffusers": 3,
+      "ipython/ipython": 2,
+      "microsoft/playwright": 2,
+      "numpy/numpy": 2,
+      "pallets/click": 4,
+      "pydantic/pydantic": 0,
+      "pypa/pip": 4,
+      "python/mypy": 1,
+      "scrapy/scrapy": 0,
+      "spring-projects/spring-boot": 1,
+      "tokio-rs/tokio": 3,
+      "tox-dev/tox": 3,
+      "vitejs/vite": 1
+    },
+    "2": {
+      "HypothesisWorks/hypothesis": 0,
+      "astral-sh/ruff": 3,
+      "caddyserver/caddy": 2,
+      "clap-rs/clap": 4,
+      "eslint/eslint": 2,
+      "etcd-io/etcd": 1,
+      "gin-gonic/gin": 0,
+      "huggingface/diffusers": 4,
+      "huggingface/transformers": 3,
+      "ipython/ipython": 3,
+      "microsoft/playwright": 1,
+      "mockito/mockito": 4,
+      "numpy/numpy": 1,
+      "pydantic/pydantic": 2,
+      "pypa/pip": 3,
+      "pytest-dev/pytest": 4,
+      "scrapy/scrapy": 0,
+      "tokio-rs/tokio": 2,
+      "tox-dev/tox": 1,
+      "vuejs/core": 4
+    },
+    "3": {
+      "HypothesisWorks/hypothesis": 0,
+      "astral-sh/ruff": 3,
+      "clap-rs/clap": 2,
+      "fastapi/fastapi": 2,
+      "gin-gonic/gin": 0,
+      "huggingface/diffusers": 3,
+      "huggingface/transformers": 4,
+      "microsoft/playwright": 4,
+      "mockito/mockito": 1,
+      "numpy/numpy": 4,
+      "pallets/click": 1,
+      "pydantic/pydantic": 4,
+      "pytest-dev/pytest": 1,
+      "python/mypy": 4,
+      "scrapy/scrapy": 0,
+      "spring-projects/spring-boot": 1,
+      "tokio-rs/tokio": 3,
+      "tox-dev/tox": 3,
+      "vitejs/vite": 2,
+      "vuejs/core": 2
+    },
+    "4": {
+      "caddyserver/caddy": 3,
+      "clap-rs/clap": 2,
+      "eslint/eslint": 0,
+      "etcd-io/etcd": 3,
+      "fastapi/fastapi": 2,
+      "gin-gonic/gin": 0,
+      "huggingface/transformers": 1,
+      "ipython/ipython": 3,
+      "microsoft/playwright": 1,
+      "mockito/mockito": 4,
+      "numpy/numpy": 3,
+      "pallets/click": 4,
+      "pydantic/pydantic": 1,
+      "pypa/pip": 1,
+      "pytest-dev/pytest": 4,
+      "python/mypy": 4,
+      "scrapy/scrapy": 0,
+      "spring-projects/spring-boot": 4,
+      "vitejs/vite": 2,
+      "vuejs/core": 2
+    }
+  },
+  "n_repos": 25,
+  "n_samples": 427,
+  "nested_cv_valid": true,
+  "outer_composition": [
+    {
+      "n": 111,
+      "no_gold": 14,
+      "outer_fold": 0,
+      "positive": 97,
+      "repos": [
+        "gin-gonic/gin",
+        "microsoft/playwright",
+        "numpy/numpy",
+        "pydantic/pydantic",
+        "scrapy/scrapy"
+      ]
+    },
+    {
+      "n": 80,
+      "no_gold": 20,
+      "outer_fold": 1,
+      "positive": 60,
+      "repos": [
+        "clap-rs/clap",
+        "huggingface/transformers",
+        "mockito/mockito",
+        "pytest-dev/pytest",
+        "vuejs/core"
+      ]
+    },
+    {
+      "n": 79,
+      "no_gold": 16,
+      "outer_fold": 2,
+      "positive": 63,
+      "repos": [
+        "fastapi/fastapi",
+        "pallets/click",
+        "python/mypy",
+        "spring-projects/spring-boot",
+        "vitejs/vite"
+      ]
+    },
+    {
+      "n": 78,
+      "no_gold": 16,
+      "outer_fold": 3,
+      "positive": 62,
+      "repos": [
+        "caddyserver/caddy",
+        "eslint/eslint",
+        "etcd-io/etcd",
+        "ipython/ipython",
+        "pypa/pip"
+      ]
+    },
+    {
+      "n": 79,
+      "no_gold": 16,
+      "outer_fold": 4,
+      "positive": 63,
+      "repos": [
+        "HypothesisWorks/hypothesis",
+        "astral-sh/ruff",
+        "huggingface/diffusers",
+        "tokio-rs/tokio",
+        "tox-dev/tox"
+      ]
+    }
+  ],
+  "outer_repo_folds": {
+    "HypothesisWorks/hypothesis": 4,
+    "astral-sh/ruff": 4,
+    "caddyserver/caddy": 3,
+    "clap-rs/clap": 1,
+    "eslint/eslint": 3,
+    "etcd-io/etcd": 3,
+    "fastapi/fastapi": 2,
+    "gin-gonic/gin": 0,
+    "huggingface/diffusers": 4,
+    "huggingface/transformers": 1,
+    "ipython/ipython": 3,
+    "microsoft/playwright": 0,
+    "mockito/mockito": 1,
+    "numpy/numpy": 0,
+    "pallets/click": 2,
+    "pydantic/pydantic": 0,
+    "pypa/pip": 3,
+    "pytest-dev/pytest": 1,
+    "python/mypy": 2,
+    "scrapy/scrapy": 0,
+    "spring-projects/spring-boot": 2,
+    "tokio-rs/tokio": 4,
+    "tox-dev/tox": 4,
+    "vitejs/vite": 2,
+    "vuejs/core": 1
+  },
+  "protocol": "Official E005 natural-427 repo_folds for outer 5-fold; official assign_repo_folds(5) on each outer-training set for inner CV.",
+  "source_outer_folds": "results/baselines/E005_natural_selective_cv.json:repo_folds",
+  "written_before_model_fitting": true
+}

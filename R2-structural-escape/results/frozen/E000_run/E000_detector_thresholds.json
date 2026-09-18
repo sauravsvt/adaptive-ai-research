@@ -1,0 +1,11 @@
+{
+  "L_star": 319,
+  "T_dup": 0.12,
+  "T_nov": 0.46499999999999997,
+  "W_long": 307,
+  "W_min": 199,
+  "formula_id": "mech_v1",
+  "n_cal_high_prefixes": 9,
+  "n_calibration": 40,
+  "note": "Thresholds from calibration mechanical percentiles only. Verifier unused."
+}

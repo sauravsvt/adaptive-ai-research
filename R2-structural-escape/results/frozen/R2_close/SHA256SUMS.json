@@ -1,0 +1,12 @@
+[
+  {
+    "path": "CLOSE.md",
+    "sha256": "8c97079ca3b83783c6aafdf0c7e15874a96a877ff66bce14e6663eaae561deff",
+    "bytes": 957
+  },
+  {
+    "path": "R2_CLOSE_MANIFEST.json",
+    "sha256": "c3f0b4eb9422957ef79280a55869cb07d8715bdc73c2fae59e5a123b981c74e8",
+    "bytes": 10296
+  }
+]

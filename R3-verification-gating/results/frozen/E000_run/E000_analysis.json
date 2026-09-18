@@ -1,0 +1,85 @@
+{
+  "G_decode_means": {
+    "adaptive": 9.40209467072561,
+    "cheap": 6.02078886584756,
+    "expensive": 27.09352252438414
+  },
+  "R_G": 0.6529762912052601,
+  "decision": "STOP — NO EXPENSIVE ADVANTAGE",
+  "deltas": {
+    "G_decode_expensive_minus_adaptive": {
+      "ci95_high": 19.40893468643278,
+      "ci95_low": 15.889762072262196,
+      "ci_excludes_zero": true,
+      "n": 164,
+      "n_resamples": 10000,
+      "point": 17.691427853658535,
+      "random_state": 0
+    },
+    "PE_adaptive_minus_expensive": {
+      "ci95_high": 0.5853658536585366,
+      "ci95_low": 0.43902439024390244,
+      "ci_excludes_zero": true,
+      "n": 164,
+      "n_resamples": 10000,
+      "point": 0.5121951219512195,
+      "random_state": 0
+    },
+    "QE_expensive_minus_cheap": {
+      "ci95_high": -0.43902439024390244,
+      "ci95_low": -0.5853658536585366,
+      "ci_excludes_zero": true,
+      "n": 164,
+      "n_resamples": 10000,
+      "point": -0.5121951219512195,
+      "random_state": 0
+    }
+  },
+  "experiment_id": "E000",
+  "gate": {
+    "escalate_rate": 0.10975609756097561,
+    "gate_verifier_cpu_s_sum": 2.9022599999999947,
+    "gate_verifier_wall_s_mean": 0.047342722810964646,
+    "gate_verifier_wall_s_sum": 7.764206540998202,
+    "n_escalate": 18,
+    "n_false_accept_basepass_plusfail": 4,
+    "n_unnecessary_escalate_basefail_pluspass": 0
+  },
+  "n_paired": 164,
+  "rates": {
+    "ADAPTIVE": {
+      "n": 164,
+      "n_pass": 142,
+      "success": 0.8658536585365854
+    },
+    "CHEAP_ONLY": {
+      "n": 164,
+      "n_pass": 142,
+      "success": 0.8658536585365854
+    },
+    "EXPENSIVE_ONLY": {
+      "n": 164,
+      "n_pass": 58,
+      "success": 0.35365853658536583
+    }
+  },
+  "secondary": {
+    "G_decode_sum_experimental": 5430.747067998,
+    "G_service_means": {
+      "adaptive": 9.60826454877439,
+      "expensive": 27.292351652432927
+    },
+    "done_reason": {
+      "None": 2,
+      "length": 137,
+      "stop": 191
+    },
+    "eval_count_mean": {
+      "cheap": 304.859756097561,
+      "expensive": 1351.9207317073171
+    },
+    "n_no_extractable": 122,
+    "note": "G_service is not confirmatory. Verifier time is not in G_decode. No energy claim.",
+    "wall_s_sum": 5563.8063694150005
+  }
+}

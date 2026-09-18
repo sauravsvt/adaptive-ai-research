@@ -1,0 +1,1647 @@
+{
+  "n": 164,
+  "n_cheap_first": 84,
+  "n_expensive_first": 80,
+  "rows": [
+    {
+      "cheap_first": false,
+      "digest": "00462eac00eec9ac16ba8fd2ca1df6267fe24634b34e28bce4d6abaa3ba27645",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/29"
+    },
+    {
+      "cheap_first": false,
+      "digest": "016369f63d16da0b0c0123e89443a00e562e9300b4eb05ce7751e2de2eedfa43",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/110"
+    },
+    {
+      "cheap_first": true,
+      "digest": "01ec0c81950c36d50a66f781c608481f7c577f768d4b0b3cd6fe40f8b842e2f6",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/63"
+    },
+    {
+      "cheap_first": true,
+      "digest": "024f78defe864cc7cf1d0c7b107c92dd635d7f30043c93fc4fa745dea070c548",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/158"
+    },
+    {
+      "cheap_first": true,
+      "digest": "04e56d548e643a4e8479ffd5b1c63a9b7508e0fc2a4f2432798556f6925a94da",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/7"
+    },
+    {
+      "cheap_first": true,
+      "digest": "05b61bfb7ca4f8f2d9113a64b50769cbacc04ca936d85820a13c6327258e7afc",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/52"
+    },
+    {
+      "cheap_first": true,
+      "digest": "065bf53a14b93f874f958f774bb4fc7dc0af6f244701b8bafe01ac0285a17458",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/56"
+    },
+    {
+      "cheap_first": false,
+      "digest": "06beab082716050fe74831f2973d67bdcdb39dfca9dc0959b659d51cb531aa9f",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/70"
+    },
+    {
+      "cheap_first": true,
+      "digest": "06e476314d0cc204686f777d8dd33485980781d2a63e3922a277b8611877b652",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/33"
+    },
+    {
+      "cheap_first": false,
+      "digest": "06f8700ca9609cb520082ad70934741fcc67eb4b7c2153670573a988f63a81af",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/54"
+    },
+    {
+      "cheap_first": true,
+      "digest": "07b201edcad421fbabb68b61320ca34c0dc381acce6f6efe523110072062e9ce",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/32"
+    },
+    {
+      "cheap_first": false,
+      "digest": "096dcdc8a3c1647da5060cd43677c313bf15235395dbfb2ea7cc04d48a4965c1",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/114"
+    },
+    {
+      "cheap_first": false,
+      "digest": "0c3b93ec1e2ce31e449c5faef67e02630cb9706baccbeef21b7383262ec9122b",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/57"
+    },
+    {
+      "cheap_first": true,
+      "digest": "0ccd8d32dc4779d3cca043b739edd111118178aefcceff84acf752104b7c8a90",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/118"
+    },
+    {
+      "cheap_first": false,
+      "digest": "0d2576c0b1d9f76b07eefc8894133835a54cd6091c4f9d616d74f8bd452b3427",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/115"
+    },
+    {
+      "cheap_first": false,
+      "digest": "0da617a58e483c3396edf017db68a7d5fa305f77e56c22714cc0c383871ce041",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/60"
+    },
+    {
+      "cheap_first": true,
+      "digest": "0eeca9e00022f1bd89bcac1cae5b9140afb7db7eaf92d0cec96986493e78f454",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/146"
+    },
+    {
+      "cheap_first": true,
+      "digest": "0f23daa72a466a39404abc434713b682e545e6b5c5e21fd3253069c927098704",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/62"
+    },
+    {
+      "cheap_first": true,
+      "digest": "1230a5ba4507d8d1ad973856cc4c1b6063ec51e680c99a8d7dab5492cb52e12c",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/58"
+    },
+    {
+      "cheap_first": false,
+      "digest": "13dab8f914bc5e0eb648eeb03d9bbf60efe9e619cf71fc77ab888914d1f522ef",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/102"
+    },
+    {
+      "cheap_first": false,
+      "digest": "14b32a057374191ea47881d1a863737822e2961f636c50dc8c811125129f6dbb",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/122"
+    },
+    {
+      "cheap_first": false,
+      "digest": "16ea00af3fd5e6c428b827aeee8b953a31749b6e2f0c78ce63539cda3a5e118b",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/28"
+    },
+    {
+      "cheap_first": false,
+      "digest": "1775420e974f0037fb57ed464def6945b4ec2931761c66af81fe68d33dd329dd",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/24"
+    },
+    {
+      "cheap_first": false,
+      "digest": "19c831cc6af944853993d67d948f827e604223b2549a86f583670a4ff22085a3",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/79"
+    },
+    {
+      "cheap_first": true,
+      "digest": "1b1747b2cceab96da7d7414257c6619b2a29b5611cd26f7015f08a0a86c8866e",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/104"
+    },
+    {
+      "cheap_first": true,
+      "digest": "1bbb5aca0deeb73cfd4a418d63c14d4a0c027bc5872191181233619145a63cda",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/95"
+    },
+    {
+      "cheap_first": false,
+      "digest": "1dfe463c8ad95410dce24a1b483d4ed21d60ebad599e92cd3b805f90c1eedc99",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/90"
+    },
+    {
+      "cheap_first": true,
+      "digest": "1fa16984203d892d453f310e57e843a04a57d9d8198e6ac87f2860f753ae0a2a",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/147"
+    },
+    {
+      "cheap_first": true,
+      "digest": "20a1710c3073261b88a95dc6c07c35236929d05c6a6f91c31029543cf7e9c23c",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/18"
+    },
+    {
+      "cheap_first": true,
+      "digest": "22279436da3c8e98cc5ed74b2579533c38d7dbc89607154f67a42abd686b807e",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/153"
+    },
+    {
+      "cheap_first": true,
+      "digest": "2233b25b606be7a4bc03d385d3f077594b72e25f4cfec697eb6b15e61edd05c0",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/160"
+    },
+    {
+      "cheap_first": true,
+      "digest": "227ea683226708e048a13dba6316ef6a3a8d478851460bcd6dfb0f21165ed7bc",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/46"
+    },
+    {
+      "cheap_first": false,
+      "digest": "23bae852157bf163b1d1f8e3e6fe7991b0a3a0e1b78b5bf21e8b141ed365e015",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/108"
+    },
+    {
+      "cheap_first": true,
+      "digest": "2b0d6f59315d997d47d3fe49899569d3e023e91536035ea25a868adf7be29ab8",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/143"
+    },
+    {
+      "cheap_first": false,
+      "digest": "2f7207e5287c05395bc8b88f2a8f147d4902e491bddadc00b49f110e3105a9bb",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/35"
+    },
+    {
+      "cheap_first": true,
+      "digest": "30a1c993a8506fcda2f3ba48d45e7147566562dbec646e8dc663d4175f43a2e4",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/161"
+    },
+    {
+      "cheap_first": true,
+      "digest": "3525ee9b8bb43f2e9141dbcf21412e1fd2c7b84febc4e191cc25ed79654c95ca",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/151"
+    },
+    {
+      "cheap_first": true,
+      "digest": "363920520b7b8d4ba3148c2923f68f58ac6e48ed79de4844f01ec24ff8e800c0",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/78"
+    },
+    {
+      "cheap_first": true,
+      "digest": "47102e7147be3d68e8a0c35cb8bd31061cde1ec79db7b794d9cd70003e41547a",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/105"
+    },
+    {
+      "cheap_first": true,
+      "digest": "4910f30561ad4f0fb79460b058bb8aeb8e15daf6a0f566b2a9bbb5df5a9c1324",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/89"
+    },
+    {
+      "cheap_first": true,
+      "digest": "4b4a631f0939671e03d30b12f30406fc765fd7359bd0456328b3e1416ddd0c18",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/148"
+    },
+    {
+      "cheap_first": false,
+      "digest": "4c3d85f73eda18092da1ff8b79a9db3c7e388569bf876fa3863c2bbf0e5ec205",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/64"
+    },
+    {
+      "cheap_first": true,
+      "digest": "4d6a2f8833e22089ad24ba856c026bc69d0acf5485cc57b2c6843de125411e6c",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/88"
+    },
+    {
+      "cheap_first": false,
+      "digest": "4e0307e949b1cbdae04f25248abc215d359ef0d142b3da4b9e853ff6c56e2f2b",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/87"
+    },
+    {
+      "cheap_first": false,
+      "digest": "50a635f2fff346e6feef6cf85e65b41f7bce4e3c9db29ccac9706639816f9529",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/139"
+    },
+    {
+      "cheap_first": true,
+      "digest": "512db4d5436704dd453446f97b9a7bab97bd5c44caef4a0eaada5fd8e8dab2a8",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/137"
+    },
+    {
+      "cheap_first": true,
+      "digest": "5193a9843664980c8113288d482e1c4bffe0405d17209a49918b43672750d628",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/4"
+    },
+    {
+      "cheap_first": true,
+      "digest": "5284f4fdb485902213e0c4de435c5be65219f235b9253f73cd1ca5b4a30d16de",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/25"
+    },
+    {
+      "cheap_first": true,
+      "digest": "5457ea32a17b7ae3067d56bbf4e0046c402b6c33da6ca2b2ef333202f2ba1bec",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/130"
+    },
+    {
+      "cheap_first": false,
+      "digest": "566c5d85b12a7d4dea06931545a7decf7ee8f2bad758d4ba245343701632f1af",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/65"
+    },
+    {
+      "cheap_first": false,
+      "digest": "57d8b061757a576e168ac4e6d91a3963f8cb8c1afb1e696d650174d42bc4f7d9",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/128"
+    },
+    {
+      "cheap_first": true,
+      "digest": "586e86a66a7f3a9d82ea9a561dea7df3072441f488598b24d9dee7aab9d7b318",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/103"
+    },
+    {
+      "cheap_first": true,
+      "digest": "5ae543a7dc09b007a41e165bcffd0e7db4f3a37313d32b51e19be29537b72922",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/125"
+    },
+    {
+      "cheap_first": true,
+      "digest": "5c1b5ce624ece159ddc7603f001ae289cefb7d6eed35448cb6575baa4e41914e",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/50"
+    },
+    {
+      "cheap_first": true,
+      "digest": "5d12de0810f491c0e7088f73c06ab8422a05c4f1fbc002dbbff180c78487e8ba",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/37"
+    },
+    {
+      "cheap_first": true,
+      "digest": "5e1e56d1ad3cffec44114ba20c2e96e5ad72b9509994f8fc94bd2e8a9adee67c",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/163"
+    },
+    {
+      "cheap_first": true,
+      "digest": "5f72ad5ee576f3261187f1d67d57f94bafceea2b971805d07f0cecdd9c9ce8ac",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/107"
+    },
+    {
+      "cheap_first": false,
+      "digest": "61988bb484ed9b3f7fb611a39cdcc891c4d5baa7ebca97f1a2eef77456b593a7",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/72"
+    },
+    {
+      "cheap_first": false,
+      "digest": "620d23c6bf592da3450845567d6637194780233bf984673fab6a6a155ff21627",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/40"
+    },
+    {
+      "cheap_first": false,
+      "digest": "63abddf71cb35332c46fd6c24059b5a40b8f5f13d8766baba9c61ee1173d950d",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/162"
+    },
+    {
+      "cheap_first": false,
+      "digest": "65cedc4bfc4559288c9e152938dcc5eb61746156c52c2f2279c7788531a28b53",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/19"
+    },
+    {
+      "cheap_first": true,
+      "digest": "65de0553efa3815cecd02aba02b3bdd5331a3b463cc589f35a6467fdc85987e8",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/75"
+    },
+    {
+      "cheap_first": false,
+      "digest": "66fa773d086ac512a325d8e6c244b9c01bee858a9e13adf31d1fd88fc5cd6c83",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/155"
+    },
+    {
+      "cheap_first": false,
+      "digest": "6781a1096e6074fb1b0529229ff07fad27f388ef1db9aeea40f1c7413b0817a5",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/96"
+    },
+    {
+      "cheap_first": false,
+      "digest": "69ca63fea69f03440d104ca8341a3441b4254100ac259881c05f16ec7f0a2bd1",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/113"
+    },
+    {
+      "cheap_first": false,
+      "digest": "6b03756406c80b65b3749b0a9fed1867b5605315d0932d4dd53e93b75597f723",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/20"
+    },
+    {
+      "cheap_first": false,
+      "digest": "6b6db9f7e124bd46548333cedfea6bfa7eee66734b14ff37b51681668e2c9b45",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/69"
+    },
+    {
+      "cheap_first": true,
+      "digest": "6c8c5eeb7286f724392894ed4b36d6c4e4ead6967b9205bb51bdf12be6e05346",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/49"
+    },
+    {
+      "cheap_first": true,
+      "digest": "6db141e872ab7964ae3ea5f5bf4cb1a0fe4e41498736bd88f323677ade988250",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/71"
+    },
+    {
+      "cheap_first": true,
+      "digest": "6df3a8a9d57344738f01389a327d8163230210d9e6227c57d7f5366f912a5f46",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/123"
+    },
+    {
+      "cheap_first": false,
+      "digest": "6f50870515666bcf97f54652541caf1eeff211221abc487ef584f0ae7a04de9b",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/97"
+    },
+    {
+      "cheap_first": true,
+      "digest": "6fdd11411cf1f3586e2a9a9c17e30461b65d0cbb9b74cce690fe83f8b233785a",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/120"
+    },
+    {
+      "cheap_first": false,
+      "digest": "70d426e2c66715974cad701239e819e0f6e3701255ae13e0fc82f27d21a483d3",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/0"
+    },
+    {
+      "cheap_first": false,
+      "digest": "723569a423552405e117fc0e1e98bae3302ffc7b04dd01c02d1abc400e987e83",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/13"
+    },
+    {
+      "cheap_first": true,
+      "digest": "734f1f021fc9dd1e0a92ea8de7be1dda246931d2cd723b90ab90449fe2d951b6",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/77"
+    },
+    {
+      "cheap_first": false,
+      "digest": "768bca228e84e5d5470c293b5938f5f3f801c1616030299ad03df058786115bd",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/154"
+    },
+    {
+      "cheap_first": true,
+      "digest": "778b39b4ca8370189447b7b00b1e417e18c8e0ef1e57db9a3a6cfd2764945840",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/86"
+    },
+    {
+      "cheap_first": true,
+      "digest": "7a0432a59ae3f847a5221fe5d444a57067ebb0f3c40810a4591f22e488018b96",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/127"
+    },
+    {
+      "cheap_first": false,
+      "digest": "7a0ee53a1994015f2d6ddb628f615bb1691f55ad525489b1831111be61cc718f",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/156"
+    },
+    {
+      "cheap_first": false,
+      "digest": "7adc110d1259eda8a897d1016e17f34c2706a2809d1e6abfa27386be11b89a7b",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/67"
+    },
+    {
+      "cheap_first": false,
+      "digest": "7b3aaedfed7175db8cb57598244ce172d73c4a16717f50aa579fd07f510b30db",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/38"
+    },
+    {
+      "cheap_first": true,
+      "digest": "7ddb3fcf19b174e4f50b1f2bb5091b8a1b5f17e51e4f191c987f4f15e5253ee4",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/100"
+    },
+    {
+      "cheap_first": false,
+      "digest": "7e3351328b0bb41cb67df29b87c593399003eb07a7f07755031cb5b6c9131373",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/3"
+    },
+    {
+      "cheap_first": true,
+      "digest": "7f347720b2619ca7bb3939eddebef7473328257c7c0b0cb5d9cb04857be630e6",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/91"
+    },
+    {
+      "cheap_first": true,
+      "digest": "804817b340f4cf0e25a4ab5fd4ecb872fbf102e728de1a69ff82736226f45740",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/82"
+    },
+    {
+      "cheap_first": false,
+      "digest": "81d343ffba1e2cf9ae8f229570f4d47ed1abd47d742843cb60fda77605713571",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/55"
+    },
+    {
+      "cheap_first": true,
+      "digest": "826ac1bf91ec150be1e6ad97c9c3d8fda946d8618dac9aacc170e0830dfc4ece",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/9"
+    },
+    {
+      "cheap_first": true,
+      "digest": "83b299560181ce9248641b30052698ffd1a41e5245689ff170bbf5ba6a4c129a",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/26"
+    },
+    {
+      "cheap_first": false,
+      "digest": "853d6dd79fdacb8b34cc787bf34b0707b09c85eb1b4736a6ed61d9087ae061ff",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/31"
+    },
+    {
+      "cheap_first": true,
+      "digest": "85565c2de82581213105e01c126209c66d733a31e4ce10bc9f90ba76f64f5f26",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/73"
+    },
+    {
+      "cheap_first": true,
+      "digest": "85f7f52a73b1cb485f72f2d7357196414f7369423175171532a723a2f4e5fd50",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/93"
+    },
+    {
+      "cheap_first": false,
+      "digest": "8a7e58093d922d30784d5c5046410f05d5d3eb4a7b577e7d1e8542d9d68eb9e9",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/157"
+    },
+    {
+      "cheap_first": false,
+      "digest": "8aef928170c090e1d6e6ca2581274df62002dbf05813b61785deda7f6653460b",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/83"
+    },
+    {
+      "cheap_first": true,
+      "digest": "8b1189dc1594fa9d0a1690dcb247957bb8d5238a8673cba768379399b77a168e",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/94"
+    },
+    {
+      "cheap_first": false,
+      "digest": "8cb9c7def03f341f9d459e65124fbeaa587d1bc2b8bf5fda44d3a5208c529559",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/81"
+    },
+    {
+      "cheap_first": false,
+      "digest": "8e8a0484a01470137ca18e97ee0468231933c6e9ec1acfa90e942410af39d593",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/150"
+    },
+    {
+      "cheap_first": true,
+      "digest": "8fbc1b889e735bcd0a12d26b99eb2a5a51499d71bd8437a875ab1f6f863e391c",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/76"
+    },
+    {
+      "cheap_first": true,
+      "digest": "902732f67d0acf58c838439d130aaa014e72d1f5a08bea9e676a971bdb444a70",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/14"
+    },
+    {
+      "cheap_first": false,
+      "digest": "91fb135388b8704d80bad3721690c8c1ac98704f7e3b2e254e47974e066f1007",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/47"
+    },
+    {
+      "cheap_first": false,
+      "digest": "923d263fb3c2d651ab2a6ebef4579552cf6056709ec206bb4bd00a5affe7e7df",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/51"
+    },
+    {
+      "cheap_first": false,
+      "digest": "9357b7e335bb843b0cd741fbd038421dafffc3ba38f4c1c7fb7420b23b4c34e3",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/126"
+    },
+    {
+      "cheap_first": false,
+      "digest": "94b907f2eccbf846008a3ab7b7850bcd9be2d8d9306f5354b0d4d9ad72a3ad17",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/92"
+    },
+    {
+      "cheap_first": false,
+      "digest": "97492fcfc22c6467a79e4e6372244693e22554ce51fbee9bb043bc5eca026e39",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/149"
+    },
+    {
+      "cheap_first": false,
+      "digest": "99391d91709c6619d3fe41d778931a48cc152e2906e852cd68de61c3848bde2d",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/27"
+    },
+    {
+      "cheap_first": true,
+      "digest": "9c8c5ab5799343661edc0ce9c7c43997bece01b868c97e59a0583eccde6bb01e",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/66"
+    },
+    {
+      "cheap_first": true,
+      "digest": "9df64f49f7b856ed4d79fadbfc79d4d204ae57185719768da0ba6dcaa060cbce",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/74"
+    },
+    {
+      "cheap_first": false,
+      "digest": "9fe013fcb8cd4e8b891bc59cd76bb66834eb7e41026fb3da5b0f70a7f870b513",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/111"
+    },
+    {
+      "cheap_first": false,
+      "digest": "a0997895a4689d7f050e7fc09eb03a88b7849a01607a9676607146c636a7bb27",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/152"
+    },
+    {
+      "cheap_first": false,
+      "digest": "a099cb2d32903f2dff758085fe6367785657f1ad7de44f7a7c5be56eb1f16063",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/133"
+    },
+    {
+      "cheap_first": false,
+      "digest": "a1afbcc4d9c8195aca4f9a52391ab85cc8a514bf70b7ebdc327cc7f043342099",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/12"
+    },
+    {
+      "cheap_first": true,
+      "digest": "a255f3e9857c9060b1e29a77d04c51d6381d1127e200b45848d9f6d8b0ae9f4e",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/2"
+    },
+    {
+      "cheap_first": false,
+      "digest": "a44bb68f1d34fff2a5d4bdc0f1f6b5ca3cba5f0e845209dd1a1563c9efc91001",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/80"
+    },
+    {
+      "cheap_first": false,
+      "digest": "a67f53e4c2a5819322ef8da6781708ed35669bec1eec8c143ec714a126fe4c3f",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/5"
+    },
+    {
+      "cheap_first": true,
+      "digest": "a741b01406501e3fd54bfa767ff4259c054e89b221eb3b57c6845c35add4e7e2",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/22"
+    },
+    {
+      "cheap_first": true,
+      "digest": "a95d0c3d3dc44a14d29f1909ff897d8014d7fb96fd950e903e0110cc092cabe8",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/1"
+    },
+    {
+      "cheap_first": false,
+      "digest": "ae238ca2594f17ad05e5630e3e4c3fb25d0a08f006dc8f8b24fba8baeec63b61",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/84"
+    },
+    {
+      "cheap_first": true,
+      "digest": "aeffc2dc970be714bf9efa51d9ac6fee525c03feb7d7bd06ab727bcd51ac8280",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/43"
+    },
+    {
+      "cheap_first": true,
+      "digest": "badcf85e836e4aad49fdd906757259fc9aafda42db6656cfa246dc352c3176c8",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/41"
+    },
+    {
+      "cheap_first": false,
+      "digest": "bcd4fe2b0e069e7be64fe52b9a64deea6a6f00886a293bb16981d40d4e61d3a3",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/23"
+    },
+    {
+      "cheap_first": false,
+      "digest": "bcf55f1ea42387e497914579fb07d47c1af8535a03943e81499c0dfb02e2683b",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/144"
+    },
+    {
+      "cheap_first": true,
+      "digest": "bf34bc124e40b9f3c0f30f2137014a46b0508f9a3b98da84d21adb8a09938d58",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/145"
+    },
+    {
+      "cheap_first": false,
+      "digest": "bf7fa1e0a4b3040b91e94da089999e3398f762bb4627630cd238af5899f56ff7",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/106"
+    },
+    {
+      "cheap_first": true,
+      "digest": "c285465a7bafb2f0c1f912acd3d3b966ba2c954fab76e1749ea895d4ab1b978c",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/42"
+    },
+    {
+      "cheap_first": true,
+      "digest": "c2a2b1e755eca54ebe324d9982671ac98d3d336309708494ce56fab5b2be9882",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/30"
+    },
+    {
+      "cheap_first": false,
+      "digest": "c4d4b7238344b861bc36ad7e2be9014aa98b4bf1e46c4971c0daace7696faf97",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/131"
+    },
+    {
+      "cheap_first": true,
+      "digest": "c52b5488629a2f016de5da5e72d921fd20347669a2ef3768ccf5c3ad10ece8d8",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/136"
+    },
+    {
+      "cheap_first": true,
+      "digest": "c6c2e7f902ff85906610f73dc9daae3be8b457d2160b0c535899d7021fcdf56a",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/138"
+    },
+    {
+      "cheap_first": true,
+      "digest": "c704c945dc25f99d9d941abf6dd63d0742132ff48d3dfb3e9808865b5f687ce4",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/117"
+    },
+    {
+      "cheap_first": false,
+      "digest": "c779aa550ae8680421d19b29067d949de2c7c1b6da7a4e1a455f3bc3b661ca51",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/44"
+    },
+    {
+      "cheap_first": true,
+      "digest": "c82fb22e134d3e726b95f1c1be961a4f60a6f349e2af96997edb5554be8af4f4",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/112"
+    },
+    {
+      "cheap_first": false,
+      "digest": "cc7d9601f947fda932e72cb74e61712e3f82223b14be36250d1ef3de6a9d5879",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/134"
+    },
+    {
+      "cheap_first": false,
+      "digest": "cfe99f4d6c6bc262276f479e5085f347bc0b071aa6bec2e49af1e5d9b1a8865b",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/36"
+    },
+    {
+      "cheap_first": true,
+      "digest": "d05e6c4bf315d3df89e4c8170785aecf43f531d59d4cf179be7310b6ed426bde",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/8"
+    },
+    {
+      "cheap_first": false,
+      "digest": "d121708a429641af6251e54413c1d678ecae52a763851e72bc5383b53e2628e5",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/53"
+    },
+    {
+      "cheap_first": true,
+      "digest": "d154743178eb81fb972a14513223f83a8c9572bb1412f461d96127c5ec77a2fe",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/61"
+    },
+    {
+      "cheap_first": true,
+      "digest": "d1e3ccb344d1a638854b9e2bf08d22da4a3d651815da5c5b148ada95eaf01446",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/98"
+    },
+    {
+      "cheap_first": false,
+      "digest": "d2488e01da4bc9c61b0698967c0f4e5b82516e434f898b944dac699325703bf9",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/159"
+    },
+    {
+      "cheap_first": true,
+      "digest": "d33c91385a56ea8149cc105e8d786b9a96ad101175eb644f83820cd80062f874",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/142"
+    },
+    {
+      "cheap_first": false,
+      "digest": "d34eb0400e4b436e50c983652e0a6a3e7828c49162a11bc0d9ec96204a6b1a51",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/15"
+    },
+    {
+      "cheap_first": false,
+      "digest": "d78cc5fdc7dd73b371382e5ad511a3b6ef9fb825c9dc6da405d9d8ee2d6a3363",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/109"
+    },
+    {
+      "cheap_first": true,
+      "digest": "d874d28de3bf652ce826c91caed2df327c040f54d847966e56075222e565ed22",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/59"
+    },
+    {
+      "cheap_first": true,
+      "digest": "dbd14adfefac572fc0f5706688e39032a94666e5de7c69d732c0cce7f068e0a4",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/16"
+    },
+    {
+      "cheap_first": true,
+      "digest": "dc6e00e4ae23552e07434799e6edc80b34f33b441c2e50b31fe2c1ab88f27100",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/68"
+    },
+    {
+      "cheap_first": false,
+      "digest": "dcca87cc3ac4004ea88db5c86972d1e72b8f6dd0a7720dcd9db6f8f5ac6a97e5",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/140"
+    },
+    {
+      "cheap_first": false,
+      "digest": "e013f3b5af5c92eb18336071ac9d009115622dccb427c80029b61db750309e57",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/45"
+    },
+    {
+      "cheap_first": true,
+      "digest": "e27d0ea71636eae161954d56b5d67ec3b59b0ef3725ef460b75f06373b27ef28",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/99"
+    },
+    {
+      "cheap_first": true,
+      "digest": "e40e855b58eab80c099803fb90b48883369c2696339f7ede9f2b042edd6fe146",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/34"
+    },
+    {
+      "cheap_first": false,
+      "digest": "e466a8868f0e67512d0752c28ad474152c0f8956364c9f094705f355b94fccef",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/132"
+    },
+    {
+      "cheap_first": false,
+      "digest": "e881d68baf08ef554066dca883903be33a5f59e2c34a98d6a2b0bd6d0dea2047",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/135"
+    },
+    {
+      "cheap_first": true,
+      "digest": "e88eb15ce1f84a0c79c6f808e3ed01ec13029df38632177b3dfda1a4a67b2aaa",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/39"
+    },
+    {
+      "cheap_first": false,
+      "digest": "e8ae8786908a8f28255cd5836935b33d02c95ed11c5f6f300fe32cbb8133d09d",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/116"
+    },
+    {
+      "cheap_first": true,
+      "digest": "eb6faa752134f3e568a8b99b5d8d0e05289d7f221ebe9b212dde85a6eb713ca4",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/21"
+    },
+    {
+      "cheap_first": false,
+      "digest": "ecbefa2f048f04e9f53f865b10692fa967ac1dc328d45a4e48994dfecd2f19d1",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/6"
+    },
+    {
+      "cheap_first": false,
+      "digest": "f0262256b0402f646864ec0447b41ade6f83c88967a4e9edc236b01ebb547c81",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/124"
+    },
+    {
+      "cheap_first": true,
+      "digest": "f1bb3234409b22567caadf63586f019042b29e9692f7022f4ebc7c16cbd9b72a",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/17"
+    },
+    {
+      "cheap_first": false,
+      "digest": "f229301361cd036e36feda965fdbb249eb5873b025918d9505f04f7ecf9d6a33",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/85"
+    },
+    {
+      "cheap_first": true,
+      "digest": "f2507351c13faeceb8a684047d1a6f9cb637fdc1504766da2335f4453fa396d0",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/141"
+    },
+    {
+      "cheap_first": false,
+      "digest": "f2d948d8ae07f93e7750b77c56a26f7cbd92ceda9d6806208530a25be4343a71",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/11"
+    },
+    {
+      "cheap_first": false,
+      "digest": "f7a62d6d320720ee12eca75d4881ea31a9975ef139a9a36e5b69ad4c40378577",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/129"
+    },
+    {
+      "cheap_first": false,
+      "digest": "f8028362fc0c2d18644c2bdfd7931e08008cb67835c802fd3606f542c28271a1",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/48"
+    },
+    {
+      "cheap_first": true,
+      "digest": "fa4b2536d119291559a35bc1a3a369844884461c14f84a40741777c46ad21f42",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/119"
+    },
+    {
+      "cheap_first": true,
+      "digest": "fc49af670436fd9f7f058804ebbdc235e165b74c627318780f6436482afabd74",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/101"
+    },
+    {
+      "cheap_first": false,
+      "digest": "fcd3676120121d975d2f7903a6e95f84b8b5395b01d28b7f7e9c46da980d4937",
+      "last_bit": 1,
+      "path_order": [
+        "expensive",
+        "cheap"
+      ],
+      "task_id": "HumanEval/10"
+    },
+    {
+      "cheap_first": true,
+      "digest": "ff31965172664dbedd748d8d5e692e80a2888a9127826df371c24f6491678622",
+      "last_bit": 0,
+      "path_order": [
+        "cheap",
+        "expensive"
+      ],
+      "task_id": "HumanEval/121"
+    }
+  ]
+}
