@@ -1,6 +1,6 @@
 # Adaptive AI research
 
-Private working archive of three sequential local-inference projects (R1–R3). Frozen experimental files are copied as-is; they are not rewritten.
+Independent research archive of three sequential local-inference projects (R1–R3). Frozen experimental files are copied as-is; they are not rewritten.
 
 This is not a paper claim set. Each project records a confirmatory stop or a limited continue.
 
