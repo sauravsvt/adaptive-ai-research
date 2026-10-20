@@ -2,7 +2,9 @@
 
 Independent research archive of three sequential local-inference projects (R1–R3). Frozen experimental files are copied as-is; they are not rewritten.
 
-This is not a paper claim set. Each project records a confirmatory stop or a limited continue.
+This is not a paper claim set. Each study records a confirmatory stop or a limited continue.
+
+The studies are in Python. R1 fits a scikit-learn logistic regression and uses Qwen3 embeddings. R2 and R3 run the open-weight model `gpt-oss:20b` through Ollama and score generations with EvalPlus (HumanEval+ and MBPP+).
 
 ## Projects
 
